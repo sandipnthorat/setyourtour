@@ -1,0 +1,56 @@
+.home-trip-container {
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
+}
+
+.trip-block-heading {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
+}
+
+.trip-block-heading .title {
+  color: #9a9a9a;
+  padding: px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.trip-block-heading .sub-title {
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.trip-block-description {
+  text-transform: none;
+  color: #a3a3a3;
+  font-size: 14px;
+  line-height: 27px;
+  font-family: "Poppins", sans-serif;
+}
+
+.trip-block-img img {
+  height: 25rem;
+  width: 100%;
+}
+
+.trip-block-heading .book-now-button {
+  border-color: #88a606;
+  border-radius: 38px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  font-size: 14px;
+  background-color: #88a606;
+  padding: 15px 35px;
+  color: #ffffff;
+}

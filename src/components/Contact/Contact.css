@@ -1,0 +1,70 @@
+.contact-top-container {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.contact-top-container .title {
+  color: #9a9a9a;
+  padding: px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.contact-top-container .sub-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.contact-us-form {
+  font-family: "Poppins", sans-serif;
+  margin-top: 2.5em;
+}
+
+.contact-us-form .submit-contact-form {
+  border-color: #0a67bd;
+  border-radius: 38px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  font-size: 14px;
+  background-color: #0a67bd;
+  padding: 15px 35px;
+  color: #ffffff;
+}
+
+.contact-us-form .text-muted {
+  font-size: 12px;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.contact-us-form .contact-us-address img {
+  height: 2em;
+}
+
+.contact-us-form .contact-us-address .address {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.align-center {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.contact-us-form .contact-us-address .address ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
