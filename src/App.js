@@ -8,6 +8,11 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import PageNotFound from "./components/PageNotFound";
+import Services from "./components/Services";
+import Packages from "./components/Packages";
+
+// *****************************Package Data *************************
+import { packagesData } from "./assets/tourData";
 
 function App() {
   return (
@@ -15,8 +20,11 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/setyourtour" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/packages" element={<Packages data={packagesData} />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />

@@ -13,44 +13,82 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import boddhgaya from "../../assets/proposals/boddhgaya.jpg";
-import kerala from "../../assets/proposals/kerala.jpg";
-import manali from "../../assets/proposals/manali.jpg";
-import shimla from "../../assets/proposals/shimla.jpg";
-import kashmir from "../../assets/proposals/kashmir.jpg";
-import nainital from "../../assets/nainital.jpg";
+// *******************************Praposals Images ******************************
+// import boddhgaya from "../../assets/proposals/boddhgaya.jpg";
+// import kerala from "../../assets/proposals/kerala.jpg";
+// import manali from "../../assets/proposals/manali.jpg";
+// import shimla from "../../assets/proposals/shimla.jpg";
+// import kashmir from "../../assets/proposals/kashmir.jpg";
+// import nainital from "../../assets/nainital.jpg";
+
+import kashmir from "../../assets/proposals/1.jpg";
+import kerala from "../../assets/proposals/2.jpg";
+import sikkim from "../../assets/proposals/3.jpg";
+import himachal from "../../assets/proposals/4.jpg";
+import lehLadhak from "../../assets/proposals/5.jpg";
+import utarakhand from "../../assets/proposals/6.jpg";
+import telangana from "../../assets/proposals/7.jpg";
+import karnataka from "../../assets/proposals/8.jpg";
+import goa from "../../assets/proposals/9.jpg";
+import gujrat from "../../assets/proposals/10.jpg";
+import maharashtra from "../../assets/proposals/11.jpg";
+import nortEast from "../../assets/proposals/12.jpg";
+import westBengal from "../../assets/proposals/13.jpg";
+import rajasthan from "../../assets/proposals/14.jpg";
+import odisha from "../../assets/proposals/15.jpg";
+import andraPradesh from "../../assets/proposals/16.jpg";
+import tamilNadu from "../../assets/proposals/17.jpg";
+import madhyaPradesh from "../../assets/proposals/18.jpg";
+import uttarPradesh from "../../assets/proposals/19.jpg";
+import andamanNicobar from "../../assets/proposals/20.jpg";
+
+// *******************************Slider Images ******************************
+import groupJSE from "../../assets/slider/Group of JNEC.jpg";
+import industrialTrip from "../../assets/slider/Industrial Trip.jpg";
+import kashidBeach from "../../assets/slider/Kashid Beach.jpg";
+
+import dividerImg from "../../assets/nainital.jpg";
+
+// *****************************Package Data *************************
+import { packagesData } from "../../assets/tourData";
 
 const Home = (props) => {
   let navigate = useNavigate();
+
+  const sliderData = [
+    { id: 1, label: "Group of JNEC", img: groupJSE },
+    { id: 2, label: "Industrial Trip", img: industrialTrip },
+    { id: 3, label: "Kashid Beach", img: kashidBeach },
+  ];
 
   return (
     <>
       <Container>
         <Row>
           <Col xs={12} sm={12} md={12}>
-            <Slider />
+            {sliderData && <Slider data={sliderData} />}
           </Col>
         </Row>
 
         <Row>
           <Col xs={12} sm={12} md={12}>
-            <Proposals />
+            {packagesData && <Proposals data={packagesData} />}
           </Col>
         </Row>
       </Container>
 
       <div className="horizontal-image">
-        <img src={nainital} />
+        <img src={dividerImg} />
         <div className="horizontal-img-text">
           <Container>
             <Row>
-              <Col style={{ "text-align": "center" }} xs={12} sm={6} md={6}>
-                <h6>SET YOU TOUR</h6>
-                <h6>WITH US...!</h6>
+              <Col style={{ textAlign: "center" }} xs={12} sm={6} md={6}>
+                <h6>{"SET YOUR TOUR"}</h6>
+                <h6>{"WITH US"}</h6>
               </Col>
-              <Col style={{ "text-align": "center" }} xs={12} sm={6} md={6}>
+              <Col style={{ textAlign: "center" }} xs={12} sm={6} md={6}>
                 <Button className="view-all-packages" variant="outline-primary">
-                  view all packages
+                  {" view all packages"}
                 </Button>
               </Col>
             </Row>
@@ -62,10 +100,10 @@ const Home = (props) => {
         <Row>
           <Col xs={12} sm={12} md={12}>
             <HomeTrip
-              imgPath={kashmir}
-              title="North India"
-              subTitle="The Best Destination"
-              description={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages`}
+              imgPath={packagesData[0].img}
+              title={packagesData[0].title}
+              subTitle={packagesData[0].subTitle}
+              description={packagesData[0].description}
             />
           </Col>
         </Row>
