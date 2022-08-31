@@ -53,13 +53,13 @@
   color: #000 !important;
 }
 
-.slider .carousel-inner {
+/* .slider .carousel-inner {
   height: 30em;
-}
+} */
 
-.slider img {
+/* .slider img {
   height: 30em;
-}
+} */
 
 /* ***************************************PROPOSALS CSS******************************************** */
 .block-heading {
@@ -100,6 +100,11 @@
 .proposal-card img {
   position: relative;
   height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 20%,
+    rgba(0, 0, 0, 1)
+  ) !important;
 }
 
 .proposal-card .details {
@@ -112,16 +117,17 @@
 }
 
 .proposal-card .details .title {
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .proposal-card .details .package {
-  text-transform: uppercase;
-  font-size: 14px;
+  text-transform: capitalize;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .proposal-card .packages-details {
@@ -132,7 +138,7 @@
   color: white;
   text-align: center;
   opacity: 0;
-  visibility: visible;
+  /* visibility: visible; */
   visibility: hidden;
   -webkit-transition: visibility 0s, opacity 0.6s linear;
   transition: visibility 0s, opacity 0.6s linear;
@@ -150,13 +156,22 @@
   font-weight: 700;
 }
 
+.proposal-card .packages-details a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .proposal-card .packages-details .destination-title {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 200;
   margin-bottom: 5px;
-  text-transform: capitalize;
+  text-transform: initial;
+  cursor: pointer;
+}
+.proposal-card .packages-details .destination-title:hover {
+  font-weight: 600;
 }
 
 .proposal-card:hover .packages-details {

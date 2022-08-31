@@ -8,18 +8,21 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 
+import { services } from "../../assets/utilityData";
+import { navMenuData } from "../../assets/utilityData";
+
 const Header = (props) => {
   let navigate = useNavigate();
+  const servicesData = services;
+  const navList = navMenuData;
 
-  const navList = [
-    { label: "Home", path: "/" },
-    { label: "About", path: "/about" },
-    { label: "Events", path: "/about" },
-    { label: "Packages", path: "/about" },
-    { label: "Offer", path: "/about" },
-    { label: "Booking", path: "/about" },
-    { label: "Contact", path: "/contact" },
-  ];
+  // const navList = [
+  //   { label: "Home", path: "/" },
+  //   { label: "Packages", path: "/packages" },
+  //   { label: "Memories", path: "/services" },
+  //   { label: "About", path: "/about" },
+  //   { label: "Contact", path: "/contact" },
+  // ];
 
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bar">

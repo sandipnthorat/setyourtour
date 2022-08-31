@@ -6,12 +6,13 @@
 }
 
 .contact-top-container .title {
+  text-transform: capitalize;
   color: #9a9a9a;
   padding: px;
   text-align: center;
   font-size: 14px;
   line-height: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: normal;
 }
 
@@ -20,7 +21,7 @@
   text-align: center;
   font-size: 36px;
   line-height: 36px;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
   font-weight: bold;
   color: #555555;
 }
@@ -28,6 +29,7 @@
 .contact-us-form {
   font-family: "Poppins", sans-serif;
   margin-top: 2.5em;
+  align-items: center;
 }
 
 .contact-us-form .submit-contact-form {
@@ -47,24 +49,8 @@
   text-transform: lowercase;
 }
 
-.contact-us-form .contact-us-address img {
-  height: 2em;
-}
-
-.contact-us-form .contact-us-address .address {
-  text-transform: capitalize;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-}
-
 .align-center {
   margin-bottom: 1em;
   display: flex;
   align-items: center;
-}
-
-.contact-us-form .contact-us-address .address ul {
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
 }

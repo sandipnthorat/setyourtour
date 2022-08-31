@@ -1,0 +1,86 @@
+.package-container .package-block-heading .title {
+  text-transform: capitalize;
+  color: #9a9a9a;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.package-container .package-block-heading .sub-title {
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.packages-cards {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  letter-spacing: 0.6px;
+  margin-bottom: 1em;
+}
+
+.packages-cards .card-title {
+  color: #555555;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.packages-cards .card-subtitle {
+  font-size: 12px;
+}
+
+.card-body-text {
+  margin-top: 1em;
+}
+
+.card-body-text .packages-card-kpi {
+  text-align: center;
+}
+
+.packages-card-inclusion .inclusion-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-body-text .packages-card-kpi .circle-kpi span {
+  color: #555555;
+  font-size: 28px;
+}
+
+.card-body-text .packages-card-kpi .circle-kpi .circle-kpi-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.packages-card-inclusion ul li {
+  font-size: 14px;
+  padding: 2px;
+}
+
+.card-footer {
+  padding: 0px;
+}
+
+.detail-button {
+  width: 100% !important;
+  border: 0px;
+  border-radius: 0px !important;
+  padding: 0.5em;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.6px;
+}
+
+.category-details .title {
+  color: #9a9a9a;
+  font-size: 18px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 1em;
+  margin-top: 1em;
+}
