@@ -9,6 +9,7 @@ import Button from "react-bootstrap/Button";
 import "./homeTrip.css";
 
 const HomeTrip = (props) => {
+  let navigate = useNavigate();
   return (
     <Container className="home-trip-container">
       <Row>
@@ -27,9 +28,23 @@ const HomeTrip = (props) => {
                 {"25000"}
               </span>{" "}
               {"20000"} &#8377;
-              <span style={{ fontSize: "14px" }}> {"/ FOR PERSON"}</span>
+              <span className="for-person-txt" style={{ fontSize: "14px" }}>
+                {" "}
+                {"/ PERSON"}
+              </span>
             </h2>
-            <Button className="book-now-button" variant="outline-primary">
+            <Button
+              onClick={() =>
+                navigate("/packageDetails", {
+                  state: {
+                    pkgId: props.pkgId,
+                    id: props.catId,
+                  },
+                })
+              }
+              className="book-now-button"
+              variant="outline-primary"
+            >
               {"Book Now"}
             </Button>
           </span>

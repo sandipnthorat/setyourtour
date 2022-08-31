@@ -87,7 +87,11 @@ const Home = (props) => {
                 <h6>{"WITH US"}</h6>
               </Col>
               <Col style={{ textAlign: "center" }} xs={12} sm={6} md={6}>
-                <Button className="view-all-packages" variant="outline-primary">
+                <Button
+                  onClick={() => navigate("/packages")}
+                  className="view-all-packages"
+                  variant="outline-primary"
+                >
                   {" view all packages"}
                 </Button>
               </Col>
@@ -100,10 +104,12 @@ const Home = (props) => {
         <Row>
           <Col xs={12} sm={12} md={12}>
             <HomeTrip
-              imgPath={packagesData[0].img}
-              title={packagesData[0].title}
-              subTitle={packagesData[0].subTitle}
-              description={packagesData[0].description}
+              catId={packagesData[3].id}
+              pkgId={packagesData[3].packages[3].id}
+              imgPath={packagesData[3].packages[3].img}
+              title={packagesData[3].title}
+              subTitle={packagesData[3].subTitle}
+              description={packagesData[3].description}
             />
           </Col>
         </Row>

@@ -79,13 +79,8 @@ const Footer = (props) => {
                 <p className="social-media-icons">
                   {socialMedia.map((obj) => {
                     return (
-                      <a href={obj.url} target="_blank">
-                        <img
-                          key={obj.label}
-                          title={obj.label}
-                          src={obj.icon}
-                          alt={obj.label}
-                        />
+                      <a key={obj.label} href={obj.url} target="_blank">
+                        <img title={obj.label} src={obj.icon} alt={obj.label} />
                       </a>
                     );
                   })}

@@ -6,6 +6,7 @@
 }
 
 .about-container .about-block-heading .title {
+  text-transform: capitalize;
   color: #9a9a9a;
   padding: px;
   font-size: 14px;

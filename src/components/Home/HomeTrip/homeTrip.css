@@ -18,7 +18,7 @@
   text-align: left;
   font-size: 14px;
   line-height: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: normal;
 }
 
@@ -27,7 +27,7 @@
   text-align: left;
   font-size: 36px;
   line-height: 36px;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
   font-weight: bold;
   color: #555555;
 }
@@ -35,7 +35,8 @@
 .trip-block-description {
   text-transform: none;
   color: #a3a3a3;
-  font-size: 14px;
+  font-size: 16px;
+  letter-spacing: 0.6px;
   line-height: 27px;
   font-family: "Poppins", sans-serif;
   height: 60%;
@@ -51,7 +52,7 @@
 .trip-block-heading .book-now-button {
   border-color: #88a606;
   border-radius: 38px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 14px;
   font-size: 14px;
   background-color: #88a606;
@@ -62,4 +63,10 @@
 .bottom-div {
   position: absolute;
   bottom: 0;
+}
+
+.bottom-div .for-person-txt {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #a3a3a3;
 }

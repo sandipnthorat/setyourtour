@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import PageNotFound from "./components/PageNotFound";
 import Services from "./components/Services";
 import Packages from "./components/Packages";
+import { PackageDetails } from "./components/PackageDetail";
 
 // *****************************Package Data *************************
 import { packagesData } from "./assets/tourData";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/packages" element={<Packages data={packagesData} />} />
+        <Route path="/packageDetails" element={<PackageDetails data={""} />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
