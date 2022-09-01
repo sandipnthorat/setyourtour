@@ -16,16 +16,21 @@ const Proposals = (props) => {
     });
   };
 
-  const navToDetails = (event, cat, pkg) => {
-    console.log("event", event);
-    console.log("cat pkg", cat.id, pkg.id);
-    event.preventDefault();
-    navigate("/packageDetails", {
-      state: {
-        pkgId: pkg.id,
-        id: cat.id,
-      },
-    });
+  const navToDetails = (isComming, cat, pkg) => {
+    if (isComming) {
+      navigate("/packages", {
+        state: {
+          id: cat.id,
+        },
+      });
+    } else {
+      navigate("/packageDetails", {
+        state: {
+          pkgId: pkg.id,
+          id: cat.id,
+        },
+      });
+    }
   };
 
   return (
@@ -67,7 +72,9 @@ const Proposals = (props) => {
                             <a
                               key={e.label}
                               className="package-nav-link"
-                              onClick={(event) => navToDetails(event, obj, e)}
+                              onClick={(event) =>
+                                navToDetails(e.isComming, obj, e)
+                              }
                             >
                               <p className="destination-title">
                                 {titleCase(e.label)}

@@ -41,8 +41,6 @@ export const PackageDetails = (props) => {
   useEffect(() => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-    console.log("details------->", state);
-    // console.log("data------->", packagesData);
     filterPackages(state.id, state.pkgId, packagesData);
   }, []);
 
@@ -55,18 +53,12 @@ export const PackageDetails = (props) => {
             tempData.push({
               ...obj,
               pkgDetails: item,
-              // id: obj.id,
-              // img: obj.img,
-              // label: obj.label,
-              // subTitle: obj.subTitle,
-              // title: obj.title,
             });
           }
         });
       }
     });
     setDetails(tempData[0]);
-    console.log("tempData ----->", tempData[0]);
     console.log(`${tempData[0].category}/${tempData[0].pkgDetails.img}`);
   };
 
