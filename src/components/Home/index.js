@@ -13,35 +13,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-// *******************************Praposals Images ******************************
-// import boddhgaya from "../../assets/proposals/boddhgaya.jpg";
-// import kerala from "../../assets/proposals/kerala.jpg";
-// import manali from "../../assets/proposals/manali.jpg";
-// import shimla from "../../assets/proposals/shimla.jpg";
-// import kashmir from "../../assets/proposals/kashmir.jpg";
-// import nainital from "../../assets/nainital.jpg";
-
-// import kashmir from "../../assets/proposals/KASHMIR.jpg";
-// import kerala from "../../assets/proposals/2.jpg";
-// import sikkim from "../../assets/proposals/3.jpg";
-// import himachal from "../../assets/proposals/4.jpg";
-// import lehLadhak from "../../assets/proposals/5.jpg";
-// import utarakhand from "../../assets/proposals/6.jpg";
-// import telangana from "../../assets/proposals/7.jpg";
-// import karnataka from "../../assets/proposals/8.jpg";
-// import goa from "../../assets/proposals/9.jpg";
-// import gujrat from "../../assets/proposals/10.jpg";
-// import maharashtra from "../../assets/proposals/11.jpg";
-// import nortEast from "../../assets/proposals/12.jpg";
-// import westBengal from "../../assets/proposals/13.jpg";
-// import rajasthan from "../../assets/proposals/14.jpg";
-// import odisha from "../../assets/proposals/15.jpg";
-// import andraPradesh from "../../assets/proposals/16.jpg";
-// import tamilNadu from "../../assets/proposals/17.jpg";
-// import madhyaPradesh from "../../assets/proposals/18.jpg";
-// import uttarPradesh from "../../assets/proposals/19.jpg";
-// import andamanNicobar from "../../assets/proposals/20.jpg";
-
 // *******************************Slider Images ******************************
 import groupJSE from "../../assets/slider/Group of JNEC.jpg";
 import industrialTrip from "../../assets/slider/Industrial Trip.jpg";

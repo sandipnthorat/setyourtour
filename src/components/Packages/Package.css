@@ -84,3 +84,31 @@
   padding: 1em;
   margin-top: 1em;
 }
+
+.filter-button Button {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.6px;
+  margin: 0.5rem;
+}
+
+.packages-cards .card-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+  background-color: #00000070;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.6px;
+}

@@ -5,13 +5,47 @@ export const packagesData = [
     category: "RELIGIOUS",
     img: "BUDDHIST_CIRCLE.jpg",
     packagesTitle: "3 packages",
+    onHomePage: true,
+    title: "RELIGIOUS",
+    subTitle: "The Best Destination",
+    isVisible: true,
+    isComming: false,
     packages: [
       {
         id: 1,
-        label: "COMPLETE BUDDHIST CIRCLE",
+        label: "COMPLETE BUDDHIST CIRCUIT",
         img: "BUDDHIST_CIRCLE.jpg",
-        title: "BUDDHIST CIRCLE",
+        title: "BUDDHIST CIRCUIT",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "Bodha Gaya, Kushinar",
+        price: "20,000",
+        isVisible: true,
+        isComming: false,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -26,6 +60,35 @@ export const packagesData = [
         img: "BUDDHIST_CIRCLE.jpg",
         title: "CHARDHAM YATRA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -40,6 +103,35 @@ export const packagesData = [
         img: "BUDDHIST_CIRCLE.jpg",
         title: "KAILASH MANSAROVAR YATRA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -49,9 +141,6 @@ export const packagesData = [
         },
       },
     ],
-    onHomePage: true,
-    title: "RELIGIOUS",
-    subTitle: "The Best Destination",
     description: {
       first:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -66,6 +155,11 @@ export const packagesData = [
     category: "NATIONAL TOURS",
     img: "ANDAMAN_NICOBAR.jpg",
     packagesTitle: "17 packages",
+    onHomePage: true,
+    title: "NATIONAL TOURS",
+    subTitle: "The Best Destination",
+    isVisible: true,
+    isComming: true,
     packages: [
       {
         id: 1,
@@ -73,6 +167,35 @@ export const packagesData = [
         img: "ANDAMAN_NICOBAR.jpg",
         title: "ANDAMAN & NICOBAR",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -87,6 +210,35 @@ export const packagesData = [
         img: "ANDHRA_PRADESH.jpg",
         title: "ANDHRA PRADESH",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -101,6 +253,35 @@ export const packagesData = [
         img: "GOA.jpg",
         title: "GOA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -115,6 +296,35 @@ export const packagesData = [
         img: "GUJRAT.jpg",
         title: "GUJRAT",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -129,6 +339,35 @@ export const packagesData = [
         img: "HIMACHAL.jpg",
         title: "HIMACHAL",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -143,6 +382,35 @@ export const packagesData = [
         img: "KARNATAKA.jpg",
         title: "KARNATAKA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -157,6 +425,35 @@ export const packagesData = [
         img: "KASHMIR.jpg",
         title: "KASHMIR",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -171,6 +468,35 @@ export const packagesData = [
         img: "KERALA.jpg",
         title: "KERALA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -185,6 +511,35 @@ export const packagesData = [
         img: "LEH_LADAKH.jpg",
         title: "LEH LADAKH",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -199,6 +554,35 @@ export const packagesData = [
         img: "MADHYA_PRADESH.jpg",
         title: "MADHYA PRADESH",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -213,6 +597,35 @@ export const packagesData = [
         img: "MAHARASHTRA.jpg",
         title: "MAHARASHTRA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -227,6 +640,35 @@ export const packagesData = [
         img: "NORTH_EAST.jpg",
         title: "NORTH EAST",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -241,6 +683,35 @@ export const packagesData = [
         img: "ODISHA.jpg",
         title: "ODISHA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -255,6 +726,35 @@ export const packagesData = [
         img: "RAJASTHAN.jpg",
         title: "RAJASTHAN",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -269,6 +769,35 @@ export const packagesData = [
         img: "SIKKIM.jpg",
         title: "SIKKIM",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -283,6 +812,35 @@ export const packagesData = [
         img: "TAMILNADU.jpg",
         title: "TAMILNADU",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -297,6 +855,35 @@ export const packagesData = [
         img: "TELANGANA.jpg",
         title: "TELANGANA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -311,6 +898,35 @@ export const packagesData = [
         img: "UTTAR_PRADESH.jpg",
         title: "UTTAR PRADESH",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -325,6 +941,35 @@ export const packagesData = [
         img: "UTTARAKHAND.jpg",
         title: "UTTARAKHAND",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -339,6 +984,35 @@ export const packagesData = [
         img: "WEST_BENGAL.jpg",
         title: "WEST BENGAL",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -348,9 +1022,6 @@ export const packagesData = [
         },
       },
     ],
-    onHomePage: true,
-    title: "NATIONAL TOURS",
-    subTitle: "The Best Destination",
     description: {
       first:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -363,8 +1034,13 @@ export const packagesData = [
     id: 3,
     label: "INTERNATIONAL TOURS",
     category: "INTERNATIONAL TOURS",
-    img: "MALDIVES.jpg",
+    img: "SINGAPORE.jpg",
     packagesTitle: "11 packages",
+    onHomePage: true,
+    title: "INTERNATIONAL TOURS",
+    subTitle: "The Best Destination",
+    isVisible: true,
+    isComming: true,
     packages: [
       {
         id: 1,
@@ -372,6 +1048,35 @@ export const packagesData = [
         img: "AFRICA.jpg",
         title: "AFRICA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -386,6 +1091,35 @@ export const packagesData = [
         img: "AUSTRALIA.jpg",
         title: "AUSTRALIA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -400,6 +1134,35 @@ export const packagesData = [
         img: "BHUTAN.jpg",
         title: "BHUTAN",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -414,6 +1177,35 @@ export const packagesData = [
         img: "CHINA.jpg",
         title: "CHINA.jpg",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -428,6 +1220,35 @@ export const packagesData = [
         img: "EUROPE.jpg",
         title: "EUROPE",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -442,6 +1263,35 @@ export const packagesData = [
         img: "INDONESIA.jpg",
         title: "INDONESIA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -456,6 +1306,35 @@ export const packagesData = [
         img: "JAPAN.jpg",
         title: "JAPAN",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -470,6 +1349,35 @@ export const packagesData = [
         img: "MALAYSIA.jpg",
         title: "MALAYSIA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -484,6 +1392,35 @@ export const packagesData = [
         img: "MALDIVES.jpg",
         title: "MALDIVES",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -498,6 +1435,35 @@ export const packagesData = [
         img: "MAURITIUS.jpg",
         title: "MAURITIUS",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -512,6 +1478,35 @@ export const packagesData = [
         img: "MIDDLE EAST.jpg",
         title: "MIDDLE EAST",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -526,6 +1521,35 @@ export const packagesData = [
         img: "MYANMAR.jpg",
         title: "MYANMAR",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -540,6 +1564,35 @@ export const packagesData = [
         img: "NEPAL.jpg",
         title: "NEPAL",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -554,6 +1607,35 @@ export const packagesData = [
         img: "SEYCHELLES.jpg",
         title: "SEYCHELLES",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -568,6 +1650,35 @@ export const packagesData = [
         img: "SINGAPORE.jpg",
         title: "SINGAPORE",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -582,6 +1693,35 @@ export const packagesData = [
         img: "SRI LANKA.jpg",
         title: "SRI LANKA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -596,6 +1736,35 @@ export const packagesData = [
         img: "THAILAND.jpg",
         title: "THAILAND",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -610,6 +1779,35 @@ export const packagesData = [
         img: "UAE.jpg",
         title: "UAE",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -624,6 +1822,35 @@ export const packagesData = [
         img: "USA.jpg",
         title: "USA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -633,9 +1860,6 @@ export const packagesData = [
         },
       },
     ],
-    onHomePage: true,
-    title: "INTERNATIONAL TOURS",
-    subTitle: "The Best Destination",
     description: {
       first:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -649,7 +1873,12 @@ export const packagesData = [
     label: "SPECIALITY TOURS",
     category: "SPECIALITY TOURS",
     img: "KARNATAKA.jpg",
-    packagesTitle: "6 packages",
+    packagesTitle: "5 packages",
+    onHomePage: true,
+    title: "SPECIALITY TOURS",
+    subTitle: "The Best Destination",
+    isVisible: true,
+    isComming: true,
     packages: [
       {
         id: 1,
@@ -657,6 +1886,35 @@ export const packagesData = [
         img: "KARNATAKA.jpg",
         title: "ADVENTURE",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -671,20 +1929,35 @@ export const packagesData = [
         img: "KARNATAKA.jpg",
         title: "HONEYMOON SPECIAL",
         subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 3,
-        label: "SPIRITUAL",
-        img: "KARNATAKA.jpg",
-        title: "SPIRITUAL",
-        subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -699,6 +1972,35 @@ export const packagesData = [
         img: "KARNATAKA.jpg",
         title: "YOUTH SPECIAL",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -713,6 +2015,35 @@ export const packagesData = [
         img: "KARNATAKA.jpg",
         title: "SECOND INNINGS",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -727,6 +2058,35 @@ export const packagesData = [
         img: "KARNATAKA.jpg",
         title: "LADIES SPECIAL",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -736,9 +2096,6 @@ export const packagesData = [
         },
       },
     ],
-    onHomePage: true,
-    title: "SPECIALITY TOURS",
-    subTitle: "The Best Destination",
     description: {
       first:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -751,15 +2108,49 @@ export const packagesData = [
     id: 5,
     label: "WEEKEND TREKS/TOUR",
     category: "WEEKEND TOUR",
-    img: "ODISHA.jpg",
+    img: "KALSUBAI.jpg",
     packagesTitle: "13 packages",
+    onHomePage: true,
+    title: "WEEKEND TREKS/TOUR",
+    subTitle: "The Best Destination",
+    isVisible: true,
+    isComming: true,
     packages: [
       {
         id: 1,
         label: "AJANTA",
-        img: "ODISHA.jpg",
+        img: "AJANTA.jpg",
         title: "AJANTA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -770,10 +2161,39 @@ export const packagesData = [
       },
       {
         id: 2,
-        label: "ELLORA",
-        img: "ODISHA.jpg",
-        title: "ELLORA",
+        label: "BHANDARDARA",
+        img: "BHANDARDARA.jpg",
+        title: "BHANDARDARA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -784,10 +2204,39 @@ export const packagesData = [
       },
       {
         id: 3,
-        label: "BHANDARDARA",
-        img: "ODISHA.jpg",
-        title: "BHANDARDARA",
+        label: "DEVKUND",
+        img: "DEVKUND.jpg",
+        title: "DEVKUND",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -798,10 +2247,39 @@ export const packagesData = [
       },
       {
         id: 4,
-        label: "KALSUBAI",
-        img: "ODISHA.jpg",
-        title: "KALSUBAI",
+        label: "ELLORA",
+        img: "ELLORA.jpg",
+        title: "ELLORA",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -812,10 +2290,39 @@ export const packagesData = [
       },
       {
         id: 5,
-        label: "RATANGAD",
-        img: "ODISHA.jpg",
-        title: "RATANGAD",
+        label: "HARIHARGAD",
+        img: "HARIHARGAD.jpg",
+        title: "HARIHARGAD",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -827,9 +2334,38 @@ export const packagesData = [
       {
         id: 6,
         label: "HARISHCHANDRAGAD",
-        img: "ODISHA.jpg",
+        img: "HARISHCHANDRAGAD.jpg",
         title: "HARISHCHANDRAGAD",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -840,10 +2376,39 @@ export const packagesData = [
       },
       {
         id: 7,
-        label: "SANDHAM VALLEY",
-        img: "ODISHA.jpg",
-        title: "SANDHAM VALLEY",
+        label: "JIVDHANGAD",
+        img: "JIVDHANGAD.jpg",
+        title: "JIVDHANGAD",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -854,10 +2419,39 @@ export const packagesData = [
       },
       {
         id: 8,
-        label: "HARIHARGAD",
-        img: "ODISHA.jpg",
-        title: "HARIHARGAD",
+        label: "KALSUBAI",
+        img: "KALSUBAI.jpg",
+        title: "KALSUBAI",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -868,10 +2462,39 @@ export const packagesData = [
       },
       {
         id: 9,
-        label: "JIVDHANGAD",
-        img: "ODISHA.jpg",
-        title: "JIVDHANGAD",
+        label: "KORIGAD",
+        img: "KORIGAD.jpg",
+        title: "KORIGAD",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -882,10 +2505,39 @@ export const packagesData = [
       },
       {
         id: 10,
-        label: "DEVKUND",
-        img: "ODISHA.jpg",
-        title: "DEVKUND",
+        label: "MAHULIGAD",
+        img: "MAHULIGAD.jpg",
+        title: "MAHULIGAD",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -896,10 +2548,39 @@ export const packagesData = [
       },
       {
         id: 11,
-        label: "KORIGAD",
-        img: "ODISHA.jpg",
-        title: "KORIGAD",
+        label: "RATANGAD",
+        img: "RATANGAD.jpg",
+        title: "RATANGAD",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -910,10 +2591,39 @@ export const packagesData = [
       },
       {
         id: 12,
-        label: "VISAPUR GAD",
-        img: "ODISHA.jpg",
+        label: "SANDHAN VALLEY",
+        img: "SANDHAN VALLEY.jpg",
         title: "VISAPUR GAD",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -924,10 +2634,39 @@ export const packagesData = [
       },
       {
         id: 13,
-        label: "MAHULI GAD",
-        img: "ODISHA.jpg",
-        title: "MAHULI GAD",
+        label: "VISAPURGAD",
+        img: "VISAPURGAD.jpg",
+        title: "VISAPURGAD",
         subTitle: "The Best Destination",
+        date: "01-Sep-2022",
+        duration: "3D / 4N",
+        location: "location",
+        price: "20,000",
+        isVisible: true,
+        isComming: true,
+        inclusions: [
+          { label: "3 Breakfast" },
+          { label: "Travaling by Train/Plane" },
+          { label: "Cruise Party" },
+          { label: "Party With Dinner" },
+        ],
+        dayByDay: [
+          {
+            label: "DAY 1 - Departure at the airport and arrival at the hotel",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 2 - Visit the main museums and lunch included",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          {
+            label: "DAY 3 - Excursion in the natural oasis and picnic",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
         description: {
           first:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -937,9 +2676,26 @@ export const packagesData = [
         },
       },
     ],
+    description: {
+      first:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+      second:
+        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    },
+  },
+  {
+    id: 6,
+    label: "CUSTOMIZED TOURS",
+    category: "WEEKEND TOUR",
+    img: "ELLORA.jpg",
+    packagesTitle: "",
     onHomePage: true,
-    title: "WEEKEND TREKS/TOUR",
+    title: "CUSTOMIZED TOURS",
     subTitle: "The Best Destination",
+    isVisible: true,
+    isComming: true,
+    packages: [],
     description: {
       first:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",

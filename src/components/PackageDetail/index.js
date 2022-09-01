@@ -107,22 +107,9 @@ export const PackageDetails = (props) => {
                   </h6>
                   <h1 className="sub-title">{"Description"}</h1>
                   <hr />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur ut venenatis lorem. Nunc sodales interdum rhoncus.
-                    Nulla a leo finibus, ullamcorper lorem vel, scelerisque
-                    massa. Vivamus leo dui, interdum non fermentum eget, laoreet
-                    ac lorem. Aliquam a ultricies nisl. Nulla consequat lobortis
-                    urna sed cursus.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur ut venenatis lorem. Nunc sodales interdum rhoncus.
-                    Nulla a leo finibus, ullamcorper lorem vel, scelerisque
-                    massa. Vivamus leo dui, interdum non fermentum eget, laoreet
-                    ac lorem. Aliquam a ultricies nisl. Nulla consequat lobortis
-                    urna sed cursus.
-                  </p>
+
+                  <p>{details.pkgDetails.description.first}</p>
+                  <p>{details.pkgDetails.description.second}</p>
                 </Col>
               </Row>
 
@@ -157,63 +144,16 @@ export const PackageDetails = (props) => {
                 </Col>
                 <Col xs={12} sm={12} md={12}>
                   <Accordion style={{ marginTop: "1em" }}>
-                    <Accordion.Item eventKey="0">
-                      <Accordion.Header>
-                        <h6>
-                          DAY 1 - Departure at the airport and arrival at the
-                          hotel
-                        </h6>
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
-                      </Accordion.Body>
-                    </Accordion.Item>
-
-                    <Accordion.Item eventKey="1">
-                      <Accordion.Header>
-                        <h6>
-                          DAY 2 - Visit the main museums and lunch included
-                        </h6>
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
-                      </Accordion.Body>
-                    </Accordion.Item>
-
-                    <Accordion.Item eventKey="2">
-                      <Accordion.Header>
-                        <h6>
-                          DAY 3 - Excursion in the natural oasis and picnic
-                        </h6>
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
-                      </Accordion.Body>
-                    </Accordion.Item>
+                    {details.pkgDetails.dayByDay.map((item) => {
+                      return (
+                        <Accordion.Item eventKey="0">
+                          <Accordion.Header>
+                            <h6>{item.label}</h6>
+                          </Accordion.Header>
+                          <Accordion.Body>{item.description}</Accordion.Body>
+                        </Accordion.Item>
+                      );
+                    })}
                   </Accordion>
                 </Col>
               </Row>
@@ -239,7 +179,9 @@ export const PackageDetails = (props) => {
                             >
                               location_on
                             </span>
-                            <p className="circle-kpi-label">Goa</p>
+                            <p className="circle-kpi-label">
+                              {details.pkgDetails.location}
+                            </p>
                           </div>
                         </Col>
                         <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
@@ -250,7 +192,9 @@ export const PackageDetails = (props) => {
                             >
                               calendar_month
                             </span>
-                            <p className="circle-kpi-label">01-Sep-2022</p>
+                            <p className="circle-kpi-label">
+                              {details.pkgDetails.date}
+                            </p>
                           </div>
                         </Col>
                         <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
@@ -261,7 +205,9 @@ export const PackageDetails = (props) => {
                             >
                               timer
                             </span>
-                            <p className="circle-kpi-label">3D / 4N</p>
+                            <p className="circle-kpi-label">
+                              {details.pkgDetails.duration}
+                            </p>
                           </div>
                         </Col>
                         <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
@@ -273,7 +219,7 @@ export const PackageDetails = (props) => {
                               currency_rupee
                             </span>
                             <p className="circle-kpi-label">
-                              20,000 <sub>/Person</sub>{" "}
+                              {details.pkgDetails.price} <sub>/Person</sub>{" "}
                             </p>
                           </div>
                         </Col>

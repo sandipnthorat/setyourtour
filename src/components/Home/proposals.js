@@ -40,7 +40,8 @@ const Proposals = (props) => {
       <Row>
         {data.map((obj, i) => {
           return (
-            obj.onHomePage && (
+            obj.onHomePage &&
+            obj.isVisible && (
               <Col
                 key={obj.id}
                 className="proposal-card-col"
@@ -88,6 +89,13 @@ const Proposals = (props) => {
                       </Button>
                     </p>
                   </div>
+                  {obj.isComming && (
+                    <div className="card-overlay">
+                      <div className="overlay-text">
+                        <h3>Comming Soon</h3>
+                      </div>
+                    </div>
+                  )}
                 </Card>
               </Col>
             )

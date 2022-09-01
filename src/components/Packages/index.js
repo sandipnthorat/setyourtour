@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 
 import "./Package.css";
 import { PackageList } from "./PackageList";
@@ -14,25 +15,26 @@ const Packages = (props) => {
 
   const [filterData, setFilterData] = useState();
 
-  // const filterPackages = (packageId, categoryId, data) => {
-  //   let tempData = [];
-  //   data.forEach((obj) => {
-  //     if (obj.id == categoryId) {
-  //       obj.packages.forEach((item) => {
-  //         if (item.id == packageId) {
-  //           tempData.push({
-  //             pkgDetails: item,
-  //             id: obj.id,
-  //             img: obj.img,
-  //             label: obj.label,
-  //             subTitle: obj.subTitle,
-  //             title: obj.title,
-  //           });
-  //         }
-  //       });
-  //     }
-  //   });
-  // };
+  const [activeFilter, setActiveFilter] = useState({
+    id: 0,
+    label: "ALL",
+  });
+
+  const filterOptions = [
+    { label: "ALL", id: 0 },
+    { label: "RELIGIOUS", id: 1 },
+    { label: "NATIONAL TOURS", id: 2 },
+    { label: "INTERNATIONAL TOURS", id: 3 },
+    { label: "SPECIALITY TOURS", id: 4 },
+    { label: "WEEKEND TOUR", id: 5 },
+    { label: "CUSTOMIZED TOURS", id: 6 },
+  ];
+
+  const titleCase = (str) => {
+    return str.replace(/\w\S*/g, function (txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+  };
 
   const filterPackagCat = (categoryId, data) => {
     let tempData = [];
@@ -47,20 +49,38 @@ const Packages = (props) => {
   useEffect(() => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-    console.log("filterPackages =======>", state);
     if (state) {
       if (state.packageId) {
-        // filterPackages(state.packageId, state.id, data);
-        // console.log("filterPackages =======>", state, state.packageId);
       } else {
-        // console.log(" filterPackagCat=======>", state, state.packageId);
         filterPackagCat(state.id, data);
+        setActiveFilter({
+          id: state.id,
+          label: "",
+        });
       }
     } else {
       setFilterData(data);
-      // console.log("=======>", state);
+      setActiveFilter({
+        id: 0,
+        label: "ALL",
+      });
     }
   }, []);
+
+  const filterByCategory = (id) => {
+    filterOptions.forEach((obj) => {
+      if (obj.id == id)
+        setActiveFilter({
+          id: id,
+          label: obj.label,
+        });
+    });
+    if (id == "0") {
+      setFilterData(data);
+    } else {
+      filterPackagCat(id, data);
+    }
+  };
 
   return (
     filterData && (
@@ -71,6 +91,24 @@ const Packages = (props) => {
             <p className="sub-title">{"Pacakges"}</p>
             <hr />
           </Col>
+
+          <Row>
+            <Col className="filter-button" xs={12} sm={12} md={12}>
+              {filterOptions.map((item) => {
+                return (
+                  <Button
+                    key={item.id}
+                    variant="outline-warning"
+                    size="sm"
+                    active={activeFilter.id == item.id ? true : false}
+                    onClick={() => filterByCategory(item.id)}
+                  >
+                    {titleCase(item.label)}
+                  </Button>
+                );
+              })}
+            </Col>
+          </Row>
           <PackageList data={filterData} />
         </Row>
       </Container>
