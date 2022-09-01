@@ -13,7 +13,7 @@ const HomeTrip = (props) => {
   return (
     <Container className="home-trip-container">
       <Row>
-        <Col className="trip-block-heading" xs={12} sm={6} md={8}>
+        <Col className="trip-block-heading" xs={12} sm={12} md={8}>
           <p className="title">{props.title}</p>
           <p className="sub-title">{props.subTitle}</p>
           <p className="trip-block-description">

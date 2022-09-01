@@ -51,7 +51,7 @@ const Proposals = (props) => {
                 <Card className="proposal-card">
                   <img
                     alt={obj.alt}
-                    src={require(`../../assets/proposals/${obj.img}`)}
+                    src={require(`../../assets/proposals/${obj.category}/${obj.img}`)}
                   />
                   <p className="details">
                     <h4 className="title">{obj.title}</h4>
@@ -64,6 +64,7 @@ const Proposals = (props) => {
                         return (
                           i <= 3 && (
                             <a
+                              key={e.label}
                               className="package-nav-link"
                               onClick={(event) => navToDetails(event, obj, e)}
                             >

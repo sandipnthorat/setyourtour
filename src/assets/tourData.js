@@ -2,13 +2,14 @@ export const packagesData = [
   {
     id: 1,
     label: "RELIGIOUS",
-    img: "1.jpg",
+    category: "RELIGIOUS",
+    img: "BUDDHIST_CIRCLE.jpg",
     packagesTitle: "3 packages",
     packages: [
       {
         id: 1,
         label: "COMPLETE BUDDHIST CIRCLE",
-        img: "1.jpg",
+        img: "BUDDHIST_CIRCLE.jpg",
         title: "BUDDHIST CIRCLE",
         subTitle: "The Best Destination",
         description: {
@@ -22,7 +23,7 @@ export const packagesData = [
       {
         id: 2,
         label: "CHARDHAM YATRA",
-        img: "1.jpg",
+        img: "BUDDHIST_CIRCLE.jpg",
         title: "CHARDHAM YATRA",
         subTitle: "The Best Destination",
         description: {
@@ -36,7 +37,7 @@ export const packagesData = [
       {
         id: 3,
         label: "KAILASH MANSAROVAR YATRA",
-        img: "1.jpg",
+        img: "BUDDHIST_CIRCLE.jpg",
         title: "KAILASH MANSAROVAR YATRA",
         subTitle: "The Best Destination",
         description: {
@@ -62,14 +63,15 @@ export const packagesData = [
   {
     id: 2,
     label: "NATIONAL TOURS",
-    img: "2.jpg",
+    category: "NATIONAL TOURS",
+    img: "ANDAMAN_NICOBAR.jpg",
     packagesTitle: "17 packages",
     packages: [
       {
         id: 1,
-        label: "KASHMIR",
-        img: "2.jpg",
-        title: "KASHMIR",
+        label: "ANDAMAN & NICOBAR",
+        img: "ANDAMAN_NICOBAR.jpg",
+        title: "ANDAMAN & NICOBAR",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -81,9 +83,9 @@ export const packagesData = [
       },
       {
         id: 2,
-        label: "KERALA",
-        img: "2.jpg",
-        title: "KERALA",
+        label: "ANDHRA PRADESH",
+        img: "ANDHRA_PRADESH.jpg",
+        title: "ANDHRA PRADESH",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -95,92 +97,8 @@ export const packagesData = [
       },
       {
         id: 3,
-        label: "SIKKIM",
-        img: "2.jpg",
-        title: "SIKKIM",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 4,
-        label: "HIMACHAL",
-        img: "2.jpg",
-        title: "HIMACHAL",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 5,
-        label: "LEH LADAKH",
-        img: "2.jpg",
-        title: "LEH LADAKH",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 6,
-        label: "UTTARAKHAND",
-        img: "2.jpg",
-        title: "UTTARAKHAND",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 7,
-        label: "TELANGANA",
-        img: "2.jpg",
-        title: "TELANGANA",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 8,
-        label: "KARNATAKA",
-        img: "2.jpg",
-        title: "KARNATAKA",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 9,
         label: "GOA",
-        img: "2.jpg",
+        img: "GOA.jpg",
         title: "GOA",
         subTitle: "The Best Destination",
         description: {
@@ -192,10 +110,94 @@ export const packagesData = [
         },
       },
       {
-        id: 10,
+        id: 4,
         label: "GUJRAT",
-        img: "2.jpg",
+        img: "GUJRAT.jpg",
         title: "GUJRAT",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 5,
+        label: "HIMACHAL",
+        img: "HIMACHAL.jpg",
+        title: "HIMACHAL",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 6,
+        label: "KARNATAKA",
+        img: "KARNATAKA.jpg",
+        title: "KARNATAKA",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 7,
+        label: "KASHMIR",
+        img: "KASHMIR.jpg",
+        title: "KASHMIR",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 8,
+        label: "KERALA",
+        img: "KERALA.jpg",
+        title: "KERALA",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 9,
+        label: "LEH LADAKH",
+        img: "LEH_LADAKH.jpg",
+        title: "LEH LADAKH",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 10,
+        label: "MADHYA PRADESH",
+        img: "MADHYA_PRADESH.jpg",
+        title: "MADHYA PRADESH",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -208,7 +210,7 @@ export const packagesData = [
       {
         id: 11,
         label: "MAHARASHTRA",
-        img: "2.jpg",
+        img: "MAHARASHTRA.jpg",
         title: "MAHARASHTRA",
         subTitle: "The Best Destination",
         description: {
@@ -222,7 +224,7 @@ export const packagesData = [
       {
         id: 12,
         label: "NORTH EAST",
-        img: "2.jpg",
+        img: "NORTH_EAST.jpg",
         title: "NORTH EAST",
         subTitle: "The Best Destination",
         description: {
@@ -235,9 +237,9 @@ export const packagesData = [
       },
       {
         id: 13,
-        label: "WEST BENGAL",
-        img: "2.jpg",
-        title: "WEST BENGAL",
+        label: "ODISHA",
+        img: "ODISHA.jpg",
+        title: "ODISHA",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -250,7 +252,7 @@ export const packagesData = [
       {
         id: 14,
         label: "RAJASTHAN",
-        img: "2.jpg",
+        img: "RAJASTHAN.jpg",
         title: "RAJASTHAN",
         subTitle: "The Best Destination",
         description: {
@@ -263,9 +265,9 @@ export const packagesData = [
       },
       {
         id: 15,
-        label: "ORISSA",
-        img: "2.jpg",
-        title: "ORISSA",
+        label: "SIKKIM",
+        img: "SIKKIM.jpg",
+        title: "SIKKIM",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -277,9 +279,9 @@ export const packagesData = [
       },
       {
         id: 16,
-        label: "ANDHRAPRADESH",
-        img: "2.jpg",
-        title: "ANDHRAPRADESH",
+        label: "TAMILNADU",
+        img: "TAMILNADU.jpg",
+        title: "TAMILNADU",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -291,9 +293,51 @@ export const packagesData = [
       },
       {
         id: 17,
-        label: "ANDAMAN & NICOBAR",
-        img: "2.jpg",
-        title: "ANDAMAN & NICOBAR",
+        label: "TELANGANA",
+        img: "TELANGANA.jpg",
+        title: "TELANGANA",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 18,
+        label: "UTTAR PRADESH",
+        img: "UTTAR_PRADESH.jpg",
+        title: "UTTAR PRADESH",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 19,
+        label: "UTTARAKHAND",
+        img: "UTTARAKHAND.jpg",
+        title: "UTTARAKHAND",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 20,
+        label: "WEST BENGAL",
+        img: "WEST_BENGAL.jpg",
+        title: "WEST BENGAL",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -318,111 +362,14 @@ export const packagesData = [
   {
     id: 3,
     label: "INTERNATIONAL TOURS",
-    img: "3.jpg",
+    category: "INTERNATIONAL TOURS",
+    img: "MALDIVES.jpg",
     packagesTitle: "11 packages",
     packages: [
       {
         id: 1,
-        label: "THAILAND, MYANMAR",
-        img: "3.jpg",
-        title: "THAILAND, MYANMAR",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 2,
-        label: "BHUTAN, NEPAL",
-        img: "3.jpg",
-        title: "BHUTAN, NEPAL",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 3,
-        label: "UNITED STATES OF AMERICA",
-        img: "3.jpg",
-        title: "UNITED STATES OF AMERICA",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 4,
-        label: "AUSTRALIA NEW ZEALAND",
-        img: "3.jpg",
-        title: "AUSTRALIA NEW ZEALAND",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 5,
-        label: "EUROPE, EURASIA",
-        img: "3.jpg",
-        title: "EUROPE, EURASIA",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 6,
-        label: "CHINA, JAPAN",
-        img: "3.jpg",
-        title: "CHINA, JAPAN",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 7,
-        label: "UAE & MIDDLE EAST",
-        img: "3.jpg",
-        title: "UAE & MIDDLE EAST",
-        subTitle: "The Best Destination",
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 8,
         label: "AFRICA",
-        img: "3.jpg",
+        img: "AFRICA.jpg",
         title: "AFRICA",
         subTitle: "The Best Destination",
         description: {
@@ -434,10 +381,108 @@ export const packagesData = [
         },
       },
       {
+        id: 2,
+        label: "AUSTRALIA",
+        img: "AUSTRALIA.jpg",
+        title: "AUSTRALIA",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 3,
+        label: "BHUTAN",
+        img: "BHUTAN.jpg",
+        title: "BHUTAN",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 4,
+        label: "CHINA.jpg",
+        img: "CHINA.jpg",
+        title: "CHINA.jpg",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 5,
+        label: "EUROPE",
+        img: "EUROPE.jpg",
+        title: "EUROPE",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 6,
+        label: "INDONESIA",
+        img: "INDONESIA.jpg",
+        title: "INDONESIA",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 7,
+        label: "JAPAN",
+        img: "JAPAN.jpg",
+        title: "JAPAN",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 8,
+        label: "MALAYSIA",
+        img: "MALAYSIA.jpg",
+        title: "MALAYSIA",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
         id: 9,
-        label: "MALDIVES, SRI LANKA",
-        img: "3.jpg",
-        title: "MALDIVES, SRI LANKA",
+        label: "MALDIVES",
+        img: "MALDIVES.jpg",
+        title: "MALDIVES",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -449,9 +494,9 @@ export const packagesData = [
       },
       {
         id: 10,
-        label: "INDONESIA, SINGAPORE, MALAYSIA",
-        img: "3.jpg",
-        title: "INDONESIA, SINGAPORE, MALAYSIA",
+        label: "MAURITIUS",
+        img: "MAURITIUS.jpg",
+        title: "MAURITIUS",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -463,9 +508,121 @@ export const packagesData = [
       },
       {
         id: 11,
-        label: "MAURITIUS, SEYCHELLES",
-        img: "3.jpg",
-        title: "MAURITIUS, SEYCHELLES",
+        label: "MIDDLE EAST",
+        img: "MIDDLE EAST.jpg",
+        title: "MIDDLE EAST",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 12,
+        label: "MYANMAR",
+        img: "MYANMAR.jpg",
+        title: "MYANMAR",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 13,
+        label: "NEPAL",
+        img: "NEPAL.jpg",
+        title: "NEPAL",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 14,
+        label: "SEYCHELLES",
+        img: "SEYCHELLES.jpg",
+        title: "SEYCHELLES",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 15,
+        label: "SINGAPORE",
+        img: "SINGAPORE.jpg",
+        title: "SINGAPORE",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 16,
+        label: "SRI LANKA",
+        img: "SRI LANKA.jpg",
+        title: "SRI LANKA",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 17,
+        label: "THAILAND",
+        img: "THAILAND.jpg",
+        title: "THAILAND",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 18,
+        label: "UAE",
+        img: "UAE.jpg",
+        title: "UAE",
+        subTitle: "The Best Destination",
+        description: {
+          first:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+          second:
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        },
+      },
+      {
+        id: 19,
+        label: "USA",
+        img: "USA.jpg",
+        title: "USA",
         subTitle: "The Best Destination",
         description: {
           first:
@@ -490,13 +647,14 @@ export const packagesData = [
   {
     id: 4,
     label: "SPECIALITY TOURS",
-    img: "4.jpg",
+    category: "SPECIALITY TOURS",
+    img: "KARNATAKA.jpg",
     packagesTitle: "6 packages",
     packages: [
       {
         id: 1,
         label: "ADVENTURE",
-        img: "4.jpg",
+        img: "KARNATAKA.jpg",
         title: "ADVENTURE",
         subTitle: "The Best Destination",
         description: {
@@ -510,7 +668,7 @@ export const packagesData = [
       {
         id: 2,
         label: "HONEYMOON SPECIAL",
-        img: "4.jpg",
+        img: "KARNATAKA.jpg",
         title: "HONEYMOON SPECIAL",
         subTitle: "The Best Destination",
         description: {
@@ -524,7 +682,7 @@ export const packagesData = [
       {
         id: 3,
         label: "SPIRITUAL",
-        img: "4.jpg",
+        img: "KARNATAKA.jpg",
         title: "SPIRITUAL",
         subTitle: "The Best Destination",
         description: {
@@ -538,7 +696,7 @@ export const packagesData = [
       {
         id: 4,
         label: "YOUTH SPECIAL",
-        img: "4.jpg",
+        img: "KARNATAKA.jpg",
         title: "YOUTH SPECIAL",
         subTitle: "The Best Destination",
         description: {
@@ -552,7 +710,7 @@ export const packagesData = [
       {
         id: 5,
         label: "SECOND INNINGS",
-        img: "4.jpg",
+        img: "KARNATAKA.jpg",
         title: "SECOND INNINGS",
         subTitle: "The Best Destination",
         description: {
@@ -566,7 +724,7 @@ export const packagesData = [
       {
         id: 6,
         label: "LADIES SPECIAL",
-        img: "4.jpg",
+        img: "KARNATAKA.jpg",
         title: "LADIES SPECIAL",
         subTitle: "The Best Destination",
         description: {
@@ -592,13 +750,14 @@ export const packagesData = [
   {
     id: 5,
     label: "WEEKEND TREKS/TOUR",
-    img: "5.jpg",
+    category: "WEEKEND TOUR",
+    img: "ODISHA.jpg",
     packagesTitle: "13 packages",
     packages: [
       {
         id: 1,
         label: "AJANTA",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "AJANTA",
         subTitle: "The Best Destination",
         description: {
@@ -612,7 +771,7 @@ export const packagesData = [
       {
         id: 2,
         label: "ELLORA",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "ELLORA",
         subTitle: "The Best Destination",
         description: {
@@ -626,7 +785,7 @@ export const packagesData = [
       {
         id: 3,
         label: "BHANDARDARA",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "BHANDARDARA",
         subTitle: "The Best Destination",
         description: {
@@ -640,7 +799,7 @@ export const packagesData = [
       {
         id: 4,
         label: "KALSUBAI",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "KALSUBAI",
         subTitle: "The Best Destination",
         description: {
@@ -654,7 +813,7 @@ export const packagesData = [
       {
         id: 5,
         label: "RATANGAD",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "RATANGAD",
         subTitle: "The Best Destination",
         description: {
@@ -668,7 +827,7 @@ export const packagesData = [
       {
         id: 6,
         label: "HARISHCHANDRAGAD",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "HARISHCHANDRAGAD",
         subTitle: "The Best Destination",
         description: {
@@ -682,7 +841,7 @@ export const packagesData = [
       {
         id: 7,
         label: "SANDHAM VALLEY",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "SANDHAM VALLEY",
         subTitle: "The Best Destination",
         description: {
@@ -696,7 +855,7 @@ export const packagesData = [
       {
         id: 8,
         label: "HARIHARGAD",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "HARIHARGAD",
         subTitle: "The Best Destination",
         description: {
@@ -710,7 +869,7 @@ export const packagesData = [
       {
         id: 9,
         label: "JIVDHANGAD",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "JIVDHANGAD",
         subTitle: "The Best Destination",
         description: {
@@ -724,7 +883,7 @@ export const packagesData = [
       {
         id: 10,
         label: "DEVKUND",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "DEVKUND",
         subTitle: "The Best Destination",
         description: {
@@ -738,7 +897,7 @@ export const packagesData = [
       {
         id: 11,
         label: "KORIGAD",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "KORIGAD",
         subTitle: "The Best Destination",
         description: {
@@ -752,7 +911,7 @@ export const packagesData = [
       {
         id: 12,
         label: "VISAPUR GAD",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "VISAPUR GAD",
         subTitle: "The Best Destination",
         description: {
@@ -766,7 +925,7 @@ export const packagesData = [
       {
         id: 13,
         label: "MAHULI GAD",
-        img: "5.jpg",
+        img: "ODISHA.jpg",
         title: "MAHULI GAD",
         subTitle: "The Best Destination",
         description: {

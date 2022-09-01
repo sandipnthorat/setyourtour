@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useNavigate, NavLink } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useNavigate, NavLink, useLocation } from "react-router-dom";
 
 import logo from "../../assets/transparent_logo.png";
 import "./Header.css";
@@ -13,16 +13,15 @@ import { navMenuData } from "../../assets/utilityData";
 
 const Header = (props) => {
   let navigate = useNavigate();
+  const location = useLocation();
   const servicesData = services;
   const navList = navMenuData;
 
-  // const navList = [
-  //   { label: "Home", path: "/" },
-  //   { label: "Packages", path: "/packages" },
-  //   { label: "Memories", path: "/services" },
-  //   { label: "About", path: "/about" },
-  //   { label: "Contact", path: "/contact" },
-  // ];
+  const [currentPath, setCurrentPath] = useState();
+
+  useEffect(() => {
+    setCurrentPath(location.pathname);
+  }, [location]);
 
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bar">
@@ -32,16 +31,13 @@ const Header = (props) => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="justify-content-start" defaultActiveKey="/" as="ul">
-          {/* <Nav.Item>
-            <Nav.Link href="#">
-              <img className="nav-logo" src={logo} />
-            </Nav.Link>
-          </Nav.Item> */}
           {navList.map((e) => {
             return (
               <Nav.Item key={e.label}>
                 <Nav.Link
-                  className="nav-link"
+                  className={
+                    currentPath == e.path ? "active-nav-link" : "nav-link"
+                  }
                   href="#"
                   onClick={() => navigate(e.path)}
                 >

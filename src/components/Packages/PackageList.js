@@ -51,12 +51,12 @@ export const PackageList = (props) => {
             <Row>
               {cat.packages.map((pkg) => {
                 return (
-                  <Col className="packages-cards" xs={12} sm={12} md={4}>
+                  <Col className="packages-cards" xs={12} sm={6} md={4}>
                     <Card style={{ width: "100%", borderRadius: "0px" }}>
                       <Card.Img
                         style={{ height: "15em", borderRadius: "0px" }}
                         variant="top"
-                        src={require(`../../assets/proposals/${pkg.img}`)}
+                        src={require(`../../assets/proposals/${cat.category}/${pkg.img}`)}
                       />
                       <Card.Body>
                         <Card.Title>

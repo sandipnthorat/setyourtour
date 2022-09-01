@@ -21,26 +21,26 @@ import Col from "react-bootstrap/Col";
 // import kashmir from "../../assets/proposals/kashmir.jpg";
 // import nainital from "../../assets/nainital.jpg";
 
-import kashmir from "../../assets/proposals/1.jpg";
-import kerala from "../../assets/proposals/2.jpg";
-import sikkim from "../../assets/proposals/3.jpg";
-import himachal from "../../assets/proposals/4.jpg";
-import lehLadhak from "../../assets/proposals/5.jpg";
-import utarakhand from "../../assets/proposals/6.jpg";
-import telangana from "../../assets/proposals/7.jpg";
-import karnataka from "../../assets/proposals/8.jpg";
-import goa from "../../assets/proposals/9.jpg";
-import gujrat from "../../assets/proposals/10.jpg";
-import maharashtra from "../../assets/proposals/11.jpg";
-import nortEast from "../../assets/proposals/12.jpg";
-import westBengal from "../../assets/proposals/13.jpg";
-import rajasthan from "../../assets/proposals/14.jpg";
-import odisha from "../../assets/proposals/15.jpg";
-import andraPradesh from "../../assets/proposals/16.jpg";
-import tamilNadu from "../../assets/proposals/17.jpg";
-import madhyaPradesh from "../../assets/proposals/18.jpg";
-import uttarPradesh from "../../assets/proposals/19.jpg";
-import andamanNicobar from "../../assets/proposals/20.jpg";
+// import kashmir from "../../assets/proposals/KASHMIR.jpg";
+// import kerala from "../../assets/proposals/2.jpg";
+// import sikkim from "../../assets/proposals/3.jpg";
+// import himachal from "../../assets/proposals/4.jpg";
+// import lehLadhak from "../../assets/proposals/5.jpg";
+// import utarakhand from "../../assets/proposals/6.jpg";
+// import telangana from "../../assets/proposals/7.jpg";
+// import karnataka from "../../assets/proposals/8.jpg";
+// import goa from "../../assets/proposals/9.jpg";
+// import gujrat from "../../assets/proposals/10.jpg";
+// import maharashtra from "../../assets/proposals/11.jpg";
+// import nortEast from "../../assets/proposals/12.jpg";
+// import westBengal from "../../assets/proposals/13.jpg";
+// import rajasthan from "../../assets/proposals/14.jpg";
+// import odisha from "../../assets/proposals/15.jpg";
+// import andraPradesh from "../../assets/proposals/16.jpg";
+// import tamilNadu from "../../assets/proposals/17.jpg";
+// import madhyaPradesh from "../../assets/proposals/18.jpg";
+// import uttarPradesh from "../../assets/proposals/19.jpg";
+// import andamanNicobar from "../../assets/proposals/20.jpg";
 
 // *******************************Slider Images ******************************
 import groupJSE from "../../assets/slider/Group of JNEC.jpg";
@@ -101,18 +101,18 @@ const Home = (props) => {
       </div>
 
       <Container>
-        <Row>
+        {/* <Row>
           <Col xs={12} sm={12} md={12}>
             <HomeTrip
               catId={packagesData[3].id}
               pkgId={packagesData[3].packages[3].id}
-              imgPath={packagesData[3].packages[3].img}
+              imgPath={packagesData[3].packages[0].img}
               title={packagesData[3].title}
               subTitle={packagesData[3].subTitle}
               description={packagesData[3].description}
             />
           </Col>
-        </Row>
+        </Row> */}
 
         <Row>
           <Col xs={12} sm={12} md={12}>

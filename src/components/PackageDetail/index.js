@@ -53,12 +53,13 @@ export const PackageDetails = (props) => {
         obj.packages.forEach((item) => {
           if (item.id == packageId) {
             tempData.push({
+              ...obj,
               pkgDetails: item,
-              id: obj.id,
-              img: obj.img,
-              label: obj.label,
-              subTitle: obj.subTitle,
-              title: obj.title,
+              // id: obj.id,
+              // img: obj.img,
+              // label: obj.label,
+              // subTitle: obj.subTitle,
+              // title: obj.title,
             });
           }
         });
@@ -66,6 +67,7 @@ export const PackageDetails = (props) => {
     });
     setDetails(tempData[0]);
     console.log("tempData ----->", tempData[0]);
+    console.log(`${tempData[0].category}/${tempData[0].pkgDetails.img}`);
   };
 
   const titleCase = (str) => {
@@ -79,8 +81,11 @@ export const PackageDetails = (props) => {
       <>
         <div
           className="title-img"
+          // style={{
+          //   backgroundImage: `url(${require(`../../assets/proposals/${details.category}/${details.pkgDetails.img}`)})`,
+          // }}
           style={{
-            backgroundImage: `url(${require(`../../assets/proposals/${details.pkgDetails.img}`)})`,
+            backgroundImage: `url(${require(`../../assets/proposals/${details.category}/${details.pkgDetails.img}`)})`,
           }}
         >
           <span className="category-label">
@@ -133,7 +138,7 @@ export const PackageDetails = (props) => {
                 </Col>
                 <Col xs={12} sm={12} md={12}>
                   <iframe
-                    src="https://www.google.com/maps/d/u/0/embed?mid=1osb4AlRuk2EA1xVH3ARMrFr-zMV9KN0&ehbc=2E312F"
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1haVRgY-va0Xlj63QSmjfmHFwlgx9BBY&ehbc=2E312F"
                     width="100%"
                     height="400"
                   ></iframe>
@@ -262,7 +267,7 @@ export const PackageDetails = (props) => {
                         <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
                           <div className="circle-kpi">
                             <span
-                              class="material-icons-outlined"
+                              className="material-icons-outlined"
                               style={{ color: colors[details.pkgDetails.id] }}
                             >
                               currency_rupee

@@ -4,7 +4,10 @@ import Col from "react-bootstrap/Col";
 
 import { useNavigate, NavLink } from "react-router-dom";
 
-import logo from "../../assets/transparent_logo.png";
+// import logo from "../../assets/transparent_logo.png";
+// import logo from "../../assets/footer_logo.jpeg";
+import logo from "../../assets/footer_logo_1.jpeg";
+
 import "./Footer.css";
 import facebook from "../../assets/icons/facebook.svg";
 import instagram from "../../assets/icons/instagram.svg";
@@ -42,7 +45,12 @@ const Footer = (props) => {
               <Col xs={12} sm={12} md={12} className="contact-us-address">
                 <Row className="align-center">
                   <Col xs={1} sm={1} md={1}>
-                    <span className="material-icons-outlined">place</span>
+                    <span
+                      style={{ color: "#fb9d17" }}
+                      className="material-icons-outlined"
+                    >
+                      place
+                    </span>
                   </Col>
                   <Col style={{ marginLeft: "1em" }}>
                     <span className="address">{contact.address}</span>
@@ -51,7 +59,10 @@ const Footer = (props) => {
 
                 <Row className="align-center">
                   <Col xs={1} sm={1} md={1}>
-                    <span className="material-icons-outlined">
+                    <span
+                      style={{ color: "#fb9d17" }}
+                      className="material-icons-outlined"
+                    >
                       phone_iphone
                     </span>
                   </Col>
@@ -67,7 +78,12 @@ const Footer = (props) => {
 
                 <Row className="align-center">
                   <Col xs={1} sm={1} md={1}>
-                    <span className="material-icons-outlined">mail</span>
+                    <span
+                      style={{ color: "#fb9d17" }}
+                      className="material-icons-outlined"
+                    >
+                      mail
+                    </span>
                   </Col>
                   <Col style={{ marginLeft: "1em" }}>
                     <span className="address">{contact.email}</span>

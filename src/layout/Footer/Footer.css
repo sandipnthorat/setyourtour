@@ -7,7 +7,7 @@
 }
 
 .footer-block-heading .title {
-  color: #9a9a9a;
+  color: #ffffff;
   padding: px;
   text-align: left;
   font-size: 14px;
@@ -28,7 +28,7 @@
 
 .footer {
   margin-top: 2.5em;
-  background-color: rgb(0, 0, 0);
+  background-color: #2f1463;
 }
 
 .footer-top-container {
@@ -36,7 +36,7 @@
 }
 
 .footer-top-container .footer-block-logo img {
-  width: 50%;
+  width: 100%;
 }
 
 .footer-top-container .footer-block-text-container {
@@ -49,18 +49,18 @@
 }
 
 .footer-block-text-container .title {
-  color: #fff;
+  color: #fb9d17;
   padding: 0px;
   /* text-decoration: underline; */
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 2px;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .footer-block-text-container .item-list ul {
   list-style: inside;
-  color: #9a9a9a;
+  color: #ffffff;
   padding: 0px;
   font-size: 14px;
   letter-spacing: 2px;
@@ -75,6 +75,7 @@
 
 .footer-block-text-container .item-list ul .list-link:hover {
   cursor: pointer;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -93,7 +94,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   margin-top: 2.5em;
-  color: #9a9a9a;
+  color: #ffffff;
   letter-spacing: 2px;
 }
 
