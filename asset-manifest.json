@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/setyourtour/static/css/main.5bbe05f2.css",
-    "main.js": "/setyourtour/static/js/main.132efa82.js",
+    "main.js": "/setyourtour/static/js/main.a4163712.js",
     "static/js/787.88a727f9.chunk.js": "/setyourtour/static/js/787.88a727f9.chunk.js",
     "static/media/nainital.jpg": "/setyourtour/static/media/nainital.ab82e3a6965913281f8f.jpg",
     "static/media/transparent_logo.png": "/setyourtour/static/media/transparent_logo.a46b46406c99e3e3b06f.png",
@@ -67,11 +67,11 @@
     "index.html": "/setyourtour/index.html",
     "static/media/instagram.svg": "/setyourtour/static/media/instagram.3a44b288394558ecc887b4e05009f129.svg",
     "main.5bbe05f2.css.map": "/setyourtour/static/css/main.5bbe05f2.css.map",
-    "main.132efa82.js.map": "/setyourtour/static/js/main.132efa82.js.map",
+    "main.a4163712.js.map": "/setyourtour/static/js/main.a4163712.js.map",
     "787.88a727f9.chunk.js.map": "/setyourtour/static/js/787.88a727f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bbe05f2.css",
-    "static/js/main.132efa82.js"
+    "static/js/main.a4163712.js"
   ]
 }
