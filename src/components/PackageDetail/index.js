@@ -9,6 +9,13 @@ import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
+import Stack from "react-bootstrap/Stack";
+
+import { BookingPolicy } from "./BookingPolicy";
+import { CancelationPolicy } from "./CancelationPolicy";
+import { IncludeExclude } from "./IncludeExclude";
+import { Agenda } from "./Agenda";
+import { SendBooking } from "./SendBooking";
 
 export const PackageDetails = (props) => {
   const { state } = useLocation();
@@ -59,7 +66,6 @@ export const PackageDetails = (props) => {
       }
     });
     setDetails(tempData[0]);
-    console.log(`${tempData[0].category}/${tempData[0].pkgDetails.img}`);
   };
 
   const titleCase = (str) => {
@@ -73,9 +79,6 @@ export const PackageDetails = (props) => {
       <>
         <div
           className="title-img"
-          // style={{
-          //   backgroundImage: `url(${require(`../../assets/proposals/${details.category}/${details.pkgDetails.img}`)})`,
-          // }}
           style={{
             backgroundImage: `url(${require(`../../assets/proposals/${details.category}/${details.pkgDetails.img}`)})`,
           }}
@@ -90,6 +93,49 @@ export const PackageDetails = (props) => {
           <Row>
             <Col xs={12} sm={12} md={8}>
               <Row className="div-block">
+                <Col className="locations" xs={12} sm={12} md={12}>
+                  <Stack direction="horizontal" gap={3}>
+                    <div>
+                      <strong>Product Code: </strong>
+                    </div>
+                    <div>{details.pkgDetails.productCode}</div>
+                  </Stack>
+                </Col>
+                <Col className="locations" xs={12} sm={12} md={12}>
+                  <Stack direction="horizontal" gap={3}>
+                    <div>
+                      <span
+                        className="material-icons-outlined"
+                        style={{
+                          fontSize: "28px",
+                          color: colors[details.pkgDetails.id],
+                        }}
+                      >
+                        location_on
+                      </span>
+                    </div>
+                    <div>{details.pkgDetails.location}</div>
+                  </Stack>
+                </Col>
+
+                <Col
+                  className="note"
+                  style={{
+                    border: `1px solid ${colors[details.pkgDetails.id]}`,
+                    boxShadow: `5px 5px 10px 0px ${
+                      colors[details.pkgDetails.id]
+                    }1a`,
+                  }}
+                  xs={12}
+                  sm={12}
+                  md={12}
+                >
+                  <span>
+                    <b>Note: </b>
+                    {details.pkgDetails.note}
+                  </span>
+                </Col>
+
                 <Col className="details-block-heading" xs={12} sm={12} md={12}>
                   <h6
                     className="title"
@@ -135,21 +181,44 @@ export const PackageDetails = (props) => {
                   <h1 className="sub-title">{"Agenda"}</h1>
                 </Col>
                 <Col xs={12} sm={12} md={12}>
-                  <Accordion style={{ marginTop: "1em" }}>
-                    {details.pkgDetails.dayByDay.map((item) => {
-                      return (
-                        <Accordion.Item eventKey="0">
-                          <Accordion.Header>
-                            <h6>{item.label}</h6>
-                          </Accordion.Header>
-                          <Accordion.Body>{item.description}</Accordion.Body>
-                        </Accordion.Item>
-                      );
-                    })}
-                  </Accordion>
+                  <Agenda data={details.pkgDetails.dayByDay} />
+                </Col>
+              </Row>
+
+              <Row className="div-block">
+                <Col className="details-block-heading" xs={12} sm={12} md={12}>
+                  <h6
+                    className="title"
+                    style={{ color: colors[details.pkgDetails.id] }}
+                  >
+                    {"Tour"}
+                  </h6>
+                  <h1 className="sub-title">{"Booking Policy"}</h1>
+                </Col>
+                <Col className="details-block-heading" xs={12} sm={12} md={12}>
+                  <BookingPolicy data={details.pkgDetails.bookingPolicy} />
+                </Col>
+              </Row>
+
+              <Row className="div-block">
+                <Col className="details-block-heading" xs={12} sm={12} md={12}>
+                  <h6
+                    className="title"
+                    style={{ color: colors[details.pkgDetails.id] }}
+                  >
+                    {"Tour"}
+                  </h6>
+                  <h1 className="sub-title">{"Cancellation Policy"}</h1>
+                </Col>
+                <Col className="details-block-heading" xs={12} sm={12} md={12}>
+                  <CancelationPolicy
+                    data={details.pkgDetails.cancellationPolicy}
+                  />
                 </Col>
               </Row>
             </Col>
+
+            {/*********************************************************/}
             <Col xs={12} sm={12} md={4}>
               <Row>
                 <Col className="right-col-cards" xs={12} sm={12} md={12}>
@@ -169,23 +238,14 @@ export const PackageDetails = (props) => {
                               className="material-icons-outlined"
                               style={{ color: colors[details.pkgDetails.id] }}
                             >
-                              location_on
-                            </span>
-                            <p className="circle-kpi-label">
-                              {details.pkgDetails.location}
-                            </p>
-                          </div>
-                        </Col>
-                        <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
-                          <div className="circle-kpi">
-                            <span
-                              className="material-icons-outlined"
-                              style={{ color: colors[details.pkgDetails.id] }}
-                            >
                               calendar_month
                             </span>
                             <p className="circle-kpi-label">
                               {details.pkgDetails.date}
+                              <p style={{ margin: "0px", padding: "0px" }}>
+                                <b>To</b>
+                              </p>
+                              {details.pkgDetails.endDate}
                             </p>
                           </div>
                         </Col>
@@ -215,28 +275,50 @@ export const PackageDetails = (props) => {
                             </p>
                           </div>
                         </Col>
+                        <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
+                          <a
+                            href={details.pkgDetails.downloadLink}
+                            download
+                            target="blank"
+                            style={{ textDecoration: "none", color: "#555555" }}
+                          >
+                            <div
+                              className="circle-kpi"
+                              style={{ cursor: "pointer" }}
+                            >
+                              <span
+                                className="material-icons-outlined"
+                                style={{ color: colors[details.pkgDetails.id] }}
+                              >
+                                cloud_download
+                              </span>
+                              <p className="circle-kpi-label">Download PDF</p>
+                            </div>
+                          </a>
+                        </Col>
                       </Row>
                     </Card.Body>
                   </Card>
                 </Col>
 
                 <Col className="right-col-cards" xs={12} sm={12} md={12}>
-                  <Card
-                    className="right-card"
-                    style={{
-                      boxShadow: `5px 5px 10px 0px ${
-                        colors[details.pkgDetails.id]
-                      }1a`,
-                    }}
-                  >
-                    <Card.Header>Inclusions In Package</Card.Header>
-                    <ListGroup variant="flush">
-                      <ListGroup.Item>3 Breakfast</ListGroup.Item>
-                      <ListGroup.Item>Travaling by Train/Plane</ListGroup.Item>
-                      <ListGroup.Item>Cruise Party</ListGroup.Item>
-                      <ListGroup.Item>Party With Dinner</ListGroup.Item>
-                    </ListGroup>
-                  </Card>
+                  <IncludeExclude
+                    color={colors[details.pkgDetails.id]}
+                    title="Inclusions In Package"
+                    data={details.pkgDetails.inclusions}
+                  />
+                </Col>
+
+                <Col className="right-col-cards" xs={12} sm={12} md={12}>
+                  <IncludeExclude
+                    color={colors[details.pkgDetails.id]}
+                    title="Exclusion from Package"
+                    data={details.pkgDetails.exclusion}
+                  />
+                </Col>
+
+                <Col className="right-col-cards" xs={12} sm={12} md={12}>
+                  <SendBooking color={colors[details.pkgDetails.id]} />
                 </Col>
               </Row>
             </Col>

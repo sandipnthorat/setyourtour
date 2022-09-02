@@ -79,7 +79,87 @@
 }
 
 .right-col-cards .right-card {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  font-size: 14px;
+  letter-spacing: 1px;
   border-radius: 0px;
   border-color: #f6f6f6;
   /* box-shadow: 5px 5px 10px 0px #0096ff1a; */
+}
+
+.right-col-cards .right-card .title {
+  font-size: 16px;
+  color: #fff;
+  border-radius: 0;
+}
+
+.day-by-day-list {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.day-by-day-list li {
+  margin: 0.5em;
+}
+
+.day-by-day-list .title h6 {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  /* font-size: 14px; */
+  letter-spacing: 1px;
+}
+
+.policy-list {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.policy-list li {
+  margin: 0.5em;
+}
+
+.locations {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+}
+
+.note {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+  padding: 1em;
+  /* border: 1px solid; */
+  /* border-radius: 0px; */
+  /* border-color: #f6f6f6; */
+}
+
+.right-card .send-button {
+  background-color: #fff;
+}
+
+/* .right-card .send-button Button {
+  border-radius: 0px;
+  width: 100%;
+} */
+
+/* .right-card .send-button Button:focus {
+  outline: 0 !important;
+} */
+
+.right-card .send-footer .send-btn {
+  border-radius: 0px;
+  background-color: #fff;
+  width: 100%;
+  /* border: 1px solid gray; */
+  /* outline: none; */
+  text-decoration: none;
+  box-shadow: none;
 }

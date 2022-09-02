@@ -25,7 +25,7 @@ const Header = (props) => {
 
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bar">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="#" onClick={() => navigate("/")}>
         <img className="nav-logo" src={logo} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

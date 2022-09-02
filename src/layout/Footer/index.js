@@ -29,7 +29,7 @@ const Footer = (props) => {
     { label: "About Us", path: "/about" },
     { label: "Packages", path: "/packages" },
     { label: "Memories", path: "/memories" },
-    { label: "Ploicy", path: "/policy" },
+    { label: "Policy", path: "/policy" },
     { label: "FAQ's", path: "/faq" },
   ];
 
