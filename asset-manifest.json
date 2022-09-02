@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/setyourtour/static/css/main.5bbe05f2.css",
-    "main.js": "/setyourtour/static/js/main.a4163712.js",
+    "main.css": "/setyourtour/static/css/main.6e8231ae.css",
+    "main.js": "/setyourtour/static/js/main.a7e96403.js",
     "static/js/787.88a727f9.chunk.js": "/setyourtour/static/js/787.88a727f9.chunk.js",
     "static/media/nainital.jpg": "/setyourtour/static/media/nainital.ab82e3a6965913281f8f.jpg",
     "static/media/transparent_logo.png": "/setyourtour/static/media/transparent_logo.a46b46406c99e3e3b06f.png",
-    "static/media/BUDDHIST CIRCLE1.jpg": "/setyourtour/static/media/BUDDHIST CIRCLE1.501b7354f8b7d306d0ec.jpg",
     "static/media/SEYCHELLES.jpg": "/setyourtour/static/media/SEYCHELLES.cf8e1374f4a7a80a4c4d.jpg",
     "static/media/AJANTA.jpg": "/setyourtour/static/media/AJANTA.035d1d5f5e52c999be40.jpg",
     "static/media/EUROPE.jpg": "/setyourtour/static/media/EUROPE.62d2e046df350ecb313c.jpg",
@@ -48,13 +47,13 @@
     "static/media/JAPAN.jpg": "/setyourtour/static/media/JAPAN.13d31bc28e165be597d4.jpg",
     "static/media/ANDHRA_PRADESH.jpg": "/setyourtour/static/media/ANDHRA_PRADESH.75c2300f4011a179feeb.jpg",
     "static/media/SIKKIM.jpg": "/setyourtour/static/media/SIKKIM.1631bc52b13ddca0c228.jpg",
+    "static/media/BUDDHIST_CIRCLE.jpg": "/setyourtour/static/media/BUDDHIST_CIRCLE.e09d282c450c631a5b8e.jpg",
     "static/media/MAURITIUS.jpg": "/setyourtour/static/media/MAURITIUS.7765132bc2f4aadb0e64.jpg",
     "static/media/SINGAPORE.jpg": "/setyourtour/static/media/SINGAPORE.8b105c2c94e2f3cbe9b0.jpg",
     "static/media/RAJASTHAN.jpg": "/setyourtour/static/media/RAJASTHAN.a4e8c5683d2024cec25b.jpg",
     "static/media/KASHMIR.jpg": "/setyourtour/static/media/KASHMIR.a5b7dfc0ede53c34ca80.jpg",
     "static/media/THAILAND.jpg": "/setyourtour/static/media/THAILAND.d964ef91873d1dec1589.jpg",
     "static/media/TAMILNADU.jpg": "/setyourtour/static/media/TAMILNADU.196f1ea77cc35b0766cb.jpg",
-    "static/media/BUDDHIST_CIRCLE.jpg": "/setyourtour/static/media/BUDDHIST_CIRCLE.d024f1ebccb74e9267ca.jpg",
     "static/media/JIVDHANGAD.jpg": "/setyourtour/static/media/JIVDHANGAD.c8b39da8149d512e2277.jpg",
     "static/media/NORTH_EAST.jpg": "/setyourtour/static/media/NORTH_EAST.3c1d897dc659faa3aa15.jpg",
     "static/media/AUSTRALIA.jpg": "/setyourtour/static/media/AUSTRALIA.28cd4482e36c6d033498.jpg",
@@ -66,12 +65,12 @@
     "static/media/facebook.svg": "/setyourtour/static/media/facebook.1f0b9bdb73ae65c578cfb45ade16d667.svg",
     "index.html": "/setyourtour/index.html",
     "static/media/instagram.svg": "/setyourtour/static/media/instagram.3a44b288394558ecc887b4e05009f129.svg",
-    "main.5bbe05f2.css.map": "/setyourtour/static/css/main.5bbe05f2.css.map",
-    "main.a4163712.js.map": "/setyourtour/static/js/main.a4163712.js.map",
+    "main.6e8231ae.css.map": "/setyourtour/static/css/main.6e8231ae.css.map",
+    "main.a7e96403.js.map": "/setyourtour/static/js/main.a7e96403.js.map",
     "787.88a727f9.chunk.js.map": "/setyourtour/static/js/787.88a727f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bbe05f2.css",
-    "static/js/main.a4163712.js"
+    "static/css/main.6e8231ae.css",
+    "static/js/main.a7e96403.js"
   ]
 }
