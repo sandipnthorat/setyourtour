@@ -14,11 +14,11 @@ export const navMenuData = [
     shortLabel: "Services",
     path: "/services",
   },
-  {
-    label: "Memories",
-    shortLabel: "Memories",
-    path: "/memories",
-  },
+  // {
+  //   label: "Memories",
+  //   shortLabel: "Memories",
+  //   path: "/memories",
+  // },
   {
     label: "About Us",
     shortLabel: "About Us",

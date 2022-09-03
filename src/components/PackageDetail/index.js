@@ -157,6 +157,21 @@ export const PackageDetails = (props) => {
                     className="title"
                     style={{ color: colors[details.pkgDetails.id] }}
                   >
+                    {"Day by Day"}
+                  </h6>
+                  <h1 className="sub-title">{"Agenda"}</h1>
+                </Col>
+                <Col xs={12} sm={12} md={12}>
+                  <Agenda data={details.pkgDetails.dayByDay} />
+                </Col>
+              </Row>
+
+              <Row className="div-block">
+                <Col className="details-block-heading" xs={12} sm={12} md={12}>
+                  <h6
+                    className="title"
+                    style={{ color: colors[details.pkgDetails.id] }}
+                  >
                     {"Find Route On"}
                   </h6>
                   <h1 className="sub-title">{"Map"}</h1>
@@ -167,21 +182,6 @@ export const PackageDetails = (props) => {
                     width="100%"
                     height="400"
                   ></iframe>
-                </Col>
-              </Row>
-
-              <Row className="div-block">
-                <Col className="details-block-heading" xs={12} sm={12} md={12}>
-                  <h6
-                    className="title"
-                    style={{ color: colors[details.pkgDetails.id] }}
-                  >
-                    {"Day by Day"}
-                  </h6>
-                  <h1 className="sub-title">{"Agenda"}</h1>
-                </Col>
-                <Col xs={12} sm={12} md={12}>
-                  <Agenda data={details.pkgDetails.dayByDay} />
                 </Col>
               </Row>
 
@@ -304,7 +304,7 @@ export const PackageDetails = (props) => {
                 <Col className="right-col-cards" xs={12} sm={12} md={12}>
                   <IncludeExclude
                     color={colors[details.pkgDetails.id]}
-                    title="Inclusions In Package"
+                    title="Package Inclusion"
                     data={details.pkgDetails.inclusions}
                   />
                 </Col>
@@ -312,7 +312,7 @@ export const PackageDetails = (props) => {
                 <Col className="right-col-cards" xs={12} sm={12} md={12}>
                   <IncludeExclude
                     color={colors[details.pkgDetails.id]}
-                    title="Exclusion from Package"
+                    title="Package Exclusion"
                     data={details.pkgDetails.exclusion}
                   />
                 </Col>

@@ -16,20 +16,33 @@
   color: #9a9a9a;
   padding: px;
   text-align: left;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 18px;
+  line-height: 18px;
   letter-spacing: 1px;
   font-weight: normal;
+
+  /* text-align: left;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #555555; */
 }
 
 .trip-block-heading .sub-title {
   text-transform: capitalize;
   text-align: left;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.6px;
   font-weight: bold;
   color: #555555;
+  /* color: #9a9a9a;
+  text-align: left;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  font-weight: normal; */
 }
 
 .trip-block-description {
@@ -50,12 +63,12 @@
 }
 
 .trip-block-heading .book-now-button {
-  border-color: #88a606;
-  border-radius: 38px;
+  border-color: #fb9d17;
+  border-radius: 0px;
   letter-spacing: 1px;
   line-height: 14px;
   font-size: 14px;
-  background-color: #88a606;
+  background-color: #fb9d17;
   padding: 15px 35px;
   color: #ffffff;
 }

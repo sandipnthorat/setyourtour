@@ -2408,7 +2408,7 @@ export const packagesData = [
     id: 4,
     label: "SPECIALITY TOURS",
     category: "SPECIALITY TOURS",
-    img: "KARNATAKA.jpg",
+    img: "Youth Special.jpg",
     packagesTitle: "5 packages",
     onHomePage: true,
     title: "SPECIALITY TOURS",
@@ -2419,7 +2419,7 @@ export const packagesData = [
       {
         id: 1,
         label: "ADVENTURE",
-        img: "KARNATAKA.jpg",
+        img: "Adventure.jpg",
         title: "ADVENTURE",
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
@@ -2469,7 +2469,7 @@ export const packagesData = [
       {
         id: 2,
         label: "HONEYMOON SPECIAL",
-        img: "KARNATAKA.jpg",
+        img: "Honeymoon Cover.jpg",
         title: "HONEYMOON SPECIAL",
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
@@ -2519,7 +2519,7 @@ export const packagesData = [
       {
         id: 4,
         label: "YOUTH SPECIAL",
-        img: "KARNATAKA.jpg",
+        img: "Youth Special.jpg",
         title: "YOUTH SPECIAL",
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
@@ -2569,7 +2569,7 @@ export const packagesData = [
       {
         id: 5,
         label: "SECOND INNINGS",
-        img: "KARNATAKA.jpg",
+        img: "Second Innings.jpg",
         title: "SECOND INNINGS",
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
@@ -2619,7 +2619,7 @@ export const packagesData = [
       {
         id: 6,
         label: "LADIES SPECIAL",
-        img: "KARNATAKA.jpg",
+        img: "Ladies Special.jpg",
         title: "LADIES SPECIAL",
         subTitle: "The Best Destination",
         date: "01-Sep-2022",

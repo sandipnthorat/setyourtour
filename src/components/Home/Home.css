@@ -10,9 +10,16 @@
 /* *******************************HORIZONTAL IMAGE************************** */
 
 .horizontal-image {
-  position: relative;
+  /* position: relative; */
   margin-top: 2.5em;
   margin-bottom: 2.5em;
+
+  height: 25em;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .horizontal-image img {
@@ -180,13 +187,13 @@
 }
 
 .proposal-card-col .view-destionation-button {
-  border-color: orange;
-  border-radius: 38px;
-  letter-spacing: 2px;
-  line-height: 14px;
+  border-color: #fb9d17;
+  /* border-radius: 0px; */
+  letter-spacing: 1px;
+  /* line-height: 14px; */
   font-size: 14px;
-  background-color: orange;
-  padding: 15px 35px;
+  background-color: #fb9d17;
+  padding: 5px 10px;
   color: #ffffff;
 }
 

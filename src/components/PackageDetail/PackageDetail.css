@@ -136,30 +136,16 @@
   letter-spacing: 1px;
   margin-bottom: 2em;
   padding: 1em;
-  /* border: 1px solid; */
-  /* border-radius: 0px; */
-  /* border-color: #f6f6f6; */
 }
 
 .right-card .send-button {
   background-color: #fff;
 }
 
-/* .right-card .send-button Button {
-  border-radius: 0px;
-  width: 100%;
-} */
-
-/* .right-card .send-button Button:focus {
-  outline: 0 !important;
-} */
-
 .right-card .send-footer .send-btn {
   border-radius: 0px;
   background-color: #fff;
   width: 100%;
-  /* border: 1px solid gray; */
-  /* outline: none; */
   text-decoration: none;
   box-shadow: none;
 }

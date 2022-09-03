@@ -1,10 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 export const SendBooking = (props) => {
   const { color } = props;
+  const [formData, setFormData] = useState({
+    name: "",
+    mobile: "",
+    email: "",
+    message: "",
+  });
+
+  const handleInputChange = (event) => {
+    const target = event.target;
+    const value = target.value;
+    const name = target.name;
+
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+  const onFormSubmit = (e) => {
+    e.preventDefault();
+    console.log("value --->", formData);
+  };
+
   return (
     <>
       <Card
@@ -21,15 +43,30 @@ export const SendBooking = (props) => {
             <fieldset>
               <Form.Group className="mb-3">
                 <Form.Label htmlFor="fullName">Full Name</Form.Label>
-                <Form.Control type="text" id="fullName" />
+                <Form.Control
+                  name="name"
+                  onChange={handleInputChange}
+                  type="text"
+                  id="fullName"
+                />
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label htmlFor="mobileNumber">Mobile Number</Form.Label>
-                <Form.Control type="Number" id="mobileNumber" />
+                <Form.Control
+                  name="mobile"
+                  onChange={handleInputChange}
+                  type="Number"
+                  id="mobileNumber"
+                />
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label htmlFor="email">Email</Form.Label>
-                <Form.Control type="email" id="email" />
+                <Form.Control
+                  name="email"
+                  onChange={handleInputChange}
+                  type="email"
+                  id="email"
+                />
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label htmlFor="messageBody">Message</Form.Label>
@@ -38,6 +75,8 @@ export const SendBooking = (props) => {
                   as="textarea"
                   id="messageBody"
                   aria-label="With textarea"
+                  name="message"
+                  onChange={handleInputChange}
                 />
               </Form.Group>
             </fieldset>
@@ -47,8 +86,8 @@ export const SendBooking = (props) => {
           <Button
             className="send-btn"
             variant="link"
-            type="submit"
             style={{ color: color, border: `1px solid ${color}` }}
+            disabled={!formData.mobile || !formData.email || !formData.name}
           >
             Send Booking
           </Button>

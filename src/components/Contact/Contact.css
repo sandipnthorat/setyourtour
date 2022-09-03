@@ -5,30 +5,54 @@
   margin-bottom: 2.5em;
 }
 
-.contact-top-container .title {
-  text-transform: capitalize;
+/* .contact-block-heading .title {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+
   color: #9a9a9a;
-  padding: px;
   text-align: center;
   font-size: 14px;
   line-height: 14px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: normal;
 }
 
-.contact-top-container .sub-title {
-  text-transform: capitalize;
+.contact-block-heading .sub-title {
+  text-transform: uppercase;
   text-align: center;
   font-size: 36px;
   line-height: 36px;
   letter-spacing: 1px;
   font-weight: bold;
   color: #555555;
+} */
+
+.contact-block-heading .title {
+  text-transform: uppercase;
+  color: #9a9a9a;
+  padding: px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.contact-block-heading .sub-title {
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #555555;
+  text-align: center;
 }
 
 .contact-us-form {
   font-family: "Poppins", sans-serif;
-  margin-top: 2.5em;
+  margin-top: 1em;
   align-items: center;
 }
 
@@ -53,4 +77,36 @@
   margin-bottom: 1em;
   display: flex;
   align-items: center;
+}
+
+/*************************************************/
+.contact-card {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 0px;
+  border-color: #f6f6f6;
+}
+
+.contact-card .title {
+  font-size: 16px;
+  color: #fff;
+  border-radius: 0;
+}
+
+.send-footer .send-btn {
+  border-radius: 0px;
+  background-color: #fb9d17;
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.contact-us-form .form-label {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  font-size: 14px;
+  letter-spacing: 1px;
 }

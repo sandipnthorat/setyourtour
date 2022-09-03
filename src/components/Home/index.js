@@ -18,7 +18,7 @@ import groupJSE from "../../assets/slider/Group of JNEC.jpg";
 import industrialTrip from "../../assets/slider/Industrial Trip.jpg";
 import kashidBeach from "../../assets/slider/Kashid Beach.jpg";
 
-import dividerImg from "../../assets/nainital.jpg";
+import nepal from "../../assets/proposals/INTERNATIONAL TOURS/NEPAL.jpg";
 
 // *****************************Package Data *************************
 import { packagesData } from "../../assets/tourData";
@@ -48,8 +48,13 @@ const Home = (props) => {
         </Row>
       </Container>
 
-      <div className="horizontal-image">
-        <img src={dividerImg} />
+      <div
+        className="horizontal-image"
+        style={{
+          backgroundImage: `url(${nepal})`,
+        }}
+      >
+        {/* <img src={dividerImg} /> */}
         <div className="horizontal-img-text">
           <Container>
             <Row>
@@ -72,18 +77,11 @@ const Home = (props) => {
       </div>
 
       <Container>
-        {/* <Row>
+        <Row>
           <Col xs={12} sm={12} md={12}>
-            <HomeTrip
-              catId={packagesData[3].id}
-              pkgId={packagesData[3].packages[3].id}
-              imgPath={packagesData[3].packages[0].img}
-              title={packagesData[3].title}
-              subTitle={packagesData[3].subTitle}
-              description={packagesData[3].description}
-            />
+            <HomeTrip data={packagesData[0]} />
           </Col>
-        </Row> */}
+        </Row>
 
         <Row>
           <Col xs={12} sm={12} md={12}>

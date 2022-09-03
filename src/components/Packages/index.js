@@ -87,8 +87,10 @@ const Packages = (props) => {
       <Container className="package-container">
         <Row>
           <Col className="package-block-heading" xs={12} sm={12} md={12}>
-            <p className="title">{"Explore"}</p>
-            <p className="sub-title">{"Pacakges"}</p>
+            <span>
+              <p className="title">{"Explore"}</p>
+              <p className="sub-title">{"Pacakges"}</p>
+            </span>
             <hr />
           </Col>
 

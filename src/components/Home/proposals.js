@@ -91,6 +91,7 @@ const Proposals = (props) => {
                         }}
                         className="view-destionation-button"
                         variant="outline-warning"
+                        size="sm"
                       >
                         {"All Packages"}
                       </Button>

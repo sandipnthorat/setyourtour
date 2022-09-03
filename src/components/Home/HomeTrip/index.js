@@ -7,27 +7,32 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 import "./homeTrip.css";
+import { useState } from "react";
 
 const HomeTrip = (props) => {
+  const { data } = props;
+  const { packages } = data;
+  const [selectedPackage, setSelectedPackage] = useState(0);
   let navigate = useNavigate();
+
   return (
     <Container className="home-trip-container">
       <Row>
         <Col className="trip-block-heading" xs={12} sm={12} md={8}>
-          <p className="title">{props.title}</p>
-          <p className="sub-title">{props.subTitle}</p>
+          <p className="title">{packages[selectedPackage].title}</p>
+          <p className="sub-title">{packages[selectedPackage].subTitle}</p>
           <p className="trip-block-description">
-            <p>{props.description.first}</p>
-            <p>{props.description.second}</p>
+            <p>{packages[selectedPackage].description.first}</p>
+            <p>{packages[selectedPackage].description.second}</p>
           </p>
           <span className="bottom-div">
             <h2>
               <span
                 style={{ color: "#dadada", textDecoration: "line-through" }}
               >
-                {"25000"}
+                {/* {"25000"} */}
               </span>{" "}
-              {"20000"} &#8377;
+              {packages[selectedPackage].price} &#8377;
               <span className="for-person-txt" style={{ fontSize: "14px" }}>
                 {" "}
                 {"/ PERSON"}
@@ -37,8 +42,8 @@ const HomeTrip = (props) => {
               onClick={() =>
                 navigate("/packageDetails", {
                   state: {
-                    pkgId: props.pkgId,
-                    id: props.catId,
+                    pkgId: packages[selectedPackage].id,
+                    id: data.id,
                   },
                 })
               }
@@ -50,7 +55,9 @@ const HomeTrip = (props) => {
           </span>
         </Col>
         <Col className="trip-block-img" xs={12} sm={12} md={4}>
-          <img src={require(`../../../assets/proposals/${props.imgPath}`)} />
+          <img
+            src={require(`../../../assets/proposals/${data.category}/${packages[selectedPackage].img}`)}
+          />
         </Col>
       </Row>
     </Container>

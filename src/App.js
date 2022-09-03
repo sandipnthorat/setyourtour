@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
@@ -16,6 +17,12 @@ import { PackageDetails } from "./components/PackageDetail";
 import { packagesData } from "./assets/tourData";
 
 function App() {
+  let navigate = useNavigate();
+
+  window.onbeforeunload = function (event) {
+    navigate("/ ");
+  };
+
   return (
     <>
       <Header />

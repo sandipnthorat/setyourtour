@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Tooltip from "react-bootstrap/Tooltip";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -76,8 +78,14 @@ export const PackageList = (props) => {
                               {titleCase(pkg.label)}
                             </p>
                           </Card.Title>
-                          <Card.Subtitle className="mb-2 text-muted card-subtitle">
+                          <Card.Subtitle className="mb-4 text-muted card-subtitle">
                             {pkg.subTitle}
+                          </Card.Subtitle>
+                          <Card.Subtitle
+                            className="text-muted card-subtitle"
+                            style={{ textAlign: "left" }}
+                          >
+                            Product Code: {pkg.productCode}
                           </Card.Subtitle>
                           <Card.Text>
                             <Row className="card-body-text">
@@ -95,9 +103,19 @@ export const PackageList = (props) => {
                                   >
                                     location_on
                                   </span>
-                                  <p className="circle-kpi-label">
-                                    {pkg.location}
-                                  </p>
+                                  <OverlayTrigger
+                                    key={"tooltip"}
+                                    placement={"auto"}
+                                    overlay={
+                                      <Tooltip className="location-tooltip">
+                                        {pkg.location}
+                                      </Tooltip>
+                                    }
+                                  >
+                                    <p className="circle-kpi-label">
+                                      {pkg.location}
+                                    </p>
+                                  </OverlayTrigger>
                                 </div>
                               </Col>
                               <Col
@@ -163,9 +181,23 @@ export const PackageList = (props) => {
                                 <span className="inclusion-title">
                                   Inclusions
                                 </span>
-                                <ul>
+                                <ul
+                                  style={{
+                                    height: "10em",
+                                    overflow: "hidden",
+                                  }}
+                                >
                                   {pkg.inclusions.map((i) => {
-                                    return <li key={i.label}>{i.label}</li>;
+                                    return (
+                                      <li
+                                        style={{
+                                          padding: "1px",
+                                        }}
+                                        key={i.label}
+                                      >
+                                        {i.label}
+                                      </li>
+                                    );
                                   })}
                                 </ul>
                               </Col>
