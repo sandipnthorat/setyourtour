@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/setyourtour/static/css/main.6e8231ae.css",
-    "main.js": "/setyourtour/static/js/main.a7e96403.js",
+    "main.css": "/setyourtour/static/css/main.4889b855.css",
+    "main.js": "/setyourtour/static/js/main.6292334f.js",
     "static/js/787.88a727f9.chunk.js": "/setyourtour/static/js/787.88a727f9.chunk.js",
-    "static/media/nainital.jpg": "/setyourtour/static/media/nainital.ab82e3a6965913281f8f.jpg",
     "static/media/transparent_logo.png": "/setyourtour/static/media/transparent_logo.a46b46406c99e3e3b06f.png",
     "static/media/SEYCHELLES.jpg": "/setyourtour/static/media/SEYCHELLES.cf8e1374f4a7a80a4c4d.jpg",
     "static/media/AJANTA.jpg": "/setyourtour/static/media/AJANTA.035d1d5f5e52c999be40.jpg",
     "static/media/EUROPE.jpg": "/setyourtour/static/media/EUROPE.62d2e046df350ecb313c.jpg",
     "static/media/VISAPURGAD.jpg": "/setyourtour/static/media/VISAPURGAD.e5c614326622b058fdc3.jpg",
     "static/media/INDONESIA.jpg": "/setyourtour/static/media/INDONESIA.60eea90899cfb9654601.jpg",
+    "static/media/Ladies Special.jpg": "/setyourtour/static/media/Ladies Special.ca9e3a08770d34edc46c.jpg",
     "static/media/MADHYA_PRADESH.jpg": "/setyourtour/static/media/MADHYA_PRADESH.f61b729a1e38347c217e.jpg",
     "static/media/MAHULIGAD.jpg": "/setyourtour/static/media/MAHULIGAD.7cbafee67769d5d235d5.jpg",
     "static/media/BHUTAN.jpg": "/setyourtour/static/media/BHUTAN.876cb62a466fac4935bb.jpg",
@@ -41,6 +41,7 @@
     "static/media/GOA.jpg": "/setyourtour/static/media/GOA.be1edf62757c30cd99d1.jpg",
     "static/media/MALDIVES.jpg": "/setyourtour/static/media/MALDIVES.c5f8a6588013221f63db.jpg",
     "static/media/WEST_BENGAL.jpg": "/setyourtour/static/media/WEST_BENGAL.79b5e4d891c775e52129.jpg",
+    "static/media/Second Innings.jpg": "/setyourtour/static/media/Second Innings.6973bfd90b3784b6fde8.jpg",
     "static/media/KORIGAD.jpg": "/setyourtour/static/media/KORIGAD.0c556b5525bac671d40a.jpg",
     "static/media/GUJRAT.jpg": "/setyourtour/static/media/GUJRAT.65a56b32e2992662f3c8.jpg",
     "static/media/LEH_LADAKH.jpg": "/setyourtour/static/media/LEH_LADAKH.4fd9626a5220bb3668c5.jpg",
@@ -55,8 +56,11 @@
     "static/media/THAILAND.jpg": "/setyourtour/static/media/THAILAND.d964ef91873d1dec1589.jpg",
     "static/media/TAMILNADU.jpg": "/setyourtour/static/media/TAMILNADU.196f1ea77cc35b0766cb.jpg",
     "static/media/JIVDHANGAD.jpg": "/setyourtour/static/media/JIVDHANGAD.c8b39da8149d512e2277.jpg",
+    "static/media/Honeymoon Cover.jpg": "/setyourtour/static/media/Honeymoon Cover.814fa6bc1535fed7d604.jpg",
     "static/media/NORTH_EAST.jpg": "/setyourtour/static/media/NORTH_EAST.3c1d897dc659faa3aa15.jpg",
+    "static/media/Youth Special.jpg": "/setyourtour/static/media/Youth Special.068ca49ae337d3749acb.jpg",
     "static/media/AUSTRALIA.jpg": "/setyourtour/static/media/AUSTRALIA.28cd4482e36c6d033498.jpg",
+    "static/media/Adventure.jpg": "/setyourtour/static/media/Adventure.e18f8d644e58c9462b5c.jpg",
     "static/media/Group of JNEC.jpg": "/setyourtour/static/media/Group of JNEC.3c959c040803be28a3f6.jpg",
     "static/media/Industrial Trip.jpg": "/setyourtour/static/media/Industrial Trip.e7e27c81b5ac6088c62a.jpg",
     "static/media/BHANDARDARA.jpg": "/setyourtour/static/media/BHANDARDARA.8e902b55682adbadbf05.jpg",
@@ -65,12 +69,12 @@
     "static/media/facebook.svg": "/setyourtour/static/media/facebook.1f0b9bdb73ae65c578cfb45ade16d667.svg",
     "index.html": "/setyourtour/index.html",
     "static/media/instagram.svg": "/setyourtour/static/media/instagram.3a44b288394558ecc887b4e05009f129.svg",
-    "main.6e8231ae.css.map": "/setyourtour/static/css/main.6e8231ae.css.map",
-    "main.a7e96403.js.map": "/setyourtour/static/js/main.a7e96403.js.map",
+    "main.4889b855.css.map": "/setyourtour/static/css/main.4889b855.css.map",
+    "main.6292334f.js.map": "/setyourtour/static/js/main.6292334f.js.map",
     "787.88a727f9.chunk.js.map": "/setyourtour/static/js/787.88a727f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e8231ae.css",
-    "static/js/main.a7e96403.js"
+    "static/css/main.4889b855.css",
+    "static/js/main.6292334f.js"
   ]
 }
