@@ -136,19 +136,26 @@ export const PackageDetails = (props) => {
                   </span>
                 </Col>
 
-                <Col className="details-block-heading" xs={12} sm={12} md={12}>
-                  <h6
-                    className="title"
-                    style={{ color: colors[details.pkgDetails.id] }}
+                {!details.pkgDetails.isCstomized && (
+                  <Col
+                    className="details-block-heading"
+                    xs={12}
+                    sm={12}
+                    md={12}
                   >
-                    {"Detailed"}
-                  </h6>
-                  <h1 className="sub-title">{"Description"}</h1>
-                  <hr />
+                    <h6
+                      className="title"
+                      style={{ color: colors[details.pkgDetails.id] }}
+                    >
+                      {"Detailed"}
+                    </h6>
+                    <h1 className="sub-title">{"Description"}</h1>
+                    <hr />
 
-                  <p>{details.pkgDetails.description.first}</p>
-                  <p>{details.pkgDetails.description.second}</p>
-                </Col>
+                    <p>{details.pkgDetails.description.first}</p>
+                    <p>{details.pkgDetails.description.second}</p>
+                  </Col>
+                )}
               </Row>
 
               <Row className="div-block">
@@ -159,7 +166,7 @@ export const PackageDetails = (props) => {
                   >
                     {"Day by Day"}
                   </h6>
-                  <h1 className="sub-title">{"Agenda"}</h1>
+                  <h1 className="sub-title">{"Itinerary"}</h1>
                 </Col>
                 <Col xs={12} sm={12} md={12}>
                   <Agenda data={details.pkgDetails.dayByDay} />
