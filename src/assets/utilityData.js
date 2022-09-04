@@ -85,3 +85,10 @@ export const services = [
       "Company offers passport consultation for easing the process of passport and visa for customers.",
   },
 ];
+
+export const bankAccountDetails = {
+  bankName: "Bank of Baroda, Samarth Nagar, Aurangabad.",
+  accountName: "setyourtour.com",
+  accountNumber: "37770200000075",
+  ifsc: "BARB0SAMART",
+};

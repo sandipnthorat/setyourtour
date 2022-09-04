@@ -114,7 +114,7 @@ export const PackageDetails = (props) => {
                         location_on
                       </span>
                     </div>
-                    <div>{details.pkgDetails.location}</div>
+                    <div>{titleCase(details.pkgDetails.location)}</div>
                   </Stack>
                 </Col>
 
@@ -130,10 +130,18 @@ export const PackageDetails = (props) => {
                   sm={12}
                   md={12}
                 >
-                  <span>
-                    <b>Note: </b>
-                    {details.pkgDetails.note}
-                  </span>
+                  <Stack direction="horizontal" gap={3}>
+                    <div>
+                      <b>Note: </b>
+                    </div>
+                    <div>
+                      <ul>
+                        {details.pkgDetails.note.map((e) => {
+                          return <li key={e.label}>{e.label}</li>;
+                        })}
+                      </ul>
+                    </div>
+                  </Stack>
                 </Col>
 
                 {!details.pkgDetails.isCstomized && (
@@ -203,7 +211,10 @@ export const PackageDetails = (props) => {
                   <h1 className="sub-title">{"Booking Policy"}</h1>
                 </Col>
                 <Col className="details-block-heading" xs={12} sm={12} md={12}>
-                  <BookingPolicy data={details.pkgDetails.bookingPolicy} />
+                  <BookingPolicy
+                    color={colors[details.pkgDetails.id]}
+                    data={details.pkgDetails.bookingPolicy}
+                  />
                 </Col>
               </Row>
 

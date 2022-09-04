@@ -25,7 +25,12 @@ export const packagesData = [
         location: "Bodhgaya, Bihar",
         price: "23,499",
         productCode: "BODHGAYA01081122",
-        note: "Package cost ₹23,499/- is available for Indian Nationals only",
+        note: [
+          {
+            label:
+              "Package cost ₹23,499/- is available for Indian Nationals only",
+          },
+        ],
         isCstomized: false,
         cancellationPolicy: [
           { label: "Replacement of your seat is first option." },
@@ -67,6 +72,10 @@ export const packagesData = [
             label:
               "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
           },
+          {
+            label:
+              "Account details.Bank Name: Bank of Baroda, Samarth Nagar, Aurangabad. Account Name: setyourtour.com Account No: 37770200000075 IFS Code: BARB0SAMART",
+          },
         ],
         exclusion: [
           {
@@ -107,7 +116,7 @@ export const packagesData = [
         ],
         dayByDay: [
           {
-            label: "Day 1: November 8th 2022, Tuesday (Kartik Purnima",
+            label: "Day 1: November 8th 2022, Tuesday (Kartik Purnima)",
             location: "Bodhgaya",
             description: [
               {
@@ -121,7 +130,7 @@ export const packagesData = [
           },
           {
             label: "Day 2: November 9th 2022, Wednesday",
-            location: "Bodhgaya,Rajgir,Nalanda,Bodhgaya",
+            location: "Bodhgaya-Rajgir-Nalanda-Bodhgaya",
             description: [
               {
                 label:
@@ -137,7 +146,7 @@ export const packagesData = [
           },
           {
             label: "Day 3: November 10th 2022, Thursday",
-            location: "Bodhgaya,Sarnath",
+            location: "Bodhgaya-Sarnath",
             description: [
               {
                 label: "Getting fresh take Breakfast.",
@@ -150,7 +159,7 @@ export const packagesData = [
           },
           {
             label: "Day 4: November 11th 2022, Friday",
-            location: "Sarnath,Lucknow",
+            location: "Sarnath-Lucknow",
             description: [
               {
                 label: "Getting fresh take Breakfast.",
@@ -163,7 +172,7 @@ export const packagesData = [
           },
           {
             label: "Day 5: November 12th 2022, Saturday",
-            location: "Lucknow,Shrawasti,Kapilvastu,Lumbini",
+            location: "Lucknow-Shrawasti-Kapilvastu-Lumbini",
             description: [
               {
                 label: "Getting fresh take Breakfast.",
@@ -179,7 +188,7 @@ export const packagesData = [
           },
           {
             label: "Day 6: November 13th 2022, Sunday",
-            location: "Lumbini,Kushinagar",
+            location: "Lumbini-Kushinagar",
             description: [
               {
                 label: "Getting fresh take Breakfast.",
@@ -193,7 +202,7 @@ export const packagesData = [
           },
           {
             label: "Day 7: November 14th 2022, Monday",
-            location: "Kushinagar,Vaishali,Patna",
+            location: "Kushinagar-Vaishali-Patna",
             description: [
               {
                 label: "Getting fresh take Breakfast and checkout.",
@@ -209,7 +218,7 @@ export const packagesData = [
           },
           {
             label: "Day 8: November 15th 2022, Tuesday",
-            location: "Patna,Jehanabad,Bodhgaya",
+            location: "Patna-Jehanabad-Bodhgaya",
             description: [
               {
                 label: "Getting fresh take Breakfast and checkout.",
@@ -225,7 +234,7 @@ export const packagesData = [
           },
           {
             label: "Day 9: November 16th 2022, Wednesday",
-            location: "Bodhgaya,Dungeshwari,Bodhgaya",
+            location: "Bodhgaya-Dungeshwari-Bodhgaya",
             description: [
               {
                 label:
@@ -424,10 +433,244 @@ export const packagesData = [
     title: "NATIONAL TOURS",
     subTitle: "The Best Destination",
     isVisible: true,
-    isComming: true,
+    isComming: false,
     packages: [
       {
         id: 1,
+        label: "HIMACHAL SPECIAL",
+        img: "HIMACHAL.jpg",
+        title: "HIMACHAL SPECIAL",
+        subTitle: "A Destination for all seasons and all reasons ",
+        date: "8 December 2022",
+        endDate: "18 December 2022",
+        duration: "10 Days & 11 Nights",
+        downloadLink:
+          "https://drive.google.com/file/d/1vZcchCHc-woPUwbi-s0MMqmIyTGI7BC7/view?usp=sharing",
+        location: "AURANGABAD, MAHARASHTRA",
+        price: "22,499",
+        productCode: "HIMACHAL01081222",
+        note: [
+          {
+            label:
+              "Package Cost ₹22,499/- Per Person on Twin/Triple Sharing basis.",
+          },
+          {
+            label:
+              "As the AC 3 Tier Train Reservation is considered book as early as possible for confirmation of tickets.",
+          },
+        ],
+        isCstomized: false,
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
+          {
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
+          },
+          {
+            label:
+              "If cancelled 07 days before the tour starts - Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 15 days before the tour starts - 50% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 30 days before the tour starts - 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts - 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done OR Partly package cost i.e. ₹ 10,000/- payment should be done & remaining ₹12,499/- should be paid before 8th November 2022.",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label: "Meals during the train journey are not considered.",
+          },
+          {
+            label: "Lunch is not included.",
+          },
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        isVisible: true,
+        isComming: false,
+        inclusions: [
+          {
+            label:
+              "Meet & Greet service by our Guest Experience at Aurangabad Station.",
+          },
+          { label: "Package cost is included with GST." },
+          { label: "All transfers by Non AC Vehicle." },
+          {
+            label:
+              "Aurangabad – Umbala & Ludhiana – Aurangabad AC 3 Tier Train Journey.",
+          },
+          {
+            label:
+              "Breakfast & Dinner will be provided from Shimla to Dharmshala. (MAP Basis)",
+          },
+          { label: "Tourist travelling insurance." },
+          {
+            label: "Tour operator",
+          },
+          { label: "First aid is available during entire package." },
+        ],
+        dayByDay: [
+          {
+            label: "Day 1: 8th December, 2022",
+            location: "",
+            description: [
+              {
+                label:
+                  "Aurangabad (1.00pm) to Ambala. (AC 3 Tier Train Journey)",
+              },
+            ],
+          },
+          {
+            label: "Day 2: 9th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Arrive at Ambala Cant. Station.(5.00pm)",
+              },
+              {
+                label:
+                  "Ambala Station to Shimla by road. (Dinner During Journey)",
+              },
+              { label: "Overnight stay at hotel in Shimla." },
+            ],
+          },
+          {
+            label: "Day 3: 10th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Shimla Sightseeing.",
+              },
+              { label: "Overnight stay at hotel in Shimla." },
+            ],
+          },
+          {
+            label: "Day 4: 11th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Shimla to Manali.",
+              },
+              { label: "Overnight stay at hotel in Manali" },
+            ],
+          },
+          {
+            label: "Day 5: 12th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Manali Sightseeing.",
+              },
+              { label: "Overnight stay at hotel in Manali." },
+            ],
+          },
+          {
+            label: "Day 6: 13th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Manali Sightseeing.",
+              },
+              { label: "Overnight stay at hotel in Manali." },
+            ],
+          },
+          {
+            label: "Day 7: 14th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Manali to Dharmshala. (Kullu)",
+              },
+              { label: "Overnight stay at hotel in Dharmshala." },
+            ],
+          },
+          {
+            label: "Day 8: 15th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Dharmshala Sightseeing.",
+              },
+              {
+                label: "Overnight stay at hotel in Dharmshala.",
+              },
+            ],
+          },
+          {
+            label: "Day 9: 16th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Dharmshala Sightseeing.",
+              },
+              { label: "After Dinner Night Journey to Ludhiana." },
+            ],
+          },
+          {
+            label: "Day 10: 17th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Ludhiana (7.30am) to Aurangabad.",
+              },
+            ],
+          },
+          {
+            label: "Day 11: 18th December, 2022",
+            location: "",
+            description: [
+              {
+                label: "Arrive at Aurangabad (9.45am)",
+              },
+              { label: "Tour complete." },
+            ],
+          },
+        ],
+        description: {
+          first:
+            "The Buddhist Circuit is a trail of the sacred footsteps of Lord Buddha and important places of his life and teachings.",
+
+          second:
+            "The Buddhist circuit is a route that follows in the footsteps of the Buddha from Lumbini in Nepal where he was born, through Bodhgaya, Bihar in India where he attained enlightenment, to Sarnath and Kushinagar in Uttar Pradesh in India, where he gave his first teachings and his final resting place.",
+        },
+      },
+      {
+        id: 5,
         label: "ANDAMAN & NICOBAR",
         img: "ANDAMAN_NICOBAR.jpg",
         title: "ANDAMAN & NICOBAR",
@@ -440,7 +683,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -491,7 +734,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -542,7 +785,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -593,58 +836,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
-        isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
-        ],
-        dayByDay: [
-          {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          },
-          {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          },
-          {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          },
-        ],
-        description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        },
-      },
-      {
-        id: 5,
-        label: "HIMACHAL",
-        img: "HIMACHAL.jpg",
-        title: "HIMACHAL",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
-        downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -695,7 +887,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -746,7 +938,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -797,7 +989,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -848,7 +1040,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -899,7 +1091,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -950,7 +1142,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1001,7 +1193,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1052,7 +1244,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1103,7 +1295,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1154,7 +1346,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1205,7 +1397,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1256,7 +1448,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1307,7 +1499,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1358,7 +1550,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1409,7 +1601,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1481,7 +1673,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1532,7 +1724,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1583,7 +1775,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1634,7 +1826,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1685,7 +1877,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1736,7 +1928,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1787,7 +1979,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1838,7 +2030,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1889,7 +2081,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1940,7 +2132,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -1991,7 +2183,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2042,7 +2234,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2093,7 +2285,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2144,7 +2336,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2195,7 +2387,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2246,7 +2438,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2297,7 +2489,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2348,7 +2540,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2399,7 +2591,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2471,7 +2663,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2522,7 +2714,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2573,7 +2765,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2624,7 +2816,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2675,7 +2867,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2800,7 +2992,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2851,7 +3043,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2902,7 +3094,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -2953,7 +3145,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -3004,7 +3196,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -3055,7 +3247,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -3106,7 +3298,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -3157,7 +3349,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -3208,7 +3400,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -3259,7 +3451,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -3310,7 +3502,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],
@@ -3361,7 +3553,7 @@ export const packagesData = [
         price: "20,000",
         productCode: "000000",
         note: "",
-        isCstomized: false,
+        isCstomized: true,
         cancellationPolicy: [],
         bookingPolicy: [],
         exclusion: [],

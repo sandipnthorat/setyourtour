@@ -132,10 +132,21 @@
 .note {
   font-family: "Poppins", sans-serif;
   color: #555555;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   margin-bottom: 2em;
   padding: 1em;
+}
+
+.note ul {
+  margin: 0px;
+}
+.note ul li {
+  margin: 0.5em;
+}
+
+.note .hstack {
+  align-items: baseline !important;
 }
 
 .right-card .send-button {

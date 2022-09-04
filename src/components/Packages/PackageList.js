@@ -65,7 +65,7 @@ export const PackageList = (props) => {
                     >
                       <Card style={{ width: "100%", borderRadius: "0px" }}>
                         <Card.Img
-                          style={{ height: "15em", borderRadius: "0px" }}
+                          style={{ height: "20em", borderRadius: "0px" }}
                           variant="top"
                           src={require(`../../assets/proposals/${cat.category}/${pkg.img}`)}
                         />
@@ -108,12 +108,12 @@ export const PackageList = (props) => {
                                     placement={"auto"}
                                     overlay={
                                       <Tooltip className="location-tooltip">
-                                        {pkg.location}
+                                        {titleCase(pkg.location)}
                                       </Tooltip>
                                     }
                                   >
                                     <p className="circle-kpi-label">
-                                      {pkg.location}
+                                      {titleCase(pkg.location)}
                                     </p>
                                   </OverlayTrigger>
                                 </div>
