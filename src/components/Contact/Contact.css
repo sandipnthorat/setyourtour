@@ -1,33 +1,8 @@
-.contact-top-container {
+.contact-block-heading {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
+  margin-top: 10em !important;
 }
-
-/* .contact-block-heading .title {
-  text-transform: uppercase;
-  font-weight: normal;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
-
-  color: #9a9a9a;
-  text-align: center;
-  font-size: 14px;
-  line-height: 14px;
-  letter-spacing: 2px;
-  font-weight: normal;
-}
-
-.contact-block-heading .sub-title {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 1px;
-  font-weight: bold;
-  color: #555555;
-} */
 
 .contact-block-heading .title {
   text-transform: uppercase;

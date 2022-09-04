@@ -39,7 +39,7 @@ const Packages = (props) => {
   const filterPackagCat = (categoryId, data) => {
     let tempData = [];
     data.forEach((obj) => {
-      if (obj.id == categoryId) {
+      if (obj.id === categoryId) {
         tempData.push(obj);
       }
     });
@@ -69,13 +69,13 @@ const Packages = (props) => {
 
   const filterByCategory = (id) => {
     filterOptions.forEach((obj) => {
-      if (obj.id == id)
+      if (obj.id === id)
         setActiveFilter({
           id: id,
           label: obj.label,
         });
     });
-    if (id == "0") {
+    if (id === "0") {
       setFilterData(data);
     } else {
       filterPackagCat(id, data);
@@ -84,7 +84,7 @@ const Packages = (props) => {
 
   return (
     filterData && (
-      <Container className="package-container">
+      <Container style={{ marginTop: "10em" }} className="package-container">
         <Row>
           <Col className="package-block-heading" xs={12} sm={12} md={12}>
             <span>
@@ -102,7 +102,7 @@ const Packages = (props) => {
                     key={item.id}
                     variant="outline-warning"
                     size="sm"
-                    active={activeFilter.id == item.id ? true : false}
+                    active={activeFilter.id === item.id ? true : false}
                     onClick={() => filterByCategory(item.id)}
                   >
                     {titleCase(item.label)}

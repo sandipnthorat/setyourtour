@@ -6,9 +6,7 @@ import { packagesData } from "../../assets/tourData";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
 import Stack from "react-bootstrap/Stack";
 
 import { BookingPolicy } from "./BookingPolicy";
@@ -42,8 +40,6 @@ export const PackageDetails = (props) => {
     "#FFD32D",
     "#256D85",
   ];
-
-  const navigate = useNavigate();
 
   useEffect(() => {
     document.body.scrollTop = 0;
@@ -80,6 +76,7 @@ export const PackageDetails = (props) => {
         <div
           className="title-img"
           style={{
+            marginTop: "8em",
             backgroundImage: `url(${require(`../../assets/proposals/${details.category}/${details.pkgDetails.img}`)})`,
           }}
         >

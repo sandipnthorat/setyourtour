@@ -1,7 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-import Button from "react-bootstrap/Button";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,18 +7,16 @@ import Col from "react-bootstrap/Col";
 import "./Services.css";
 
 const Services = (props) => {
-  let navigate = useNavigate();
-
   return (
-    <Container className="about-container">
+    <Container className="services-container">
       <Row>
-        <Col className="contact-block-heading" xs={12} sm={12} md={12}>
+        <Col className="services-block-heading" xs={12} sm={12} md={12}>
           <p className="title">{"Know"}</p>
           <p className="sub-title">{"Our Services"}</p>
           <hr />
         </Col>
 
-        <Col className="contact-block-heading" xs={12} sm={12} md={12}>
+        <Col className="services-block-heading" xs={12} sm={12} md={12}>
           <p className="details">
             <p>
               {

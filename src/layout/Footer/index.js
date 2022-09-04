@@ -2,10 +2,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import { useNavigate, NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-// import logo from "../../assets/transparent_logo.png";
-// import logo from "../../assets/footer_logo.jpeg";
 import logo from "../../assets/footer_logo_1.jpeg";
 
 import "./Footer.css";
@@ -40,7 +38,7 @@ const Footer = (props) => {
           <Col xs={12} sm={12} md={6}>
             <Row className="footer-contact-us-form">
               <Col className="footer-block-logo" xs={12} sm={12} md={12}>
-                <img src={logo} />
+                <img alt="footer" src={logo} />
               </Col>
               <Col xs={12} sm={12} md={12} className="contact-us-address">
                 <Row className="align-center">

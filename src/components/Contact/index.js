@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Card from "react-bootstrap/Card";
 
 import "./Contact.css";
 
@@ -29,14 +26,13 @@ const Contact = (props) => {
   };
   const onFormSubmit = (e) => {
     e.preventDefault();
-    console.log("value --->", formData);
   };
 
   return (
     <>
       {/* <Container className="contact-top-container"> */}
-      <Row className="mt-5">
-        <Col className="contact-block-heading" xs={12} sm={12} md={12}>
+      <Row className="contact-block-heading">
+        <Col xs={12} sm={12} md={12}>
           <p className="title">{"Keep In Touch"}</p>
           <p className="sub-title">{"Traval With Us"}</p>
         </Col>

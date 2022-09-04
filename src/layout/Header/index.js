@@ -6,7 +6,6 @@ import "./Header.css";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Button from "react-bootstrap/Button";
 
 import { services } from "../../assets/utilityData";
 import { navMenuData } from "../../assets/utilityData";
@@ -24,7 +23,7 @@ const Header = (props) => {
   }, [location]);
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="nav-bar">
+    <Navbar fixed="top" collapseOnSelect expand="lg" className="nav-bar">
       <Navbar.Brand href="#" onClick={() => navigate("/")}>
         <img className="nav-logo" src={logo} />
       </Navbar.Brand>
@@ -39,7 +38,11 @@ const Header = (props) => {
                     currentPath == e.path ? "active-nav-link" : "nav-link"
                   }
                   href="#"
-                  onClick={() => navigate(e.path)}
+                  onClick={() => {
+                    navigate(e.path);
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                  }}
                 >
                   {e.label}
                 </Nav.Link>

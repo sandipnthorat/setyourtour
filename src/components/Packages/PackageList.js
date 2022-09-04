@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate, NavLink } from "react-router-dom";
-import Button from "react-bootstrap/Button";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Tooltip from "react-bootstrap/Tooltip";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
-import { packagesData } from "../../assets/tourData";
 
 export const PackageList = (props) => {
   const navigate = useNavigate();

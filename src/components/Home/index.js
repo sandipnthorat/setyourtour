@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 import "./Home.css";
@@ -34,13 +33,12 @@ const Home = (props) => {
 
   return (
     <>
+      <Row style={{ marginTop: "8em", marginLeft: "0px", marginRight: "0px" }}>
+        <Col xs={12} sm={12} md={12}>
+          {sliderData && <Slider data={sliderData} />}
+        </Col>
+      </Row>
       <Container>
-        <Row>
-          <Col xs={12} sm={12} md={12}>
-            {sliderData && <Slider data={sliderData} />}
-          </Col>
-        </Row>
-
         <Row>
           <Col xs={12} sm={12} md={12}>
             {packagesData && <Proposals data={packagesData} />}
