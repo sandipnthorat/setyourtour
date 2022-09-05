@@ -9,6 +9,7 @@ import logo from "../../assets/footer_logo_1.jpeg";
 import "./Footer.css";
 import facebook from "../../assets/icons/facebook.svg";
 import instagram from "../../assets/icons/instagram.svg";
+import whatsapp from "../../assets/icons/whatsapp.svg";
 
 import { contactData } from "../../assets/utilityData";
 import { services } from "../../assets/utilityData";
@@ -19,8 +20,13 @@ const Footer = (props) => {
   const servicesList = services;
 
   const socialMedia = [
-    { label: "facebook", icon: facebook, url: contact.facebook },
-    { label: "instagram", icon: instagram, url: contact.instagram },
+    { label: "Facebook", icon: facebook, url: contact.facebook },
+    { label: "Instagram", icon: instagram, url: contact.instagram },
+    {
+      label: "WhatsApp",
+      icon: whatsapp,
+      url: contact.whatsapp,
+    },
   ];
 
   const navList = [

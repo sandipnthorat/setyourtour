@@ -13,8 +13,10 @@ import Services from "./components/Services";
 import Packages from "./components/Packages";
 import { PackageDetails } from "./components/PackageDetail";
 
+import whatsapp from "./assets/icons/WhatsApp_Logo.png";
 // *****************************Package Data *************************
 import { packagesData } from "./assets/tourData";
+import { contactData } from "./assets/utilityData";
 
 function App() {
   let navigate = useNavigate();
@@ -37,6 +39,18 @@ function App() {
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
+
+      <div className="whatss-app-home">
+        {" "}
+        <a
+          aria-label="Chat on WhatsApp"
+          href={contactData.whatsapp}
+          target="_blank"
+        >
+          {" "}
+          <img alt="Chat on WhatsApp" src={whatsapp} />{" "}
+        </a>
+      </div>
     </>
   );
 }

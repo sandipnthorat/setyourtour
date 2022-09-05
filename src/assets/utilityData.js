@@ -39,6 +39,7 @@ export const contactData = {
   email: "info@setyourtour.com",
   instagram: "https://www.instagram.com/_setyourtour",
   facebook: "https://www.facebook.com/setyourtour",
+  whatsapp: "https://wa.me/918381069577",
 };
 
 export const services = [
