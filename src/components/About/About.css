@@ -33,3 +33,32 @@
   font-size: 16px;
   letter-spacing: 0.6px;
 }
+
+.our-team {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-transform: initial;
+}
+
+.our-team img {
+  height: 15em;
+  border: 0px solid orange;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px 3px #00000030;
+  /* position: relative; */
+}
+
+.our-team .title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.our-team .sub-title {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #9a9a9a;
+}

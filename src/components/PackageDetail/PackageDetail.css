@@ -153,10 +153,40 @@
   background-color: #fff;
 }
 
+.right-card .send-footer {
+  padding: 0px;
+}
+
 .right-card .send-footer .send-btn {
   border-radius: 0px;
   background-color: #fff;
   width: 100%;
   text-decoration: none;
   box-shadow: none;
+}
+
+.custome-btn-div {
+  padding: 1em;
+  cursor: pointer;
+  text-align: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 5em;
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px 2px #00000020;
+}
+
+.custome-btn-div h5 {
+  color: #fff;
+  font-size: 1.5em;
+}
+.custome-btn-div:hover {
+  /* box-shadow: 5px 5px 5px 2px #00000020; */
+  border: 0px;
+  border-radius: 0px;
+  transform: scale(1.01);
+  z-index: 1;
 }

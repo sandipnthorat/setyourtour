@@ -75,7 +75,7 @@ const Packages = (props) => {
           label: obj.label,
         });
     });
-    if (id === "0") {
+    if (id === 0) {
       setFilterData(data);
     } else {
       filterPackagCat(id, data);

@@ -1,0 +1,75 @@
+.customize-modal .modal-content {
+  border-radius: 0px;
+  border: 0px;
+  border-color: #fff;
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  letter-spacing: 1px;
+  background: #f2f2f2;
+}
+
+.customize-modal .modal-header .modal-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 0px;
+}
+
+.customize-modal .form-label {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.customize-modal .invalid-feedback {
+  font-size: 12px;
+}
+
+.submit-form {
+  width: 100%;
+  margin: 0px;
+  border-radius: 0px;
+  background-color: #fb9d17;
+  border-color: #fb9d17;
+}
+
+.submit-form:hover {
+  background-color: #fb9d17;
+  border-color: #fb9d17;
+}
+
+.submit-form:focus {
+  background-color: #fb9d17;
+  border-color: #fb9d17;
+}
+
+.popup-row {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.popup-row .popup-form-title p {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  letter-spacing: 1px;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.popup-row .popup-form-title span {
+  color: #fb9d17;
+}
+
+.popup-row .popup-howitwork-list ul li {
+  padding: 1em;
+  list-style: none;
+}
+
+.popup-row .popup-howitwork-list ul li::before {
+  color: #fb9d17;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}

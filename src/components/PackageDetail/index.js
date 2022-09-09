@@ -14,32 +14,34 @@ import { CancelationPolicy } from "./CancelationPolicy";
 import { IncludeExclude } from "./IncludeExclude";
 import { Agenda } from "./Agenda";
 import { SendBooking } from "./SendBooking";
+import { CustomizeTour } from "../CustomizeTour";
+
+import customeBtn from "../../assets/customize_button.jpg";
+
+import { colorData } from "../../assets/utilityData";
 
 export const PackageDetails = (props) => {
   const { state } = useLocation();
   const { data } = packagesData;
   const [details, setDetails] = useState();
+  const [isModalOpen, setIsModalOpen] = useState({
+    isShow: false,
+  });
+  const [isFirstModalOpen, setIsFirstModalOpen] = useState({
+    isShow: false,
+  });
+  const colors = colorData;
 
-  const colors = [
-    "#293462",
-    "#E94560",
-    "#533483",
-    "#0096FF",
-    "#0F3460",
-    "#FFD32D",
-    "#781C68",
-    "#1F4690",
-    "#18978F",
-    "#F94C66",
-    "#EC994B",
-    "#F8CB2E",
-    "#EE5007",
-    "#C65D7B",
-    "#D9CE3F",
-    "#019267",
-    "#FFD32D",
-    "#256D85",
-  ];
+  const screenWidth = window.screen.availWidth;
+
+  const openModal = (e) => {
+    setIsModalOpen({ isShow: true });
+  };
+
+  const closeModal = (e) => {
+    setIsModalOpen({ isShow: e });
+    setIsFirstModalOpen({ isShow: false });
+  };
 
   useEffect(() => {
     document.body.scrollTop = 0;
@@ -62,6 +64,7 @@ export const PackageDetails = (props) => {
       }
     });
     setDetails(tempData[0]);
+    // console.log("tempData[0] ---->", tempData[0]);
   };
 
   const titleCase = (str) => {
@@ -85,6 +88,29 @@ export const PackageDetails = (props) => {
             <h1>{titleCase(details.pkgDetails.label)}</h1>
           </span>
         </div>
+
+        <Row style={{ margin: "0px" }}>
+          {screenWidth <= 390 && (
+            <Col className="mt-4 mb-4" xs={12} sm={12} md={12}>
+              <div
+                className="custome-btn-div"
+                style={{
+                  backgroundImage: `url(${customeBtn})`,
+                }}
+                onClick={() => setIsFirstModalOpen({ isShow: true })}
+              >
+                <h5>SET YOUR CUSTOMIZE TOUR WITH US</h5>
+              </div>
+              <CustomizeTour
+                data={details.pkgDetails}
+                show={isFirstModalOpen.isShow}
+                onHide={(e) => {
+                  closeModal();
+                }}
+              />
+            </Col>
+          )}
+        </Row>
 
         <Container>
           <Row>
@@ -114,7 +140,6 @@ export const PackageDetails = (props) => {
                     <div>{titleCase(details.pkgDetails.location)}</div>
                   </Stack>
                 </Col>
-
                 <Col
                   className="note"
                   style={{
@@ -141,7 +166,23 @@ export const PackageDetails = (props) => {
                   </Stack>
                 </Col>
 
-                {!details.pkgDetails.isCstomized && (
+                <Col className="details-block-heading" xs={12} sm={12} md={12}>
+                  <h6
+                    className="title"
+                    style={{ color: colors[details.pkgDetails.id] }}
+                  >
+                    {"Detailed"}
+                  </h6>
+                  <h1 className="sub-title">{"Description"}</h1>
+                  <hr />
+
+                  <p>{details.pkgDetails.description.first}</p>
+                  <p>{details.pkgDetails.description.second}</p>
+                </Col>
+              </Row>
+
+              {!details.pkgDetails.isCstomized && (
+                <Row className="div-block">
                   <Col
                     className="details-block-heading"
                     xs={12}
@@ -152,31 +193,15 @@ export const PackageDetails = (props) => {
                       className="title"
                       style={{ color: colors[details.pkgDetails.id] }}
                     >
-                      {"Detailed"}
+                      {"Day by Day"}
                     </h6>
-                    <h1 className="sub-title">{"Description"}</h1>
-                    <hr />
-
-                    <p>{details.pkgDetails.description.first}</p>
-                    <p>{details.pkgDetails.description.second}</p>
+                    <h1 className="sub-title">{"Itinerary"}</h1>
                   </Col>
-                )}
-              </Row>
-
-              <Row className="div-block">
-                <Col className="details-block-heading" xs={12} sm={12} md={12}>
-                  <h6
-                    className="title"
-                    style={{ color: colors[details.pkgDetails.id] }}
-                  >
-                    {"Day by Day"}
-                  </h6>
-                  <h1 className="sub-title">{"Itinerary"}</h1>
-                </Col>
-                <Col xs={12} sm={12} md={12}>
-                  <Agenda data={details.pkgDetails.dayByDay} />
-                </Col>
-              </Row>
+                  <Col xs={12} sm={12} md={12}>
+                    <Agenda data={details.pkgDetails.dayByDay} />
+                  </Col>
+                </Row>
+              )}
 
               <Row className="div-block">
                 <Col className="details-block-heading" xs={12} sm={12} md={12}>
@@ -236,6 +261,25 @@ export const PackageDetails = (props) => {
             {/*********************************************************/}
             <Col xs={12} sm={12} md={4}>
               <Row>
+                <Col className="mb-4" xs={12} sm={12} md={12}>
+                  <div
+                    className="custome-btn-div"
+                    style={{
+                      backgroundImage: `url(${customeBtn})`,
+                    }}
+                    onClick={() => openModal()}
+                  >
+                    <h5>SET YOUR CUSTOMIZE TOUR WITH US</h5>
+                  </div>
+                  <CustomizeTour
+                    data={details.pkgDetails}
+                    show={isModalOpen.isShow}
+                    onHide={(e) => {
+                      closeModal();
+                    }}
+                  />
+                </Col>
+
                 <Col className="right-col-cards" xs={12} sm={12} md={12}>
                   <Card
                     className="right-card"
@@ -247,23 +291,31 @@ export const PackageDetails = (props) => {
                   >
                     <Card.Body>
                       <Row className="card-body-text">
-                        <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
-                          <div className="circle-kpi">
-                            <span
-                              className="material-icons-outlined"
-                              style={{ color: colors[details.pkgDetails.id] }}
-                            >
-                              calendar_month
-                            </span>
-                            <p className="circle-kpi-label">
-                              {details.pkgDetails.date}
-                              <p style={{ margin: "0px", padding: "0px" }}>
-                                <b>To</b>
+                        {!details.pkgDetails.isCstomized && (
+                          <Col
+                            className="packages-card-kpi"
+                            xs={6}
+                            sm={6}
+                            md={6}
+                          >
+                            <div className="circle-kpi">
+                              <span
+                                className="material-icons-outlined"
+                                style={{ color: colors[details.pkgDetails.id] }}
+                              >
+                                calendar_month
+                              </span>
+                              <p className="circle-kpi-label">
+                                {details.pkgDetails.date}
+                                <p style={{ margin: "0px", padding: "0px" }}>
+                                  <b>To</b>
+                                </p>
+                                {details.pkgDetails.endDate}
                               </p>
-                              {details.pkgDetails.endDate}
-                            </p>
-                          </div>
-                        </Col>
+                            </div>
+                          </Col>
+                        )}
+
                         <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
                           <div className="circle-kpi">
                             <span
@@ -277,19 +329,28 @@ export const PackageDetails = (props) => {
                             </p>
                           </div>
                         </Col>
-                        <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
-                          <div className="circle-kpi">
-                            <span
-                              className="material-icons-outlined"
-                              style={{ color: colors[details.pkgDetails.id] }}
-                            >
-                              currency_rupee
-                            </span>
-                            <p className="circle-kpi-label">
-                              {details.pkgDetails.price} <sub>/Person</sub>{" "}
-                            </p>
-                          </div>
-                        </Col>
+
+                        {!details.pkgDetails.isCstomized && (
+                          <Col
+                            className="packages-card-kpi"
+                            xs={6}
+                            sm={6}
+                            md={6}
+                          >
+                            <div className="circle-kpi">
+                              <span
+                                className="material-icons-outlined"
+                                style={{ color: colors[details.pkgDetails.id] }}
+                              >
+                                currency_rupee
+                              </span>
+                              <p className="circle-kpi-label">
+                                {details.pkgDetails.price} <sub>/Person</sub>{" "}
+                              </p>
+                            </div>
+                          </Col>
+                        )}
+
                         <Col className="packages-card-kpi" xs={6} sm={6} md={6}>
                           <a
                             href={details.pkgDetails.downloadLink}
@@ -333,7 +394,11 @@ export const PackageDetails = (props) => {
                 </Col>
 
                 <Col className="right-col-cards" xs={12} sm={12} md={12}>
-                  <SendBooking color={colors[details.pkgDetails.id]} />
+                  <SendBooking
+                    productCode={details.pkgDetails.productCode}
+                    pkgName={details.pkgDetails.label}
+                    color={colors[details.pkgDetails.id]}
+                  />
                 </Col>
               </Row>
             </Col>

@@ -93,3 +93,24 @@ export const bankAccountDetails = {
   accountNumber: "37770200000075",
   ifsc: "BARB0SAMART",
 };
+
+export const colorData = [
+  "#293462",
+  "#E94560",
+  "#533483",
+  "#0096FF",
+  "#0F3460",
+  "#FFD32D",
+  "#781C68",
+  "#1F4690",
+  "#18978F",
+  "#F94C66",
+  "#EC994B",
+  "#F8CB2E",
+  "#EE5007",
+  "#C65D7B",
+  "#D9CE3F",
+  "#019267",
+  "#FFD32D",
+  "#256D85",
+];

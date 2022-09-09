@@ -3,8 +3,11 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Stack from "react-bootstrap/Stack";
 
 import "./About.css";
+import monoDada from "../../assets/MONO GANVIR.jpg";
+import bhushanDada from "../../assets/BHUSHAN MORE.jpg";
 
 const About = (props) => {
   return (
@@ -76,6 +79,97 @@ const About = (props) => {
               }
             </p>
           </p>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col className="about-block-heading" xs={12} sm={12} md={12}>
+          <p className="title">{"Our Team"}</p>
+          <p className="sub-title">{"Leaders"}</p>
+          <hr />
+        </Col>
+        <Col className="our-team" xs={12} sm={12} md={12}>
+          <Row className="our-team-row">
+            <Col
+              className="mb-4 p-4"
+              style={{ padding: "0px", textAlign: "center" }}
+              xs={12}
+              sm={12}
+              md={6}
+            >
+              <img src={monoDada} alt="mono ganvir" />
+              <hr />
+              <p className="title">{"Mr. Mono V. Ganvir"}</p>
+              <p className="sub-title">{"Founder & Managing Director (MD)"}</p>
+              <p className="sub-title">
+                <span
+                  style={{
+                    color: "#fb9d17",
+                    fontSize: "14px",
+                    padding: "5px",
+                  }}
+                  className="material-icons-outlined"
+                >
+                  mail
+                </span>
+                mono@setyourtour.com
+              </p>
+              <p className="sub-title">
+                <span
+                  style={{
+                    color: "#fb9d17",
+                    fontSize: "14px",
+                    padding: "5px",
+                  }}
+                  className="material-icons-outlined"
+                >
+                  phone_iphone
+                </span>
+                +91 9890595216
+              </p>
+            </Col>
+
+            <Col
+              className="mb-4 p-4"
+              style={{ padding: "0px", textAlign: "center" }}
+              xs={12}
+              sm={12}
+              md={6}
+            >
+              <img src={bhushanDada} alt="bhushan more" />
+              <hr />
+              <p className="title">{"Mr. Bhushan V. More"}</p>
+              <p className="sub-title">
+                {"Co-Founder & Chief Executive Officer (CEO)"}
+              </p>
+              <p className="sub-title">
+                <span
+                  style={{
+                    color: "#fb9d17",
+                    fontSize: "14px",
+                    padding: "5px",
+                  }}
+                  className="material-icons-outlined"
+                >
+                  mail
+                </span>
+                bhushan@setyourtour.com
+              </p>
+              <p className="sub-title">
+                <span
+                  style={{
+                    color: "#fb9d17",
+                    fontSize: "14px",
+                    padding: "5px",
+                  }}
+                  className="material-icons-outlined"
+                >
+                  phone_iphone
+                </span>
+                +91 8381069577
+              </p>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>

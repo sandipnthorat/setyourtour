@@ -1,7 +1,9 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import { Routes, Route } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
@@ -17,12 +19,28 @@ import whatsapp from "./assets/icons/WhatsApp_Logo.png";
 // *****************************Package Data *************************
 import { packagesData } from "./assets/tourData";
 import { contactData } from "./assets/utilityData";
+import { CustomizeTour } from "./components/CustomizeTour";
+import { CustomizePopup } from "./components/CustomizePopup";
+import { useEffect, useState } from "react";
 
 function App() {
   let navigate = useNavigate();
+  const location = useLocation();
+  const [isModalOpen, setIsModalOpen] = useState(true);
 
   window.onbeforeunload = function (event) {
     navigate("/ ");
+  };
+
+  useEffect(() => {
+    console.log(location.pathname);
+    if (location.pathname === "/") {
+      setIsModalOpen(true);
+    }
+  }, [location]);
+
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
 
   return (
@@ -40,16 +58,41 @@ function App() {
       </Routes>
       <Footer />
 
+      <CustomizePopup
+        data={[]}
+        show={isModalOpen}
+        onHide={(e) => {
+          closeModal();
+        }}
+      />
+
       <div className="whatss-app-home">
-        {" "}
-        <a
-          aria-label="Chat on WhatsApp"
-          href={contactData.whatsapp}
-          target="_blank"
-        >
-          {" "}
-          <img alt="Chat on WhatsApp" src={whatsapp} />{" "}
-        </a>
+        <p>
+          <a
+            aria-label="Chat on WhatsApp"
+            href={contactData.whatsapp}
+            target="_blank"
+          >
+            {" "}
+            <img alt="Chat on WhatsApp" src={whatsapp} />{" "}
+          </a>
+        </p>
+        <p>
+          <Button
+            size="sm"
+            variant="warning"
+            onClick={() => setIsModalOpen(true)}
+            style={{ borderRadius: "5em" }}
+          >
+            <span
+              style={{ fontSize: "14px", fontWeight: 600 }}
+              class="material-icons-outlined"
+            >
+              place
+            </span>
+            Plan Your Trip
+          </Button>
+        </p>
       </div>
     </>
   );

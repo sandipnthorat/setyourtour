@@ -72,10 +72,6 @@ export const packagesData = [
             label:
               "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
           },
-          {
-            label:
-              "Account details.Bank Name: Bank of Baroda, Samarth Nagar, Aurangabad. Account Name: setyourtour.com Account No: 37770200000075 IFS Code: BARB0SAMART",
-          },
         ],
         exclusion: [
           {
@@ -291,12 +287,12 @@ export const packagesData = [
       {
         id: 2,
         label: "CHARDHAM YATRA",
-        img: "BUDDHIST_CIRCLE.jpg",
+        img: "Chardham.jpg",
         title: "CHARDHAM YATRA",
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -356,22 +352,20 @@ export const packagesData = [
           },
         ],
         description: {
-          first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          first: "",
 
-          second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, ",
+          second: "",
         },
       },
       {
         id: 3,
         label: "KAILASH MANSAROVAR YATRA",
-        img: "BUDDHIST_CIRCLE.jpg",
+        img: "KAILASH_MANSAROVAR.jpg",
         title: "KAILASH MANSAROVAR YATRA",
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -416,11 +410,9 @@ export const packagesData = [
       },
     ],
     description: {
-      first:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      first: "",
 
-      second:
-        "It has survived not only five centuries, but also the leap into electronic typesetting, ",
+      second: "",
     },
   },
   {
@@ -677,7 +669,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -728,7 +720,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -779,7 +771,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -830,7 +822,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -881,7 +873,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -932,7 +924,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -983,7 +975,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1034,7 +1026,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1085,7 +1077,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1136,7 +1128,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1187,7 +1179,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1238,7 +1230,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1289,7 +1281,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1340,7 +1332,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1391,7 +1383,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1442,7 +1434,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1493,7 +1485,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1544,7 +1536,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1595,7 +1587,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1640,11 +1632,9 @@ export const packagesData = [
       },
     ],
     description: {
-      first:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      first: "",
 
-      second:
-        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      second: "",
     },
   },
   {
@@ -1667,7 +1657,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1718,7 +1708,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1769,7 +1759,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1820,7 +1810,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1871,7 +1861,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1922,7 +1912,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -1973,7 +1963,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2024,7 +2014,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2075,7 +2065,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2126,7 +2116,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2177,7 +2167,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2228,7 +2218,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2279,7 +2269,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2330,7 +2320,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2381,7 +2371,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2432,7 +2422,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2483,7 +2473,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2534,7 +2524,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2585,7 +2575,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2630,11 +2620,9 @@ export const packagesData = [
       },
     ],
     description: {
-      first:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      first: "",
 
-      second:
-        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      second: "",
     },
   },
   {
@@ -2657,7 +2645,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2708,7 +2696,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2759,7 +2747,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2810,7 +2798,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2861,7 +2849,7 @@ export const packagesData = [
         subTitle: "The Best Destination",
         date: "01-Sep-2022",
         endDate: "8 November 2022",
-        duration: "3D / 4N",
+        duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
         price: "20,000",
@@ -2906,11 +2894,9 @@ export const packagesData = [
       },
     ],
     description: {
-      first:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      first: "",
 
-      second:
-        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      second: "",
     },
   },
   {
@@ -2923,680 +2909,1261 @@ export const packagesData = [
     title: "WEEKEND TREKS/TOUR",
     subTitle: "The Best Destination",
     isVisible: true,
-    isComming: true,
+    isComming: false,
     packages: [
       {
         id: 1,
         label: "AJANTA",
         img: "AJANTA.jpg",
         title: "AJANTA",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
         duration: "1 Day",
         downloadLink: "",
         location: "Aurangabad",
-        price: "Customized",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        price: "",
+        productCode: "AJANTA012022",
         isVisible: true,
-        isComming: true,
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
+        ],
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
+          {
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
+          },
+          {
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
         inclusions: [
-          { label: "Travelling" },
+          {
+            label: "Travelling",
+          },
           { label: "Breakfast" },
           { label: "Entry tickets" },
           { label: "Guide" },
           { label: "Sightseeing" },
           { label: "Lunch" },
         ],
-        dayByDay: [
-          {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          },
-          {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          },
-          {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          },
-        ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 2,
-        label: "BHANDARDARA",
-        img: "BHANDARDARA.jpg",
-        title: "BHANDARDARA",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Ellora & Daulatabad fort",
+        img: "ELLORA.jpg",
+        title: "Ellora & Daulatabad fort",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "ELLORA012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 3,
-        label: "DEVKUND",
-        img: "DEVKUND.jpg",
-        title: "DEVKUND",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Bhandardara",
+        img: "BHANDARDARA.jpg",
+        title: "Bhandardara",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "BHANDARDARA012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 4,
-        label: "ELLORA",
-        img: "ELLORA.jpg",
-        title: "ELLORA",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Kalsubai",
+        img: "KALSUBAI.jpg",
+        title: "Kalsubai",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "KALSUBAI012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 5,
-        label: "HARIHARGAD",
-        img: "HARIHARGAD.jpg",
-        title: "HARIHARGAD",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Ratangad",
+        img: "RATANGAD.jpg",
+        title: "Ratangad",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "RATANGAD012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 6,
-        label: "HARISHCHANDRAGAD",
+        label: "Harishchandragad",
         img: "HARISHCHANDRAGAD.jpg",
-        title: "HARISHCHANDRAGAD",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        title: "Harishchandragad",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "HARISHCHANDRAGAD012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 7,
-        label: "JIVDHANGAD",
-        img: "JIVDHANGAD.jpg",
-        title: "JIVDHANGAD",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Sandhan Valley",
+        img: "SANDHAN VALLEY.jpg",
+        title: "Sandhan Valley",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "SANDHANVALLEY012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 8,
-        label: "KALSUBAI",
-        img: "KALSUBAI.jpg",
-        title: "KALSUBAI",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Harihargad",
+        img: "HARIHARGAD.jpg",
+        title: "Harihargad",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "HARIHARGAD012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 9,
-        label: "KORIGAD",
-        img: "KORIGAD.jpg",
-        title: "KORIGAD",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Jivdhangad",
+        img: "JIVDHANGAD.jpg",
+        title: "Jivdhangad",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "JIVDHANGAD012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 10,
-        label: "MAHULIGAD",
-        img: "MAHULIGAD.jpg",
-        title: "MAHULIGAD",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Devkund",
+        img: "DEVKUND.jpg",
+        title: "Devkund",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "DEVKUND012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 11,
-        label: "RATANGAD",
-        img: "RATANGAD.jpg",
-        title: "RATANGAD",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Korigad",
+        img: "KORIGAD.jpg",
+        title: "Korigad",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "KORIGAD012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 12,
-        label: "SANDHAN VALLEY",
-        img: "SANDHAN VALLEY.jpg",
-        title: "VISAPUR GAD",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Visapur Fort",
+        img: "VISAPURGAD.jpg",
+        title: "Visapur Fort",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "VISAPURGAD012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
       {
         id: 13,
-        label: "VISAPURGAD",
-        img: "VISAPURGAD.jpg",
-        title: "VISAPURGAD",
-        subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
-        duration: "3D / 4N",
+        label: "Mahuli Gad",
+        img: "MAHULIGAD.jpg",
+        title: "Mahuli Gad",
+        subTitle: "Adventure Freak",
+        date: "",
+        endDate: "",
+        duration: "1 Night & 1 Day",
         downloadLink: "",
-        location: "location",
-        price: "20,000",
-        productCode: "000000",
-        note: "",
-        isCstomized: true,
-        cancellationPolicy: [],
-        bookingPolicy: [],
-        exclusion: [],
+        location: "Aurangabad",
+        price: "",
+        productCode: "MAHULIGAD012022",
         isVisible: true,
-        isComming: true,
-        inclusions: [
-          { label: "3 Breakfast" },
-          { label: "Travaling by Train/Plane" },
-          { label: "Cruise Party" },
-          { label: "Party With Dinner" },
+        isComming: false,
+        isCstomized: true,
+        note: [
+          {
+            label: "Package cost is available for Indian Nationals only",
+          },
         ],
-        dayByDay: [
+
+        cancellationPolicy: [
+          { label: "Replacement of your seat is first option." },
           {
-            label: "DAY 1 - Departure at the airport and arrival at the hotel",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "Bookings made less than 15 days before the tour starts are non-refundable.",
           },
           {
-            label: "DAY 2 - Visit the main museums and lunch included",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 07 days before the tour starts – Total cost will be charged.",
           },
           {
-            label: "DAY 3 - Excursion in the natural oasis and picnic",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            label:
+              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
           },
+          {
+            label:
+              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
+          },
+          {
+            label:
+              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
+          },
+          {
+            label:
+              "No Refund in case of early termination of tour by any tourist.",
+          },
+        ],
+        bookingPolicy: [
+          {
+            label:
+              "Booking will be confirmed only when full payment of package cost is done",
+          },
+          {
+            label:
+              "For Booking, tourist have to fill “Tourist Info Form” & submit it along with the Xerox copy of valid ID Proof (Aadhar Card/Voter ID/Passport/Driving Licence).",
+          },
+          {
+            label:
+              "All the payment has to be made in the favour of setyourtour.com through Cash, NEFT Or Any mode of online payment services available.",
+          },
+        ],
+        exclusion: [
+          {
+            label:
+              "Cost of personal nature expenses such as bottled water, laundry, incidentals, porter, tips etc.",
+          },
+          {
+            label:
+              "Difference in cost arising due to extra usage of additional services, changes in taxes by Government or political unrest, natural calamities (Land slide/ road blockage) etc. in such case extra will have to be paid on the spot by tourist.",
+          },
+          {
+            label:
+              "Cost for anything which is not mentioned in Package Inclusion paragraph.",
+          },
+        ],
+        inclusions: [
+          {
+            label: "Travelling",
+          },
+          { label: "Breakfast" },
+          { label: "Entry tickets" },
+          { label: "Guide" },
+          { label: "Sightseeing" },
+          { label: "Lunch" },
+          { label: "Dinner" },
         ],
         description: {
           first:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
           second:
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
         },
       },
     ],
     description: {
       first:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "If you are an adventure freak, history lover, wildlife enthusiast or wellness seeker, the weekend getaways from Aurangabad, Maharashtra will offer you that which you are looking for.",
 
       second:
-        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Our all-inclusive weekend packages cover the best places to visit in Maharashtra at unbeatable rates in tourist satisfaction & a wide variety of attractive deals for enjoyment.",
     },
   },
   {
@@ -3609,14 +4176,12 @@ export const packagesData = [
     title: "CUSTOMIZE YOUR TOURS",
     subTitle: "The Best Destination",
     isVisible: true,
-    isComming: true,
+    isComming: false,
     packages: [],
     description: {
-      first:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      first: "",
 
-      second:
-        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      second: "",
     },
   },
 ];

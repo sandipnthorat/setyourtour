@@ -21,6 +21,15 @@
   color: #555555;
   letter-spacing: 0.6px;
   margin-bottom: 1em;
+  transition: 0.5s;
+}
+
+.packages-cards .card:hover {
+  box-shadow: 5px 5px 5px 2px #00000020;
+  border: 0px;
+  border-radius: 0px;
+  transform: scale(1.01);
+  z-index: 1;
 }
 
 .packages-cards .card-title {
@@ -66,7 +75,7 @@
   padding: 2px;
 }
 
-.card-footer {
+.packages-cards .card-footer {
   padding: 0px;
 }
 

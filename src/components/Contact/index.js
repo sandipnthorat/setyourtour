@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 import "./Contact.css";
+import { contactData } from "../../assets/utilityData";
 
 const Contact = (props) => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,8 @@ const Contact = (props) => {
     mobile: "",
     email: "",
     message: "",
+    mailSent: false,
+    error: null,
   });
 
   const handleInputChange = (event) => {
@@ -26,6 +29,11 @@ const Contact = (props) => {
   };
   const onFormSubmit = (e) => {
     e.preventDefault();
+    // console.log("form data ---->", formData);
+    const finalLink = `*_Enquiry_*%0D%0A*Name:* ${formData.name}%0D%0A*Mobile No.:* ${formData.mobile}%0D%0A*Email:* ${formData.email}%0D%0A*Message:* ${formData.message}`;
+
+    // console.log(`${contactData.whatsapp}?text=${finalLink}`);
+    window.open(`${contactData.whatsapp}?text=${finalLink}`, "_blank");
   };
 
   return (
@@ -90,9 +98,8 @@ const Contact = (props) => {
             <div className="send-footer">
               <Button
                 className="send-btn"
-                variant="link"
+                variant="warning"
                 type="submit"
-                style={{ color: "gry", border: `1px solid gey` }}
                 disabled={!formData.mobile || !formData.name || !formData.email}
               >
                 Send
@@ -116,38 +123,3 @@ const Contact = (props) => {
 };
 
 export default Contact;
-
-{
-  /* <Form>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Control type="text" placeholder="Your Name" />
-              </Form.Group>
-
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Control type="email" placeholder="Email" />
-              </Form.Group>
-
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Control as="textarea" placeholder="Message" rows={3} />
-                <Form.Text className="text-muted">
-                  We'll never share your details with anyone else.
-                </Form.Text>
-              </Form.Group>
-
-              <Button
-                className="submit-contact-form"
-                variant="primary"
-                type="submit"
-                onClick={() => {
-                  window.open(
-                    "mailto:test@example.com?subject=subject&body=body"
-                  );
-                }}
-              >
-                Submit
-              </Button>
-            </Form> */
-}
