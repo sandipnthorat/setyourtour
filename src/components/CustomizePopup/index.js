@@ -216,7 +216,7 @@ export const CustomizePopup = (props) => {
 
                   <Col xs={12} sm={12} md={12}>
                     <Form.Group className="mb-2" controlId="validationCustom03">
-                      <Form.Label>Tour Descriptionsr</Form.Label>
+                      <Form.Label>Tour Description</Form.Label>
                       <Form.Control
                         onChange={handleInputChange}
                         name="message"

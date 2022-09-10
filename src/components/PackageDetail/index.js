@@ -203,7 +203,7 @@ export const PackageDetails = (props) => {
                 </Row>
               )}
 
-              <Row className="div-block">
+              {/* <Row className="div-block">
                 <Col className="details-block-heading" xs={12} sm={12} md={12}>
                   <h6
                     className="title"
@@ -220,7 +220,7 @@ export const PackageDetails = (props) => {
                     height="400"
                   ></iframe>
                 </Col>
-              </Row>
+              </Row> */}
 
               <Row className="div-block">
                 <Col className="details-block-heading" xs={12} sm={12} md={12}>
@@ -240,22 +240,34 @@ export const PackageDetails = (props) => {
                 </Col>
               </Row>
 
-              <Row className="div-block">
-                <Col className="details-block-heading" xs={12} sm={12} md={12}>
-                  <h6
-                    className="title"
-                    style={{ color: colors[details.pkgDetails.id] }}
+              {details.pkgDetails.cancellationPolicy.length > 0 && (
+                <Row className="div-block">
+                  <Col
+                    className="details-block-heading"
+                    xs={12}
+                    sm={12}
+                    md={12}
                   >
-                    {"Tour"}
-                  </h6>
-                  <h1 className="sub-title">{"Cancellation Policy"}</h1>
-                </Col>
-                <Col className="details-block-heading" xs={12} sm={12} md={12}>
-                  <CancelationPolicy
-                    data={details.pkgDetails.cancellationPolicy}
-                  />
-                </Col>
-              </Row>
+                    <h6
+                      className="title"
+                      style={{ color: colors[details.pkgDetails.id] }}
+                    >
+                      {"Tour"}
+                    </h6>
+                    <h1 className="sub-title">{"Cancellation Policy"}</h1>
+                  </Col>
+                  <Col
+                    className="details-block-heading"
+                    xs={12}
+                    sm={12}
+                    md={12}
+                  >
+                    <CancelationPolicy
+                      data={details.pkgDetails.cancellationPolicy}
+                    />
+                  </Col>
+                </Row>
+              )}
             </Col>
 
             {/*********************************************************/}

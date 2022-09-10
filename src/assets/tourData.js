@@ -2932,34 +2932,7 @@ export const packagesData = [
             label: "Package cost is available for Indian Nationals only",
           },
         ],
-
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3028,33 +3001,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3123,33 +3070,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3219,33 +3140,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3315,33 +3210,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3411,33 +3280,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3507,33 +3350,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3603,33 +3420,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3699,33 +3490,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3795,33 +3560,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3891,33 +3630,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -3987,33 +3700,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:
@@ -4083,33 +3770,7 @@ export const packagesData = [
           },
         ],
 
-        cancellationPolicy: [
-          { label: "Replacement of your seat is first option." },
-          {
-            label:
-              "Bookings made less than 15 days before the tour starts are non-refundable.",
-          },
-          {
-            label:
-              "If cancelled 07 days before the tour starts – Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 15 days before the tour starts – 50% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 30 days before the tour starts – 35% of Total cost will be charged.",
-          },
-          {
-            label:
-              "If cancelled 60 days before the tour starts – 25% of Total cost will be charged.",
-          },
-          {
-            label:
-              "No Refund in case of early termination of tour by any tourist.",
-          },
-        ],
+        cancellationPolicy: [],
         bookingPolicy: [
           {
             label:

@@ -182,7 +182,7 @@ export const CustomizeTour = (props) => {
                 md="12"
                 controlId="validationCustom03"
               >
-                <Form.Label>Tour Descriptionsr</Form.Label>
+                <Form.Label>Tour Description</Form.Label>
                 <Form.Control
                   onChange={handleInputChange}
                   name="message"
