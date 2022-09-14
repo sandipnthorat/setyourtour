@@ -13,15 +13,15 @@ import Contact from "./components/Contact";
 import PageNotFound from "./components/PageNotFound";
 import Services from "./components/Services";
 import Packages from "./components/Packages";
+import { Memories } from "./components/Memories";
 import { PackageDetails } from "./components/PackageDetail";
 
 import whatsapp from "./assets/icons/WhatsApp_Logo.png";
 // *****************************Package Data *************************
 import { packagesData } from "./assets/tourData";
 import { contactData } from "./assets/utilityData";
-import { CustomizeTour } from "./components/CustomizeTour";
 import { CustomizePopup } from "./components/CustomizePopup";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
   let navigate = useNavigate();
@@ -30,14 +30,8 @@ function App() {
 
   window.onbeforeunload = function (event) {
     navigate("/ ");
+    setIsModalOpen(true);
   };
-
-  useEffect(() => {
-    console.log(location.pathname);
-    if (location.pathname === "/") {
-      setIsModalOpen(true);
-    }
-  }, [location]);
 
   const closeModal = () => {
     setIsModalOpen(false);
@@ -52,6 +46,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/memories" element={<Memories />} />
         <Route path="/packages" element={<Packages data={packagesData} />} />
         <Route path="/packageDetails" element={<PackageDetails data={""} />} />
         <Route path="*" element={<PageNotFound />} />
@@ -86,7 +81,7 @@ function App() {
           >
             <span
               style={{ fontSize: "14px", fontWeight: 600 }}
-              class="material-icons-outlined"
+              className="material-icons-outlined"
             >
               place
             </span>

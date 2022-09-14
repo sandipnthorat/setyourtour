@@ -19,7 +19,7 @@
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
-  line-height: 0em;
+  /* line-height: 2em; */
   letter-spacing: 1.1px;
   padding: 25px;
   display: inline-block;
@@ -27,19 +27,64 @@
   color: #2f1463 !important;
 }
 
-.nav-bar .active-nav-link {
+.nav-custome-link .active-nav-link {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
-  line-height: 0em;
+  /* line-height: 2em; */
   letter-spacing: 1.1px;
-  padding: 25px;
+  /* padding: 25px; */
   display: inline-block;
   font-family: "Poppins", sans-serif;
   color: #fb9d17 !important;
 }
 
-.nav-bar .nav-link:hover {
+.nav-link-btn a {
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  /* line-height: 2em; */
+  letter-spacing: 1.1px;
+  /* padding: 25px; */
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  color: #2f1463 !important;
+}
+
+.nav-link-btn .dropdown-item {
+  text-transform: capitalize;
+  color: #2f1463 !important;
+}
+
+.active-nav-link-btn a {
+  text-decoration: none !important;
   color: #fb9d17 !important;
+}
+
+.active-nav-link-btn .dropdown-item {
+  text-transform: capitalize;
+  color: #2f1463 !important;
+}
+
+.nav-custome-link .nav-link:hover {
+  color: #fb9d17 !important;
+}
+
+.off-canvase-nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 2em;
+  letter-spacing: 1.1px;
+  padding: 25px;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  color: #2f1463 !important;
+}
+
+.nav-dropdown-menu .dropdown-menu {
+  text-transform: capitalize;
 }

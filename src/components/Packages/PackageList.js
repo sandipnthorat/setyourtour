@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "react-bootstrap/Card";
-import Tooltip from "react-bootstrap/Tooltip";
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

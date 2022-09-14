@@ -15,6 +15,10 @@
   border-bottom: 0px;
 }
 
+.customize-modal .modal-header .btn-close {
+  color: #fff;
+}
+
 .customize-modal .form-label {
   margin: 0px;
   font-size: 14px;

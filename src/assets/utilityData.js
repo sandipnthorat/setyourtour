@@ -13,6 +13,15 @@ export const navMenuData = [
     label: "Services",
     shortLabel: "Services",
     path: "/services",
+    list: [
+      { label: "Corporate" },
+      { label: "Business To Business" },
+      { label: "Business To Customer" },
+      { label: "Taxi And Bus" },
+      { label: "Ticket Booking" },
+      { label: "Hotel Booking" },
+      { label: "Passport Consultation" },
+    ],
   },
   // {
   //   label: "Memories",
@@ -113,4 +122,20 @@ export const colorData = [
   "#019267",
   "#FFD32D",
   "#256D85",
+];
+
+export const memoriesData = [
+  {
+    label: "SB College Tadoba Tour",
+    images: [
+      {
+        lable: "Tadoba",
+        img: "https://drive.google.com/file/d/1RRueDbrDlJX-gOge6EsmPOdLLRhxQ0bD/view?usp=sharing",
+      },
+      {
+        lable: "Tadoba",
+        img: "https://drive.google.com/file/d/1AckWH5B8i9aUEOEljIY3-FayqlefVJWe/view?usp=sharing",
+      },
+    ],
+  },
 ];

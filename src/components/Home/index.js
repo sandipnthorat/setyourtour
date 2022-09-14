@@ -33,11 +33,12 @@ const Home = (props) => {
 
   return (
     <>
-      <Row style={{ marginTop: "8em", marginLeft: "0px", marginRight: "0px" }}>
+      {/* <Row style={{ marginTop: "8em", marginLeft: "0px", marginRight: "0px" }}>
         <Col xs={12} sm={12} md={12}>
           {sliderData && <Slider data={sliderData} />}
         </Col>
-      </Row>
+      </Row> */}
+      <Slider data={sliderData} />
       <Container>
         <Row>
           <Col xs={12} sm={12} md={12}>
@@ -74,19 +75,19 @@ const Home = (props) => {
         </div>
       </div>
 
-      <Container>
-        <Row>
-          <Col xs={12} sm={12} md={12}>
-            <HomeTrip data={packagesData[0]} />
-          </Col>
-        </Row>
+      {/* <Container> */}
+      <Row className="m-0">
+        <Col xs={12} sm={12} md={12}>
+          <HomeTrip data={packagesData[0]} />
+        </Col>
+      </Row>
 
-        <Row>
-          <Col xs={12} sm={12} md={12}>
-            <Contact />
-          </Col>
-        </Row>
-      </Container>
+      <Row className="m-0 p-2">
+        <Col xs={12} sm={12} md={12}>
+          <Contact />
+        </Col>
+      </Row>
+      {/* </Container> */}
     </>
   );
 };

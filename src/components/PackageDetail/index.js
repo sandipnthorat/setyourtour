@@ -15,6 +15,7 @@ import { IncludeExclude } from "./IncludeExclude";
 import { Agenda } from "./Agenda";
 import { SendBooking } from "./SendBooking";
 import { CustomizeTour } from "../CustomizeTour";
+import { RealtedPackages } from "./RealtedPackages";
 
 import customeBtn from "../../assets/customize_button.jpg";
 
@@ -31,8 +32,8 @@ export const PackageDetails = (props) => {
     isShow: false,
   });
   const colors = colorData;
-
   const screenWidth = window.screen.availWidth;
+  const [realtedPkg, setRelatedPkg] = useState();
 
   const openModal = (e) => {
     setIsModalOpen({ isShow: true });
@@ -47,7 +48,8 @@ export const PackageDetails = (props) => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     filterPackages(state.id, state.pkgId, packagesData);
-  }, []);
+    getRelatedPackages(state.pkgId, state.id, packagesData);
+  }, [state]);
 
   const filterPackages = (categoryId, packageId, data) => {
     let tempData = [];
@@ -65,6 +67,25 @@ export const PackageDetails = (props) => {
     });
     setDetails(tempData[0]);
     // console.log("tempData[0] ---->", tempData[0]);
+  };
+
+  const getRelatedPackages = (pkgId, id, data) => {
+    const tempData = [];
+
+    data.forEach((obj) => {
+      if (obj.id === id) {
+        // console.log(obj);
+        obj.packages.forEach((item) => {
+          if (!item.isComming && item.id !== pkgId) {
+            item.category = obj.category;
+            item.catId = obj.id;
+            tempData.push(item);
+          }
+        });
+      }
+    });
+    setRelatedPkg(tempData);
+    // console.log("tempdata -->", tempData);
   };
 
   const titleCase = (str) => {
@@ -203,25 +224,6 @@ export const PackageDetails = (props) => {
                 </Row>
               )}
 
-              {/* <Row className="div-block">
-                <Col className="details-block-heading" xs={12} sm={12} md={12}>
-                  <h6
-                    className="title"
-                    style={{ color: colors[details.pkgDetails.id] }}
-                  >
-                    {"Find Route On"}
-                  </h6>
-                  <h1 className="sub-title">{"Map"}</h1>
-                </Col>
-                <Col xs={12} sm={12} md={12}>
-                  <iframe
-                    src="https://www.google.com/maps/d/u/0/embed?mid=1haVRgY-va0Xlj63QSmjfmHFwlgx9BBY&ehbc=2E312F"
-                    width="100%"
-                    height="400"
-                  ></iframe>
-                </Col>
-              </Row> */}
-
               <Row className="div-block">
                 <Col className="details-block-heading" xs={12} sm={12} md={12}>
                   <h6
@@ -271,7 +273,7 @@ export const PackageDetails = (props) => {
             </Col>
 
             {/*********************************************************/}
-            <Col xs={12} sm={12} md={4}>
+            <Col className="mb-4" xs={12} sm={12} md={4}>
               <Row>
                 <Col className="mb-4" xs={12} sm={12} md={12}>
                   <div
@@ -415,6 +417,23 @@ export const PackageDetails = (props) => {
               </Row>
             </Col>
           </Row>
+
+          {realtedPkg.length > 0 && (
+            <Row>
+              <Col className="details-block-heading" xs={12} sm={12} md={12}>
+                <h6
+                  className="title"
+                  style={{ color: colors[details.pkgDetails.id] }}
+                >
+                  {"Realated Tour"}
+                </h6>
+                <h1 className="sub-title">{"Packages"}</h1>
+              </Col>
+              <Col xs={12} sm={12} md={12}>
+                <RealtedPackages data={realtedPkg} />
+              </Col>
+            </Row>
+          )}
         </Container>
       </>
     )

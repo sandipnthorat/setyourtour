@@ -150,7 +150,7 @@ export const CustomizePopup = (props) => {
                     <hr />
                     <h6>
                       <span
-                        class="material-icons-outlined"
+                        className="material-icons-outlined"
                         style={{ color: "#fb9d17" }}
                       >
                         call

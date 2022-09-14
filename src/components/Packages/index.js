@@ -51,6 +51,13 @@ const Packages = (props) => {
     document.documentElement.scrollTop = 0;
     if (state) {
       if (state.packageId) {
+      } else if (state.id === 6) {
+        // console.log("customize---->");
+        customizeData(state.id, data);
+        setActiveFilter({
+          id: 6,
+          label: "",
+        });
       } else {
         filterPackagCat(state.id, data);
         setActiveFilter({
@@ -77,9 +84,27 @@ const Packages = (props) => {
     });
     if (id === 0) {
       setFilterData(data);
+    } else if (id === 6) {
+      customizeData(id, data);
     } else {
       filterPackagCat(id, data);
     }
+  };
+
+  const customizeData = (id, data) => {
+    const catData = [];
+    data.forEach((obj) => {
+      const tempData = [];
+      obj.packages.forEach((item) => {
+        if (item.isCstomized) {
+          tempData.push(item);
+        }
+      });
+      if (tempData.length > 0) {
+        catData.push({ ...obj, packages: tempData });
+      }
+    });
+    setFilterData(catData);
   };
 
   return (

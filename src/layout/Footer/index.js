@@ -116,7 +116,19 @@ const Footer = (props) => {
                 <span className="item-list">
                   <ul>
                     {servicesList.map((item, i) => {
-                      return <li key={item.shortLabel}>{item.shortLabel}</li>;
+                      return (
+                        <li
+                          className="list-link"
+                          onClick={() => {
+                            navigate("/services");
+                            document.body.scrollTop = 0;
+                            document.documentElement.scrollTop = 0;
+                          }}
+                          key={item.shortLabel}
+                        >
+                          {item.shortLabel}
+                        </li>
+                      );
                     })}
                   </ul>
                 </span>

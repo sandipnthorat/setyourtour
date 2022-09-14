@@ -29,8 +29,8 @@
 
 .details-block-heading .sub-title {
   text-transform: capitalize;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 22px;
+  line-height: 22px;
   letter-spacing: 1px;
   font-weight: bold;
   color: #555555;
@@ -189,4 +189,31 @@
   border-radius: 0px;
   transform: scale(1.01);
   z-index: 1;
+}
+
+/* ****************************************************************** */
+
+.related-pkg {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.related-pkg .title-img {
+  height: 10em;
+}
+
+.related-pkg .pkg-duration {
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+
+.related-pkg .pkg-label {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #555555;
+  text-transform: capitalize;
 }

@@ -23,13 +23,31 @@
   color: #555555;
 }
 
-.services-container .details {
+.services-container .services-details .details {
   font-family: "Poppins", sans-serif;
   text-transform: initial;
-  margin-top: 1em;
-  margin-bottom: 2.5em;
-  /* width: 70%; */
   color: #555555;
-  font-size: 14px;
-  letter-spacing: 0.2px;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+}
+
+.services-list {
+  font-family: "Poppins", sans-serif;
+  text-transform: initial;
+}
+
+.services-list .list-header {
+  color: #000 !important;
+  text-transform: capitalize !important;
+  letter-spacing: 1px !important;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.services-list .list-details {
+  font-family: "Poppins", sans-serif;
+  text-transform: initial;
+  color: #555555;
+  font-size: 16px;
+  letter-spacing: 0.6px;
 }

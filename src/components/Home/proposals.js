@@ -65,7 +65,9 @@ const Proposals = (props) => {
                   </p>
                   <div className="packages-details">
                     <p>
-                      <h5 className="title">{"Packages"}</h5>
+                      {obj.packages.length > 0 && (
+                        <h5 className="title">{"Packages"}</h5>
+                      )}
                       {obj.packages.map((e, i) => {
                         return (
                           i <= 3 && (

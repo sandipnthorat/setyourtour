@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import Container from "react-bootstrap/Container";
+import { useLocation } from "react-router-dom";
 
 import "./Contact.css";
 import { contactData } from "../../assets/utilityData";
@@ -16,6 +18,13 @@ const Contact = (props) => {
     mailSent: false,
     error: null,
   });
+  const [path, setPath] = useState();
+
+  const location = useLocation();
+
+  useEffect(() => {
+    setPath(location.pathname);
+  }, [location]);
 
   const handleInputChange = (event) => {
     const target = event.target;
@@ -29,17 +38,21 @@ const Contact = (props) => {
   };
   const onFormSubmit = (e) => {
     e.preventDefault();
-    // console.log("form data ---->", formData);
     const finalLink = `*_Enquiry_*%0D%0A*Name:* ${formData.name}%0D%0A*Mobile No.:* ${formData.mobile}%0D%0A*Email:* ${formData.email}%0D%0A*Message:* ${formData.message}`;
-
-    // console.log(`${contactData.whatsapp}?text=${finalLink}`);
     window.open(`${contactData.whatsapp}?text=${finalLink}`, "_blank");
   };
 
   return (
     <>
       {/* <Container className="contact-top-container"> */}
-      <Row className="contact-block-heading">
+      <Row
+        className="contact-block-heading"
+        style={{
+          marginTop: path === "/contact" ? "10em" : "",
+          marginLeft: "0px",
+          marginRight: "0px",
+        }}
+      >
         <Col xs={12} sm={12} md={12}>
           <p className="title">{"Keep In Touch"}</p>
           <p className="sub-title">{"Traval With Us"}</p>
@@ -47,7 +60,7 @@ const Contact = (props) => {
       </Row>
 
       <Row className="contact-us-form justify-content-center">
-        <Col xs={12} sm={12} md={6} className="mb-4 p-4">
+        <Col xs={12} sm={12} md={6} className="mb-4">
           <Form onSubmit={onFormSubmit}>
             <Form.Group className="mb-3">
               <Form.Label className="form-label" htmlFor="fullName">
