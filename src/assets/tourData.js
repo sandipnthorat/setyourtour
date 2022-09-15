@@ -748,7 +748,7 @@ export const packagesData = [
           },
         ],
         isVisible: true,
-        isComming: false,
+        isComming: true,
         inclusions: [
           {
             label:
