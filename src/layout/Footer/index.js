@@ -30,8 +30,11 @@ const Footer = (props) => {
   ];
 
   const navList = [
+    { label: "Home", path: "/" },
     { label: "About Us", path: "/about" },
     { label: "Packages", path: "/packages" },
+    { label: "Services", path: "/services" },
+    { label: "Contact", path: "/contact" },
     // { label: "Memories", path: "/memories" },
     // { label: "Policy", path: "/policy" },
     // { label: "FAQ's", path: "/faq" },
