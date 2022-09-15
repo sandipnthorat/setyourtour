@@ -199,13 +199,28 @@
   cursor: pointer;
 }
 
+.related-pkg:hover {
+  filter: none;
+  transition: 0.3s ease-out;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 464px) {
+  .related-pkg:hover {
+    filter: none;
+    transition: 0.3s ease-out;
+    transform: scale(1);
+  }
+}
+
 .related-pkg .title-img {
-  height: 10em;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.5) 0px 2px 5px 0px;
 }
 
 .related-pkg .pkg-duration {
   margin-bottom: 0px;
-  margin-top: 5px;
+  margin-top: 1.5em;
   font-size: 12px;
   color: #9a9a9a;
 }
@@ -213,7 +228,7 @@
 .related-pkg .pkg-label {
   margin-bottom: 0px;
   font-weight: 600;
-  font-size: 16px;
-  color: #555555;
+  font-size: 14px;
+  color: #000 !important;
   text-transform: capitalize;
 }

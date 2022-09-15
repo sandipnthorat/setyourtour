@@ -21,7 +21,7 @@ import whatsapp from "./assets/icons/WhatsApp_Logo.png";
 import { packagesData } from "./assets/tourData";
 import { contactData } from "./assets/utilityData";
 import { CustomizePopup } from "./components/CustomizePopup";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   let navigate = useNavigate();
@@ -29,13 +29,25 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
 
   window.onbeforeunload = function (event) {
-    navigate("/ ");
+    // navigate("/ ");
+    console.log(localStorage.getItem("path"));
+  };
+
+  window.onDOMContentLoaded = function (event) {
+    navigate(localStorage.getItem("path"));
     setIsModalOpen(true);
+    console.log(localStorage.getItem("path"));
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
   };
+
+  useEffect(() => {
+    console.log(localStorage.getItem("path"));
+    console.log("app comp ------>", location);
+    localStorage.setItem("path", location.pathname);
+  }, [location]);
 
   return (
     <>
