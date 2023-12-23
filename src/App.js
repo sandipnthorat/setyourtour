@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 import { useNavigate, useLocation } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
@@ -27,6 +29,13 @@ function App() {
   let navigate = useNavigate();
   const location = useLocation();
   const [isModalOpen, setIsModalOpen] = useState(true);
+  const [currentYear, setCurrentYear] = useState(null);
+
+  useEffect(() => {
+    const today = new Date();
+    const year = today.getFullYear();
+    setCurrentYear(year);
+  });
 
   window.onbeforeunload = function (event) {
     // navigate("/ ");
@@ -98,6 +107,20 @@ function App() {
             Plan Your Trip
           </Button>
         </p>
+      </div>
+
+      <div
+        style={{
+          textAlign: "center",
+          background: "#fff",
+          color: "#000",
+          fontSize: "14px",
+          fontWeight: "400",
+          fontFamily: "monospace",
+        }}
+      >
+        Copyright &copy; 2020 - {currentYear} Techknopanda Services & Solutions,
+        All rights reserved.
       </div>
     </>
   );
