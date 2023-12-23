@@ -17,8 +17,8 @@ export const packagesData = [
         img: "BUDDHIST_CIRCLE.jpg",
         title: "COMPLETE BUDDHIST CIRCUIT",
         subTitle: "A Journey for Peaceful way of Life",
-        date: "8 November 2022",
-        endDate: "19 November 2022",
+        date: "8 November 2024",
+        endDate: "19 November 2024",
         duration: "11 Days & 12 Nights",
         downloadLink:
           "https://drive.google.com/file/d/1ufgBufWKpLUyivwzqZkHrz0M591PmvRn/view?usp=sharing",
@@ -62,7 +62,7 @@ export const packagesData = [
         bookingPolicy: [
           {
             label:
-              "Booking will be confirmed only when full payment of package cost is done OR Partly package cost i.e. ₹ 10,000/- payment should be done & remaining ₹13,499/- should be paid before 6th October 2022.",
+              "Booking will be confirmed only when full payment of package cost is done OR Partly package cost i.e. ₹ 10,000/- payment should be done & remaining ₹13,499/- should be paid before 6th October 2024.",
           },
           {
             label:
@@ -112,7 +112,7 @@ export const packagesData = [
         ],
         dayByDay: [
           {
-            label: "Day 1: November 8th 2022, Tuesday (Kartik Purnima)",
+            label: "Day 1: November 8th 2024, Tuesday (Kartik Purnima)",
             location: "Bodhgaya",
             description: [
               {
@@ -125,7 +125,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 2: November 9th 2022, Wednesday",
+            label: "Day 2: November 9th 2024, Wednesday",
             location: "Bodhgaya-Rajgir-Nalanda-Bodhgaya",
             description: [
               {
@@ -141,7 +141,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 3: November 10th 2022, Thursday",
+            label: "Day 3: November 10th 2024, Thursday",
             location: "Bodhgaya-Sarnath",
             description: [
               {
@@ -154,7 +154,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 4: November 11th 2022, Friday",
+            label: "Day 4: November 11th 2024, Friday",
             location: "Sarnath-Lucknow",
             description: [
               {
@@ -167,7 +167,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 5: November 12th 2022, Saturday",
+            label: "Day 5: November 12th 2024, Saturday",
             location: "Lucknow-Shrawasti-Kapilvastu-Lumbini",
             description: [
               {
@@ -183,7 +183,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 6: November 13th 2022, Sunday",
+            label: "Day 6: November 13th 2024, Sunday",
             location: "Lumbini-Kushinagar",
             description: [
               {
@@ -197,7 +197,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 7: November 14th 2022, Monday",
+            label: "Day 7: November 14th 2024, Monday",
             location: "Kushinagar-Vaishali-Patna",
             description: [
               {
@@ -213,7 +213,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 8: November 15th 2022, Tuesday",
+            label: "Day 8: November 15th 2024, Tuesday",
             location: "Patna-Jehanabad-Bodhgaya",
             description: [
               {
@@ -229,7 +229,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 9: November 16th 2022, Wednesday",
+            label: "Day 9: November 16th 2024, Wednesday",
             location: "Bodhgaya-Dungeshwari-Bodhgaya",
             description: [
               {
@@ -242,7 +242,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 10: November 17th 2022, Thursday",
+            label: "Day 10: November 17th 2024, Thursday",
             location: "Bodhgaya Local",
             description: [
               {
@@ -254,7 +254,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 11: November 18th 2022, Friday",
+            label: "Day 11: November 18th 2024, Friday",
             location: "Bodhgaya Local",
             description: [
               {
@@ -266,7 +266,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 12: November 19th 2022, Saturday",
+            label: "Day 12: November 19th 2024, Saturday",
             location: "",
             description: [
               {
@@ -290,8 +290,8 @@ export const packagesData = [
         img: "Chardham.jpg",
         title: "CHARDHAM YATRA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -363,8 +363,8 @@ export const packagesData = [
         img: "KAILASH_MANSAROVAR.jpg",
         title: "KAILASH MANSAROVAR YATRA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -433,8 +433,8 @@ export const packagesData = [
         img: "HIMACHAL.jpg",
         title: "HIMACHAL SPECIAL",
         subTitle: "A Destination for all seasons and all reasons ",
-        date: "8 December 2022",
-        endDate: "18 December 2022",
+        date: "8 December 2024",
+        endDate: "18 December 2024",
         duration: "10 Days & 11 Nights",
         downloadLink:
           "https://drive.google.com/file/d/1vZcchCHc-woPUwbi-s0MMqmIyTGI7BC7/view?usp=sharing",
@@ -482,7 +482,7 @@ export const packagesData = [
         bookingPolicy: [
           {
             label:
-              "Booking will be confirmed only when full payment of package cost is done OR Partly package cost i.e. ₹ 10,000/- payment should be done & remaining ₹12,499/- should be paid before 8th November 2022.",
+              "Booking will be confirmed only when full payment of package cost is done OR Partly package cost i.e. ₹ 10,000/- payment should be done & remaining ₹12,499/- should be paid before 8th November 2024.",
           },
           {
             label:
@@ -538,7 +538,7 @@ export const packagesData = [
         ],
         dayByDay: [
           {
-            label: "Day 1: 8th December, 2022",
+            label: "Day 1: 8th December, 2024",
             location: "",
             description: [
               {
@@ -548,7 +548,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 2: 9th December, 2022",
+            label: "Day 2: 9th December, 2024",
             location: "",
             description: [
               {
@@ -562,7 +562,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 3: 10th December, 2022",
+            label: "Day 3: 10th December, 2024",
             location: "",
             description: [
               {
@@ -572,7 +572,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 4: 11th December, 2022",
+            label: "Day 4: 11th December, 2024",
             location: "",
             description: [
               {
@@ -582,7 +582,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 5: 12th December, 2022",
+            label: "Day 5: 12th December, 2024",
             location: "",
             description: [
               {
@@ -592,7 +592,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 6: 13th December, 2022",
+            label: "Day 6: 13th December, 2024",
             location: "",
             description: [
               {
@@ -602,7 +602,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 7: 14th December, 2022",
+            label: "Day 7: 14th December, 2024",
             location: "",
             description: [
               {
@@ -612,7 +612,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 8: 15th December, 2022",
+            label: "Day 8: 15th December, 2024",
             location: "",
             description: [
               {
@@ -624,7 +624,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 9: 16th December, 2022",
+            label: "Day 9: 16th December, 2024",
             location: "",
             description: [
               {
@@ -634,7 +634,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 10: 17th December, 2022",
+            label: "Day 10: 17th December, 2024",
             location: "",
             description: [
               {
@@ -643,7 +643,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 11: 18th December, 2022",
+            label: "Day 11: 18th December, 2024",
             location: "",
             description: [
               {
@@ -667,8 +667,8 @@ export const packagesData = [
         img: "ANDAMAN_NICOBAR.jpg",
         title: "ANDAMAN & NICOBAR",
         subTitle: "A Destination for all seasons and all reasons ",
-        date: "8 December 2022",
-        endDate: "18 December 2022",
+        date: "8 December 2024",
+        endDate: "18 December 2024",
         duration: "10 Days & 11 Nights",
         downloadLink:
           "https://drive.google.com/file/d/1vZcchCHc-woPUwbi-s0MMqmIyTGI7BC7/view?usp=sharing",
@@ -716,7 +716,7 @@ export const packagesData = [
         bookingPolicy: [
           {
             label:
-              "Booking will be confirmed only when full payment of package cost is done OR Partly package cost i.e. ₹ 10,000/- payment should be done & remaining ₹12,499/- should be paid before 8th November 2022.",
+              "Booking will be confirmed only when full payment of package cost is done OR Partly package cost i.e. ₹ 10,000/- payment should be done & remaining ₹12,499/- should be paid before 8th November 2024.",
           },
           {
             label:
@@ -772,7 +772,7 @@ export const packagesData = [
         ],
         dayByDay: [
           {
-            label: "Day 1: 8th December, 2022",
+            label: "Day 1: 8th December, 2024",
             location: "",
             description: [
               {
@@ -782,7 +782,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 2: 9th December, 2022",
+            label: "Day 2: 9th December, 2024",
             location: "",
             description: [
               {
@@ -796,7 +796,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 3: 10th December, 2022",
+            label: "Day 3: 10th December, 2024",
             location: "",
             description: [
               {
@@ -806,7 +806,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 4: 11th December, 2022",
+            label: "Day 4: 11th December, 2024",
             location: "",
             description: [
               {
@@ -816,7 +816,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 5: 12th December, 2022",
+            label: "Day 5: 12th December, 2024",
             location: "",
             description: [
               {
@@ -826,7 +826,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 6: 13th December, 2022",
+            label: "Day 6: 13th December, 2024",
             location: "",
             description: [
               {
@@ -836,7 +836,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 7: 14th December, 2022",
+            label: "Day 7: 14th December, 2024",
             location: "",
             description: [
               {
@@ -846,7 +846,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 8: 15th December, 2022",
+            label: "Day 8: 15th December, 2024",
             location: "",
             description: [
               {
@@ -858,7 +858,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 9: 16th December, 2022",
+            label: "Day 9: 16th December, 2024",
             location: "",
             description: [
               {
@@ -868,7 +868,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 10: 17th December, 2022",
+            label: "Day 10: 17th December, 2024",
             location: "",
             description: [
               {
@@ -877,7 +877,7 @@ export const packagesData = [
             ],
           },
           {
-            label: "Day 11: 18th December, 2022",
+            label: "Day 11: 18th December, 2024",
             location: "",
             description: [
               {
@@ -901,8 +901,8 @@ export const packagesData = [
         img: "ANDHRA_PRADESH.jpg",
         title: "ANDHRA PRADESH",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -952,8 +952,8 @@ export const packagesData = [
         img: "GOA.jpg",
         title: "GOA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1003,8 +1003,8 @@ export const packagesData = [
         img: "GUJRAT.jpg",
         title: "GUJRAT",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1054,8 +1054,8 @@ export const packagesData = [
         img: "KARNATAKA.jpg",
         title: "KARNATAKA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1105,8 +1105,8 @@ export const packagesData = [
         img: "KASHMIR.jpg",
         title: "KASHMIR",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1156,8 +1156,8 @@ export const packagesData = [
         img: "KERALA.jpg",
         title: "KERALA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1207,8 +1207,8 @@ export const packagesData = [
         img: "LEH_LADAKH.jpg",
         title: "LEH LADAKH",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1258,8 +1258,8 @@ export const packagesData = [
         img: "MADHYA_PRADESH.jpg",
         title: "MADHYA PRADESH",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1309,8 +1309,8 @@ export const packagesData = [
         img: "MAHARASHTRA.jpg",
         title: "MAHARASHTRA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1360,8 +1360,8 @@ export const packagesData = [
         img: "NORTH_EAST.jpg",
         title: "NORTH EAST",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1411,8 +1411,8 @@ export const packagesData = [
         img: "ODISHA.jpg",
         title: "ODISHA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1462,8 +1462,8 @@ export const packagesData = [
         img: "RAJASTHAN.jpg",
         title: "RAJASTHAN",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1513,8 +1513,8 @@ export const packagesData = [
         img: "SIKKIM.jpg",
         title: "SIKKIM",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1564,8 +1564,8 @@ export const packagesData = [
         img: "TAMILNADU.jpg",
         title: "TAMILNADU",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1615,8 +1615,8 @@ export const packagesData = [
         img: "TELANGANA.jpg",
         title: "TELANGANA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1666,8 +1666,8 @@ export const packagesData = [
         img: "UTTAR_PRADESH.jpg",
         title: "UTTAR PRADESH",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1717,8 +1717,8 @@ export const packagesData = [
         img: "UTTARAKHAND.jpg",
         title: "UTTARAKHAND",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1768,8 +1768,8 @@ export const packagesData = [
         img: "WEST_BENGAL.jpg",
         title: "WEST BENGAL",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1838,8 +1838,8 @@ export const packagesData = [
         img: "AFRICA.jpg",
         title: "AFRICA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1889,8 +1889,8 @@ export const packagesData = [
         img: "AUSTRALIA.jpg",
         title: "AUSTRALIA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1940,8 +1940,8 @@ export const packagesData = [
         img: "BHUTAN.jpg",
         title: "BHUTAN",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -1991,8 +1991,8 @@ export const packagesData = [
         img: "CHINA.jpg",
         title: "CHINA.jpg",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2042,8 +2042,8 @@ export const packagesData = [
         img: "EUROPE.jpg",
         title: "EUROPE",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2093,8 +2093,8 @@ export const packagesData = [
         img: "INDONESIA.jpg",
         title: "INDONESIA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2144,8 +2144,8 @@ export const packagesData = [
         img: "JAPAN.jpg",
         title: "JAPAN",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2195,8 +2195,8 @@ export const packagesData = [
         img: "MALAYSIA.jpg",
         title: "MALAYSIA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2246,8 +2246,8 @@ export const packagesData = [
         img: "MALDIVES.jpg",
         title: "MALDIVES",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2297,8 +2297,8 @@ export const packagesData = [
         img: "MAURITIUS.jpg",
         title: "MAURITIUS",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2348,8 +2348,8 @@ export const packagesData = [
         img: "MIDDLE EAST.jpg",
         title: "MIDDLE EAST",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2399,8 +2399,8 @@ export const packagesData = [
         img: "MYANMAR.jpg",
         title: "MYANMAR",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2450,8 +2450,8 @@ export const packagesData = [
         img: "NEPAL.jpg",
         title: "NEPAL",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2501,8 +2501,8 @@ export const packagesData = [
         img: "SEYCHELLES.jpg",
         title: "SEYCHELLES",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2552,8 +2552,8 @@ export const packagesData = [
         img: "SINGAPORE.jpg",
         title: "SINGAPORE",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2603,8 +2603,8 @@ export const packagesData = [
         img: "SRI LANKA.jpg",
         title: "SRI LANKA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2654,8 +2654,8 @@ export const packagesData = [
         img: "THAILAND.jpg",
         title: "THAILAND",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2705,8 +2705,8 @@ export const packagesData = [
         img: "UAE.jpg",
         title: "UAE",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2756,8 +2756,8 @@ export const packagesData = [
         img: "USA.jpg",
         title: "USA",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2826,8 +2826,8 @@ export const packagesData = [
         img: "Adventure.jpg",
         title: "ADVENTURE",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2877,8 +2877,8 @@ export const packagesData = [
         img: "Honeymoon Cover.jpg",
         title: "HONEYMOON SPECIAL",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2928,8 +2928,8 @@ export const packagesData = [
         img: "Youth Special.jpg",
         title: "YOUTH SPECIAL",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -2979,8 +2979,8 @@ export const packagesData = [
         img: "Second Innings.jpg",
         title: "SECOND INNINGS",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",
@@ -3030,8 +3030,8 @@ export const packagesData = [
         img: "Ladies Special.jpg",
         title: "LADIES SPECIAL",
         subTitle: "The Best Destination",
-        date: "01-Sep-2022",
-        endDate: "8 November 2022",
+        date: "01-Sep-2024",
+        endDate: "8 November 2024",
         duration: "3 Days / 4 Nights",
         downloadLink: "",
         location: "location",

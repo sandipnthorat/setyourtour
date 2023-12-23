@@ -77,7 +77,6 @@ const Footer = (props) => {
                     <span className="address">
                       <ul>
                         <li>{contact.mobile1}</li>
-                        <li>{contact.mobile2}</li>
                       </ul>
                     </span>
                   </Col>

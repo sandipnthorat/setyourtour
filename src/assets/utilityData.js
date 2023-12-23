@@ -44,11 +44,11 @@ export const contactData = {
   address:
     "Sai Sakshi Complex, Nandanvan Colony, Aurangabad, 431002 Maharashtra, India.",
   mobile1: "+91 9890595216",
-  mobile2: "+91 8381069577",
+  mobile2: "+91 9890595216",
   email: "info@setyourtour.com",
   instagram: "https://www.instagram.com/_setyourtour",
   facebook: "https://www.facebook.com/setyourtour",
-  whatsapp: "https://wa.me/918381069577",
+  whatsapp: "https://wa.me/919890595216",
 };
 
 export const services = [

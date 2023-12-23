@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Form from "react-bootstrap/Form";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -6,6 +6,7 @@ import { contactData } from "../../assets/utilityData";
 
 export const SendBooking = (props) => {
   const { color } = props;
+  const formRef = useRef(null);
   const [formData, setFormData] = useState({
     name: "",
     mobile: "",
@@ -27,17 +28,14 @@ export const SendBooking = (props) => {
   };
   const onFormSubmit = (e) => {
     e.preventDefault();
-    // console.log("props --->", props);
-    // console.log("value --->", formData);
     const finalLink = `*_Enquiry For_*%0D%0A*Product Code:* ${props.productCode}%0D%0A*Package Name:* ${props.pkgName}%0D%0A*Name:* ${formData.name}%0D%0A*Mobile No.:* ${formData.mobile}%0D%0A*Email:* ${formData.email}%0D%0A*Message:* ${formData.message}`;
-
-    // console.log(`${contactData.whatsapp}?text=${finalLink}`);
     window.open(`${contactData.whatsapp}?text=${finalLink}`, "_blank");
+    formRef.current.reset();
   };
 
   return (
     <>
-      <Form onSubmit={onFormSubmit}>
+      <Form ref={formRef} onSubmit={onFormSubmit}>
         <Card
           className="right-card"
           style={{

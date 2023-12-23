@@ -44,8 +44,6 @@ function App() {
   };
 
   useEffect(() => {
-    console.log(localStorage.getItem("path"));
-    console.log("app comp ------>", location);
     localStorage.setItem("path", location.pathname);
   }, [location]);
 

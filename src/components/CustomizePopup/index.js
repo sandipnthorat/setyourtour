@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
@@ -15,6 +15,7 @@ import { colorData } from "../../assets/utilityData";
 
 export const CustomizePopup = (props) => {
   const { show, data } = props;
+  const formRef = useRef();
   const [formData, setFormData] = useState({
     name: "",
     country: "India",
@@ -73,6 +74,7 @@ export const CustomizePopup = (props) => {
       }`;
 
       window.open(`${contactData.whatsapp}?text=${finalLink}`, "_blank");
+      formRef.current.reset();
     }
 
     setValidated(true);
@@ -113,7 +115,12 @@ export const CustomizePopup = (props) => {
         centered
         className="customize-modal"
       >
-        <Form noValidate validated={validated} onSubmit={handleSubmit}>
+        <Form
+          ref={formRef}
+          noValidate
+          validated={validated}
+          onSubmit={handleSubmit}
+        >
           <Modal.Header
             closeButton
             style={{
@@ -157,7 +164,7 @@ export const CustomizePopup = (props) => {
                       </span>{" "}
                       Call Us for details
                     </h6>
-                    <h4>+91 8381069577</h4>
+                    <h4>+91 9890595216</h4>
                   </Col>
                 </Row>
               </Col>
@@ -226,7 +233,22 @@ export const CustomizePopup = (props) => {
                     </Form.Group>
                   </Col>
 
-                  <Col xs={12} sm={12} md={6}>
+                  <Col xs={12} sm={12} md={12}>
+                    <Form.Group className="mb-2" controlId="validationCustom03">
+                      <Form.Label>Mobile Number</Form.Label>
+                      <Form.Control
+                        onChange={handleInputChange}
+                        name="mobile"
+                        type="Number"
+                        required
+                      />
+                      <Form.Control.Feedback type="invalid">
+                        Please enter your mobile number.
+                      </Form.Control.Feedback>
+                    </Form.Group>
+                  </Col>
+
+                  {/* <Col xs={12} sm={12} md={6}>
                     <Form.Group className="mb-2" controlId="validationCustom03">
                       <DateRangePicker
                         autoUpdateInput={false}
@@ -249,11 +271,11 @@ export const CustomizePopup = (props) => {
                         Please give us your traval dates.
                       </Form.Control.Feedback>
                     </Form.Group>
-                  </Col>
+                  </Col> */}
 
                   <Col xs={12} sm={12} md={6}>
                     <Form.Group className="mb-2" controlId="validationCustom03">
-                      <Form.Label>Duration</Form.Label>
+                      <Form.Label>Duration in days</Form.Label>
                       <Form.Control
                         onChange={handleInputChange}
                         name="duration"
@@ -281,20 +303,7 @@ export const CustomizePopup = (props) => {
                     </Form.Group>
                   </Col>
 
-                  <Col xs={12} sm={12} md={6}>
-                    <Form.Group className="mb-2" controlId="validationCustom03">
-                      <Form.Label>Mobile Number</Form.Label>
-                      <Form.Control
-                        onChange={handleInputChange}
-                        name="mobile"
-                        type="Number"
-                        required
-                      />
-                      <Form.Control.Feedback type="invalid">
-                        Please enter your mobile number.
-                      </Form.Control.Feedback>
-                    </Form.Group>
-                  </Col>
+                  <Col xs={12} sm={12} md={6}></Col>
 
                   <Col className="modal-footer" xs={12} sm={12} md={12}>
                     <Button className="submit-form" type="submit">
